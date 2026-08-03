@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products — VEXORA</title>
+<link rel="icon" href="../assets/images/logo/logo.jpeg" type="image/jpeg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="products" data-root="../">
+<a href="#main" class="skip-link">Skip to content</a>
+<div class="page-transition" aria-hidden="true"><div class="loader-mark"></div></div>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="../index.html" class="brand">
+      <img src="../assets/images/logo/logo.jpeg" alt="VEXORA logo">
+      <span data-brand-name>VEXORA</span>
+    </a>
+    <div class="nav-search-wrap">
+      <svg class="nav-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+      <input type="search" class="nav-search-input" placeholder="Search 14 categories & products..." aria-label="Search products and categories">
+      <div class="nav-search-dropdown"></div>
+    </div>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="categories.html" data-nav="categories">Categories</a>
+      <a href="products.html" data-nav="products">Products</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a data-contact="whatsapp" href="#" class="btn btn-accent btn-sm">WhatsApp Us</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page-header">
+    <div class="container">
+      <div class="breadcrumb" id="breadcrumb"></div>
+      <h1 class="page-title" data-bind="listing-title">Loading…</h1>
+      <p class="page-sub" data-bind="listing-count"></p>
+    </div>
+  </div>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="filter-bar" id="filterBar"></div>
+      <div class="grid grid-4" id="productGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> VEXORA. All rights reserved.</span>
+    <a href="../index.html">Back to home</a>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="../js/app.js"></script>
+<script src="../js/tilt3d.js"></script>
+<script src="../js/catalog.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  Catalog.renderProductListingPage();
+</script>
+</body>
+</html>

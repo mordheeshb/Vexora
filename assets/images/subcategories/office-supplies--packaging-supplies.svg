@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bgofficesuppliespackagings" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6D5DF5"/>
+      <stop offset="100%" stop-color="#4433B0"/>
+    </linearGradient>
+    <radialGradient id="glowofficesuppliespackagings" cx="32%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignofficesuppliespackagings" cx="50%" cy="50%" r="72%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.16"/>
+    </radialGradient>
+    <radialGradient id="stageofficesuppliespackagings" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="platofficesuppliespackagings" cx="42%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.09"/>
+    </radialGradient>
+    <pattern id="dotsofficesuppliespackagings" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#ffffff" fill-opacity="0.09"/>
+    </pattern>
+    <filter id="softofficesuppliespackagings" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#00122e" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bgofficesuppliespackagings)"/>
+  <rect width="800" height="800" fill="url(#dotsofficesuppliespackagings)"/>
+  <rect width="800" height="800" fill="url(#glowofficesuppliespackagings)"/>
+  <circle cx="688.0" cy="720.0" r="240.0" fill="#ffffff" fill-opacity="0.07"/>
+  <circle cx="80.0" cy="64.0" r="120.0" fill="#ffffff" fill-opacity="0.08"/>
+  <ellipse cx="400.0" cy="624.0" rx="192.0" ry="36.0" fill="url(#stageofficesuppliespackagings)"/>
+  <g filter="url(#softofficesuppliespackagings)">
+    <circle cx="400.0" cy="368.0" r="180.0" fill="url(#platofficesuppliespackagings)" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.5"/>
+    <g transform="translate(300.0,268.0) scale(2)">
+      <g fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><rect x="26" y="42" width="48" height="32" rx="3"/><path d="M26 52 h48 M50 42 v32" opacity="0.7"/><path d="M50 42 c-8 -14 -22 -8 -14 0 c-8 -8 6 -18 14 0 Z" opacity="0.85"/></g>
+    </g>
+  </g>
+  <rect width="800" height="800" fill="url(#vignofficesuppliespackagings)"/>
+</svg>

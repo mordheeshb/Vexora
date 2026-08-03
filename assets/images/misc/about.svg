@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="bgabout" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#C2660A"/>
+    </linearGradient>
+    <pattern id="dotsabout" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.8" fill="#ffffff" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="900" fill="url(#bgabout)"/>
+  <rect width="900" height="900" fill="url(#dotsabout)"/>
+  <circle cx="765.0" cy="90.0" r="198.0" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="72.0" cy="828.0" r="234.0" fill="#ffffff" fill-opacity="0.07"/>
+  <g transform="translate(150.00000000000003,204.0) scale(1.7)"><circle cx="60" cy="60" r="54" fill="#ffffff" fill-opacity="0.16"/><g transform="translate(10,10)"><g fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><path d="M50 26 L34 76 M50 26 L66 76"/><circle cx="50" cy="24" r="4"/><path d="M40 58 h20" opacity="0.6"/></g></g></g><g transform="translate(543.0,183.00000000000003) scale(1.15)"><circle cx="60" cy="60" r="54" fill="#ffffff" fill-opacity="0.16"/><g transform="translate(10,10)"><g fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><path d="M50 24 c14 16 18 26 18 34 a18 18 0 0 1 -36 0 c0 -8 4 -18 18 -34 Z"/></g></g></g><g transform="translate(336.0,444.0) scale(1.9)"><circle cx="60" cy="60" r="54" fill="#ffffff" fill-opacity="0.16"/><g transform="translate(10,10)"><g fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><path d="M24 36 h18 l6 8 h28 v32 a4 4 0 0 1 -4 4 H28 a4 4 0 0 1 -4 -4 Z"/></g></g></g><g transform="translate(639.0,549.0) scale(1.05)"><circle cx="60" cy="60" r="54" fill="#ffffff" fill-opacity="0.16"/><g transform="translate(10,10)"><g fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><rect x="32" y="38" width="36" height="30" rx="6"/><circle cx="42" cy="52" r="3" fill="#fff"/><circle cx="58" cy="52" r="3" fill="#fff"/><path d="M50 38 v-8 M44 68 v6 M56 68 v6 M24 48 h8 M68 48 h8"/></g></g></g><g transform="translate(135.0,585.0) scale(1.05)"><circle cx="60" cy="60" r="54" fill="#ffffff" fill-opacity="0.16"/><g transform="translate(10,10)"><g fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><rect x="26" y="42" width="48" height="32" rx="3"/><path d="M26 52 h48 M50 42 v32" opacity="0.7"/><path d="M50 42 c-8 -14 -22 -8 -14 0 c-8 -8 6 -18 14 0 Z" opacity="0.85"/></g></g></g>
+</svg>

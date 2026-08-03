@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VEXORA — 3D Premium Academic & Student Gear</title>
+  <meta name="description" content="VEXORA curates high-grade stationery, tech accessories, and DIY project components designed for student life. Contact directly via WhatsApp, Call, or Email.">
+  <meta name="theme-color" content="#384D63">
+  <link rel="icon" href="assets/images/logo/logo.jpeg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       1. EXTRACTED UNIFORM PALETTE & 3D DESIGN SYSTEM
+       ========================================================================== */
+    :root {
+      /* Canvas Backgrounds */
+      --bg-main: #F4F6F8;             
+      --bg-surface: #FFFFFF;
+      --bg-subtle: #EBF0F4;
+      
+      /* Primary Brand Shades */
+      --color-slate-blue: #384D63;   
+      --color-slate-dark: #2A3A4B;   
+      --color-charcoal-tie: #1C252E;  
+      --color-text-muted: #64748B;   
+      --color-trophy-gold: #D4AF37;   
+      --color-trophy-glow: rgba(212, 175, 55, 0.35);
+      
+      /* Dynamic Borders & Glassmorphism */
+      --border-subtle: rgba(226, 232, 240, 0.8);
+      --border-strong: #CBD5E1;
+      --glass-bg: rgba(255, 255, 255, 0.82);
+      
+      /* Direct Contact Accent */
+      --color-whatsapp: #25D366;
+
+      /* Typography & Dynamic Elevation */
+      --font-heading: 'Outfit', sans-serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+      --radius-sm: 12px;
+      --radius-md: 20px;
+      --radius-lg: 32px;
+      --radius-full: 9999px;
+      --transition-spring: cubic-bezier(0.16, 1, 0.3, 1);
+      
+      --shadow-sm: 0 4px 12px rgba(28, 37, 46, 0.03);
+      --shadow-3d: 0 20px 40px -12px rgba(56, 77, 99, 0.15), 0 0 0 1px rgba(255, 255, 255, 0.6) inset;
+      --shadow-modal: 0 32px 64px -16px rgba(28, 37, 46, 0.3);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-family: var(--font-body); background: var(--bg-main); color: var(--color-charcoal-tie); -webkit-font-smoothing: antialiased; }
+    body { line-height: 1.5; overflow-x: hidden; }
+
+    /* Layout Components */
+    .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 2; }
+    .section { padding: 108px 0; position: relative; }
+    .section-slate { background: var(--bg-subtle); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); }
+    .grid { display: grid; gap: 28px; }
+    .grid-4 { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+    .text-center { text-align: center; }
+
+    /* Interactive Ambient Mesh Canvas */
+    #heroCanvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+
+    /* Glassmorphism Dynamic Navbar */
+    .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: var(--glass-bg); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-subtle); transition: var(--transition-spring); }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; gap: 20px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-family: var(--font-heading); font-weight: 900; font-size: 22px; color: var(--color-charcoal-tie); text-decoration: none; letter-spacing: -0.5px; }
+    .brand img { width: 38px; height: 38px; border-radius: 10px; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-links a { text-decoration: none; color: var(--color-text-muted); font-weight: 600; font-size: 14px; transition: all 0.2s ease; position: relative; }
+    .nav-links a:hover { color: var(--color-slate-blue); }
+    .nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--color-trophy-gold); transition: width 0.3s ease; }
+    .nav-links a:hover::after { width: 100%; }
+
+    .nav-search-wrap { position: relative; width: 320px; }
+    .nav-search-input { width: 100%; padding: 11px 18px 11px 42px; border-radius: var(--radius-full); border: 1px solid var(--border-subtle); background: var(--bg-main); font-size: 13px; outline: none; transition: all 0.3s var(--transition-spring); font-family: var(--font-body); }
+    .nav-search-input:focus { border-color: var(--color-slate-blue); background: #FFF; box-shadow: 0 0 0 4px rgba(56, 77, 99, 0.15), 0 8px 16px rgba(0,0,0,0.05); }
+    .nav-search-icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; stroke: var(--color-text-muted); }
+
+    /* Buttons */
+    .btn { display: inline-flex; align-items: center; justify-content: center; padding: 14px 28px; border-radius: var(--radius-full); font-weight: 700; font-size: 14px; text-decoration: none; cursor: pointer; border: 1px solid transparent; transition: all 0.3s var(--transition-spring); position: relative; overflow: hidden; transform-style: preserve-3d; }
+    .btn-sm { padding: 9px 20px; font-size: 13px; }
+    .btn-slate { background: linear-gradient(135deg, var(--color-slate-blue), var(--color-slate-dark)); color: #FFF; box-shadow: 0 8px 20px rgba(56, 77, 99, 0.25); }
+    .btn-slate:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 14px 28px rgba(56, 77, 99, 0.35); }
+    .btn-secondary { background: #FFF; border-color: var(--border-subtle); color: var(--color-charcoal-tie); box-shadow: var(--shadow-sm); }
+    .btn-secondary:hover { border-color: var(--color-slate-blue); background: var(--bg-main); transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.06); }
+    .btn-whatsapp { background: linear-gradient(135deg, #25D366, #1DA851); color: #FFF; box-shadow: 0 8px 20px rgba(37, 211, 102, 0.25); }
+    .btn-whatsapp:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 14px 28px rgba(37, 211, 102, 0.35); }
+
+    /* Filter Pills System */
+    .filter-pills-bar { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 16px; margin-bottom: 36px; scrollbar-width: none; }
+    .filter-pills-bar::-webkit-scrollbar { display: none; }
+    .pill-btn { white-space: nowrap; padding: 10px 22px; border-radius: var(--radius-full); border: 1px solid var(--border-subtle); background: #FFF; color: var(--color-text-muted); font-size: 13px; font-weight: 700; cursor: pointer; transition: all 0.25s var(--transition-spring); }
+    .pill-btn:hover { color: var(--color-charcoal-tie); border-color: var(--border-strong); transform: translateY(-2px); }
+    .pill-btn.is-active { background: var(--color-slate-blue); color: #FFF; border-color: var(--color-slate-blue); box-shadow: 0 6px 18px rgba(56, 77, 99, 0.3); }
+
+    /* 3D TILT AISLE CARDS */
+    .aisle-card {
+      background: var(--bg-surface);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-subtle);
+      padding: 28px;
+      transition: transform 0.15s linear, box-shadow 0.3s var(--transition-spring), border-color 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--shadow-sm);
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+    .aisle-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255,255,255,0.4) 0%, transparent 60%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+    .aisle-card:hover::after { opacity: 1; }
+    .aisle-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 4px;
+      background: linear-gradient(90deg, var(--color-slate-blue), var(--color-trophy-gold));
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .aisle-card:hover { border-color: var(--border-strong); box-shadow: var(--shadow-3d); }
+    .aisle-card:hover::before { opacity: 1; }
+    
+    .aisle-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; transform: translateZ(20px); }
+    .aisle-icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: 16px;
+      background: var(--bg-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      border: 1px solid var(--border-subtle);
+      transition: all 0.3s var(--transition-spring);
+    }
+    .aisle-card:hover .aisle-icon-box {
+      background: var(--color-slate-blue);
+      color: #FFF;
+      transform: scale(1.1) rotate(4deg);
+      box-shadow: 0 8px 16px rgba(56, 77, 99, 0.25);
+    }
+    .aisle-badge {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--color-slate-blue);
+      background: var(--bg-subtle);
+      padding: 5px 12px;
+      border-radius: var(--radius-full);
+      letter-spacing: 0.3px;
+    }
+    .aisle-title { font-family: var(--font-heading); font-size: 18px; font-weight: 800; color: var(--color-charcoal-tie); margin-bottom: 8px; transform: translateZ(15px); }
+    .aisle-subs { font-size: 13px; color: var(--color-text-muted); line-height: 1.5; transform: translateZ(10px); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+    /* 3D PRODUCT CARDS */
+    .product-card {
+      background: var(--bg-surface);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-subtle);
+      padding: 22px;
+      transition: transform 0.15s linear, box-shadow 0.3s var(--transition-spring);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--shadow-sm);
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+    .product-card:hover {
+      border-color: var(--color-slate-blue);
+      box-shadow: var(--shadow-3d);
+    }
+    .product-thumb {
+      background: var(--bg-main);
+      border-radius: var(--radius-sm);
+      padding: 24px;
+      text-align: center;
+      margin-bottom: 18px;
+      position: relative;
+      transform: translateZ(15px);
+      transition: transform 0.3s var(--transition-spring);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 140px;
+    }
+    .product-card:hover .product-thumb { transform: translateZ(25px) scale(1.02); }
+    .product-thumb img { max-height: 110px; max-width: 100%; object-fit: contain; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.08)); }
+    .product-cat { font-size: 11px; font-weight: 800; color: var(--color-slate-blue); text-transform: uppercase; letter-spacing: 0.8px; transform: translateZ(10px); }
+    .product-title { font-family: var(--font-heading); font-size: 16px; font-weight: 700; color: var(--color-charcoal-tie); margin: 6px 0 8px; line-height: 1.35; transform: translateZ(12px); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .product-price { font-size: 19px; font-weight: 800; color: var(--color-charcoal-tie); transform: translateZ(15px); }
+
+    /* 3D Dynamic Modal Component */
+    .modal-overlay { position: fixed; inset: 0; background: rgba(28, 37, 46, 0.65); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); z-index: 2000; display: flex; align-items: center; justify-content: center; padding: 20px; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; perspective: 1000px; }
+    .modal-overlay.is-open { opacity: 1; pointer-events: all; }
+    .modal-card { background: #FFF; border-radius: var(--radius-lg); width: 100%; max-width: 640px; max-height: 90vh; overflow-y: auto; padding: 40px; border: 1px solid var(--border-subtle); box-shadow: var(--shadow-modal); position: relative; transform: scale(0.9) translateZ(-100px) rotateX(10deg); transition: transform 0.4s var(--transition-spring); }
+    .modal-overlay.is-open .modal-card { transform: scale(1) translateZ(0) rotateX(0deg); }
+    .modal-close { position: absolute; top: 24px; right: 24px; background: var(--bg-main); border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 20px; display: flex; align-items: center; justify-content: center; color: var(--color-charcoal-tie); transition: all 0.2s ease; }
+    .modal-close:hover { background: var(--color-slate-blue); color: #FFF; transform: rotate(90deg); }
+    .modal-subtitle { font-size: 12px; font-weight: 800; color: var(--color-slate-blue); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+    .modal-title { font-family: var(--font-heading); font-size: 28px; font-weight: 800; color: var(--color-charcoal-tie); margin-bottom: 12px; }
+    .modal-sublist { background: var(--bg-main); border-radius: var(--radius-md); padding: 24px; margin: 24px 0; border: 1px solid var(--border-subtle); }
+    .modal-sublist h4 { font-size: 12px; font-weight: 800; color: var(--color-charcoal-tie); margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.8px; }
+    .modal-sublist ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 12px; }
+    .modal-sublist li { background: #FFF; border: 1px solid var(--border-subtle); padding: 10px 14px; border-radius: 10px; font-size: 13px; font-weight: 700; color: var(--color-slate-dark); box-shadow: 0 2px 6px rgba(0,0,0,0.02); }
+
+    /* Scroll Reveals */
+    .reveal-on-scroll { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s var(--transition-spring); }
+    .reveal-on-scroll.is-visible { opacity: 1; transform: translateY(0); }
+
+    /* Footer */
+    .footer { background: var(--color-charcoal-tie); color: #94A3B8; padding: 72px 0 36px; font-size: 14px; }
+    .footer-flex { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 36px; }
+
+    @media (max-width: 768px) {
+      .nav-links, .nav-search-wrap { display: none; }
+      .section { padding: 72px 0; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ============ Navbar Header ============ -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <img src="assets/images/logo/logo.jpeg" alt="VEXORA logo" onerror="this.src='https://via.placeholder.com/38/384D63/FFFFFF?text=V'">
+        <span>VEXORA</span>
+      </a>
+
+      <div class="nav-search-wrap">
+        <svg class="nav-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        <input type="search" class="nav-search-input" id="searchInput" placeholder="Search catalog or category..." aria-label="Search">
+      </div>
+
+      <nav class="nav-links">
+        <a href="#categories">Aisles</a>
+        <a href="#featured">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a data-contact="whatsapp" data-message="Hi VEXORA! I have an inquiry about student supplies." href="#" class="btn btn-slate btn-sm">WhatsApp Direct</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ Hero Section ============ -->
+    <section class="section" style="overflow: hidden; padding-top: 140px;">
+      <canvas id="heroCanvas"></canvas>
+      <div class="container reveal-on-scroll" style="max-width: 800px; text-align: center;">
+        <span style="font-size: 12px; font-weight: 800; color: var(--color-slate-blue); text-transform: uppercase; letter-spacing: 2px; display: inline-block; margin-bottom: 16px; background: rgba(56, 77, 99, 0.08); padding: 6px 16px; border-radius: 20px;">Academic & Campus Essential Gear</span>
+        <h1 style="font-family: var(--font-heading); font-size: 52px; font-weight: 900; letter-spacing: -2px; line-height: 1.05; margin-bottom: 20px; color: var(--color-charcoal-tie);">Tactile stationery & engineering kits for students.</h1>
+        <p style="font-size: 18px; color: var(--color-text-muted); line-height: 1.6; margin-bottom: 36px;">Precision tools curated for modern school and university coursework. Experience 15 organized store divisions and connect directly to order.</p>
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href="#categories" class="btn btn-slate">Explore Aisles</a>
+          <a href="#featured" class="btn btn-secondary">Featured Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STORE AISLES & CATEGORIES (3D GRID) ============ -->
+    <section class="section section-slate" id="categories">
+      <div class="container">
+        <div class="reveal-on-scroll" style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 48px; flex-wrap: wrap; gap: 20px;">
+          <div>
+            <span style="font-size: 12px; font-weight: 800; color: var(--color-slate-blue); text-transform: uppercase; letter-spacing: 1px;">Store Divisions</span>
+            <h2 style="font-family: var(--font-heading); font-size: 32px; font-weight: 900; color: var(--color-charcoal-tie); margin-top: 4px;">Store Aisles & Categories</h2>
+          </div>
+          <p style="font-size: 14px; color: var(--color-text-muted); max-width: 420px;">Hover over any division to feel the interactive 3D perspective tilt. Click to filter the active store catalog.</p>
+        </div>
+
+        <div id="categoryGrid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 24px;"></div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCTS SECTION ============ -->
+    <section class="section" id="featured">
+      <div class="container">
+        <div class="reveal-on-scroll" style="margin-bottom: 28px;">
+          <h2 style="font-family: var(--font-heading); font-size: 28px; font-weight: 800; color: var(--color-charcoal-tie);">Product Catalog</h2>
+          <p style="font-size: 14px; color: var(--color-text-muted);">Use the category pills below to filter catalog items.</p>
+        </div>
+
+        <div class="filter-pills-bar" id="categoryPills"></div>
+        <div class="grid grid-4" id="productsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ DIRECT CONTACT BAND ============ -->
+    <section class="section section-slate" id="contact">
+      <div class="container text-center reveal-on-scroll" style="max-width: 620px;">
+        <h2 style="font-family: var(--font-heading); font-size: 32px; font-weight: 900; color: var(--color-charcoal-tie); margin-bottom: 12px;">Instant Direct Ordering</h2>
+        <p style="font-size: 16px; color: var(--color-text-muted); margin-bottom: 32px; line-height: 1.6;">Bypass shopping carts and payment gateway friction. Speak directly with our team on WhatsApp, Call, or Email for individual or project kit supplies.</p>
+        <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+          <a data-contact="whatsapp" data-message="Hi VEXORA! I want to order student supplies." href="#" class="btn btn-whatsapp">WhatsApp Direct</a>
+          <a data-contact="call" href="#" class="btn btn-slate">Call Support</a>
+          <a data-contact="email" href="#" class="btn btn-secondary">Email Support</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-flex">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span style="font-family: var(--font-heading); font-size: 20px; font-weight: 900; color: #FFF; letter-spacing: -0.5px;">VEXORA</span>
+          <span style="font-size: 13px;">— Academic Gear Studio</span>
+        </div>
+        <div>© <span id="year"></span> VEXORA. Engineered for student excellence.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ 3D PRODUCT DETAIL MODAL ============ -->
+  <div class="modal-overlay" id="productModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- ============ ENGINE & FULL CATALOG DATASET SCRIPT ============ -->
+  <script>
+    const Catalog = {
+      phone: "918428817610",
+      email: "vedanexus8@gmail.com",
+
+      categories: [
+        { id: "stationery-writing", name: "Stationery & Writing", icon: "🖊️", subcategories: ["Pens", "Pencils", "Erasers", "Sharpeners", "Rulers & scales", "Highlighters", "Markers", "Parker pens"] },
+        { id: "notebooks-paper", name: "Notebooks & Paper", icon: "📓", subcategories: ["Notebooks", "Long notebooks", "A4/A5 notebooks", "Journals", "Diaries", "Writing pads", "Sticky notes"] },
+        { id: "files-folders", name: "Files & Folders", icon: "📁", subcategories: ["Document Files", "Expandable Folders", "Clip Files", "Display Books"] },
+        { id: "school-supplies", name: "School Supplies", icon: "🎒", subcategories: ["School kits", "Geometry boxes", "Pencil boxes", "Water bottles", "Name labels"] },
+        { id: "art-craft", name: "Art & Craft", icon: "🎨", subcategories: ["Colour pencils", "Sketch pens", "Crayons", "Paints", "Craft paper", "Glue & Scissors"] },
+        { id: "project-materials", name: "Project Materials", icon: "📐", subcategories: ["Foam boards", "Cardboards", "Thermocol", "Chart papers", "Project wires"] },
+        { id: "electronics-diy", name: "Electronics & DIY Kits", icon: "⚡", subcategories: ["Arduino kits", "Sensors", "Breadboards", "Jumper wires", "Robotics kits", "STEM kits"] },
+        { id: "toys-kids", name: "Toys & Learning", icon: "🧸", subcategories: ["Educational toys", "Building blocks", "Puzzles", "Activity sets"] },
+        { id: "educational-learning", name: "Educational Aids", icon: "💡", subcategories: ["Science experiment kits", "Mathematics kits", "Flash cards"] },
+        { id: "gadgets-accessories", name: "Gadgets & Desk", icon: "🎧", subcategories: ["USB accessories", "Desk gadgets", "Study lamps", "Everyday gadgets"] },
+        { id: "office-supplies", name: "Office Supplies", icon: "💼", subcategories: ["Staplers", "Paper clips", "Registers", "Desk organizers", "Packaging"] },
+        { id: "premium-gifts", name: "Premium & Gifts", icon: "🎁", subcategories: ["Executive pens", "Gift sets", "Customized corporate stationery"] },
+        { id: "sports-recreation", name: "Sports & Recreation", icon: "⚽", subcategories: ["Skipping ropes", "Indoor games", "Fitness accessories"] },
+        { id: "stickers-personalization", name: "Stickers & Labels", icon: "✨", subcategories: ["Decorative stickers", "Name stickers", "Custom labels"] },
+        { id: "gift-party", name: "Gift & Party Supplies", icon: "🎉", subcategories: ["Wrapping paper", "Greeting cards", "Return gift sets"] }
+      ],
+
+      // Complete Product Catalog Array Across ALL 15 Categories
+      products: [
+        // 1. Stationery & Writing
+        { id: "p-01", name: "Parker Vector Matte Fountain Pen", category: "stationery-writing", price: "450", image: "assets/images/misc/hero.svg", desc: "Precision steel nib with smooth ink flow for refined signatures and everyday writing.", subItems: ["Fine Stainless Nib", "Blue Ink Cartridge Included", "Matte Finish Body", "Refill Converter"] },
+        { id: "p-02", name: "Pastel Chisel Highlighters (Set of 6)", category: "stationery-writing", price: "180", image: "assets/images/misc/about.svg", desc: "Soft pastel shades that don't bleed through thin notebook pages.", subItems: ["6 Pastel Colors", "Chisel Tip Dual-Width", "Quick Drying Ink", "Smudge-Free"] },
+        
+        // 2. Notebooks & Paper
+        { id: "p-03", name: "Lay-Flat A5 Academic Journal", category: "notebooks-paper", price: "299", image: "assets/images/misc/about.svg", desc: "Bleed-proof 120gsm paper designed specifically for high-intensity lecture note-taking.", subItems: ["192 Dotted Pages", "Ribbon Bookmark", "Elastic Closure Band", "Expandable Back Pocket"] },
+        { id: "p-04", name: "Sticky Notes Mega Palette (400 Sheets)", category: "notebooks-paper", price: "150", image: "assets/images/misc/hero.svg", desc: "High-adhesion neon memo tabs for quick textbook indexing and desk reminders.", subItems: ["4 Color Blocks", "75x75mm Dimensions", "Clean Residue-Free Removal"] },
+
+        // 3. Files & Folders
+        { id: "p-05", name: "12-Pocket Expandable Accordion File Folder", category: "files-folders", price: "349", image: "assets/images/misc/hero.svg", desc: "Waterproof poly-file organizer with tabbed dividers for coursework & term papers.", subItems: ["A4 Sheet Size", "Color Code Tabs", "Elastic Cord Latch"] },
+
+        // 4. School Supplies
+        { id: "p-06", name: "Metal Precise Geometry Box Set", category: "school-supplies", price: "220", image: "assets/images/misc/about.svg", desc: "Heavy-duty steel compass and ruler set built for precise technical graphics.", subItems: ["Die-cast Metal Compass", "15cm Scale", "180° Protractor", "2x Set Squares"] },
+
+        // 5. Art & Craft
+        { id: "p-07", name: "24-Color Dual-Tip Brush Pen Set", category: "art-craft", price: "599", image: "assets/images/misc/hero.svg", desc: "Flexible brush tips for calligraphy and fine tips for detailed design sketching.", subItems: ["24 Vibrant Pigments", "Water-based Blendable Ink", "Dual Nylon Tips"] },
+
+        // 6. Project Materials
+        { id: "p-08", name: "High-Density Foam Boards (Pack of 5)", category: "project-materials", price: "399", image: "assets/images/misc/about.svg", desc: "Rigid yet lightweight foam cores ideal for architecture and science models.", subItems: ["5mm Thickness", "A3 Dimensions", "Smooth Paper Face Surface"] },
+
+        // 7. Electronics & DIY Kits
+        { id: "p-09", name: "Arduino UNO R3 Ultimate STEM Starter Kit", category: "electronics-diy", price: "1299", image: "assets/images/misc/hero.svg", desc: "Complete microcontroller board kit with sensors, motors, and breadboards for school projects.", subItems: ["Arduino UNO Board", "65x Jumper Wires", "1602 LCD Display Module", "Ultrasonic Sensor", "Stepper Motor"] },
+        { id: "p-10", name: "Sensor & Robotics Expansion Module Kit", category: "electronics-diy", price: "899", image: "assets/images/misc/about.svg", desc: "Advanced sensor pack for robotics, automation, and AI prototype builds.", subItems: ["IR Sensor Pair", "DHT11 Temp Sensor", "Servo Motor", "Relay Module"] },
+
+        // 8. Toys & Learning
+        { id: "p-11", name: "3D Wooden Mechanical Puzzle Gears", category: "toys-kids", price: "649", image: "assets/images/misc/hero.svg", desc: "Laser-cut wooden DIY gear clock assembly for hands-on physics learning.", subItems: ["120 Pre-cut Pieces", "No Glue Required", "Working Gear Train"] },
+
+        // 9. Educational Aids
+        { id: "p-12", name: "Compact Solar Science Experiment Set", category: "educational-learning", price: "420", image: "assets/images/misc/about.svg", desc: "Mini solar panel kit demonstrating renewable energy conversion for classroom demos.", subItems: ["3V Solar Cell", "DC Motor & Propeller", "Experiment Guide Leaflet"] },
+
+        // 10. Gadgets & Desk
+        { id: "p-13", name: "Ergonomic Felt Desk Organizer Mat", category: "gadgets-accessories", price: "499", image: "assets/images/misc/about.svg", desc: "Non-slip wool blend felt desk mat designed to organize keyboard, stationery, and laptop.", subItems: ["80x40cm Surface Area", "Anti-Fray Stitching", "Non-Slip Rubber Backing"] },
+        { id: "p-14", name: "Rechargeable LED Flexible Touch Lamp", category: "gadgets-accessories", price: "699", image: "assets/images/misc/hero.svg", desc: "Eye-care non-flicker desk light with 3 brightness modes and built-in pen holder.", subItems: ["3 Level Touch Dimmer", "1200mAh Battery", "USB-C Charging Cable"] },
+
+        // 11. Office Supplies
+        { id: "p-15", name: "Heavy Duty Steel Stapler & Remover Combo", category: "office-supplies", price: "280", image: "assets/images/misc/hero.svg", desc: "Staples up to 45 sheets effortlessly. Includes 1000 standard staples.", subItems: ["Full-Rubber Base", "Includes Staple Pin Box", "Quick Loading Latch"] },
+
+        // 12. Premium & Gifts
+        { id: "p-16", name: "Executive Leatherette Journal & Pen Gift Box", category: "premium-gifts", price: "899", image: "assets/images/misc/about.svg", desc: "Luxury gift set containing a textured hardbound diary and rollerball pen.", subItems: ["Hardbound Leatherette Diary", "Metal Ballpoint Pen", "Gift Box Packaging"] },
+
+        // 13. Sports & Recreation
+        { id: "p-17", name: "High-Speed Bearing Jump Rope", category: "sports-recreation", price: "320", image: "assets/images/misc/hero.svg", desc: "Tangle-free steel wire jumping rope with memory foam handles for campus fitness.", subItems: ["Adjustable 3m Cable", "Ball Bearing Spin System", "Anti-Slip Grip"] },
+
+        // 14. Stickers & Personalization
+        { id: "p-18", name: "Custom Name & Subject Label Stickers (50 Pack)", category: "stickers-personalization", price: "120", image: "assets/images/misc/about.svg", desc: "Waterproof glossy vinyl stickers for notebooks, bottles, and laptop covers.", subItems: ["50 Vinyl Sheets", "Smudge-Proof Coating", "Pre-cut Edges"] },
+
+        // 15. Gift & Party Supplies
+        { id: "p-19", name: "Metallic Wrapping Paper & Ribbon Kit", category: "gift-party", price: "240", image: "assets/images/misc/hero.svg", desc: "Heavyweight foil wrapping paper sheets for school award gifts and events.", subItems: ["5 Pattern Sheets", "2x Satin Ribbons", "Gift Tag Labels"] }
+      ],
+
+      renderAisles(containerSelector) {
+        const el = document.querySelector(containerSelector);
+        if (!el) return;
+
+        el.innerHTML = this.categories.map(c => `
+          <div class="aisle-card" data-aisle-id="${c.id}">
+            <div>
+              <div class="aisle-header">
+                <div class="aisle-icon-box">${c.icon}</div>
+                <span class="aisle-badge">${c.subcategories.length} Items</span>
+              </div>
+              <h3 class="aisle-title">${c.name}</h3>
+              <p class="aisle-subs">${c.subcategories.join(', ')}</p>
+            </div>
+            <div style="margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; align-items: center; justify-content: space-between; transform: translateZ(10px);">
+              <span style="font-size: 12px; font-weight: 800; color: var(--color-slate-blue);">Browse Division</span>
+              <span style="font-size: 14px; font-weight: 800; color: var(--color-slate-blue);">→</span>
+            </div>
+          </div>
+        `).join('');
+
+        this.apply3dEffect('.aisle-card');
+      },
+
+      renderFilterPills(containerSelector, activeCategory = 'all') {
+        const el = document.querySelector(containerSelector);
+        if (!el) return;
+        let html = `<button class="pill-btn ${activeCategory === 'all' ? 'is-active' : ''}" data-category="all">All Items (${this.products.length})</button>`;
+        html += this.categories.map(c => {
+          const count = this.products.filter(p => p.category === c.id).length;
+          return `<button class="pill-btn ${activeCategory === c.id ? 'is-active' : ''}" data-category="${c.id}">${c.name} ${count ? `(${count})` : ''}</button>`;
+        }).join('');
+        el.innerHTML = html;
+      },
+
+      renderProducts(containerSelector, categoryFilter = 'all', searchQuery = '') {
+        const el = document.querySelector(containerSelector);
+        if (!el) return;
+
+        let filtered = this.products;
+        if (categoryFilter !== 'all') filtered = filtered.filter(p => p.category === categoryFilter);
+        if (searchQuery.trim()) {
+          const q = searchQuery.toLowerCase();
+          filtered = filtered.filter(p => p.name.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q));
+        }
+
+        if (filtered.length === 0) {
+          el.innerHTML = `<div style="grid-column: 1/-1; color: var(--color-text-muted); padding: 64px 0; text-align: center; font-weight: 700;">No items found in this section. Try clearing your search query.</div>`;
+          return;
+        }
+
+        el.innerHTML = filtered.map(p => `
+          <div class="product-card" onclick="openProductModal('${p.id}')">
+            <div>
+              <div class="product-thumb">
+                <img src="${p.image}" alt="${p.name}" onerror="this.src='https://via.placeholder.com/130/F4F6F8/384D63?text=VEXORA'">
+              </div>
+              <div class="product-cat">${p.category.replace('-', ' ')}</div>
+              <div class="product-title">${p.name}</div>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-top:16px; padding-top:14px; border-top:1px solid var(--border-subtle); transform: translateZ(10px);">
+              <span class="product-price">₹${p.price}</span>
+              <span style="font-size:12px; font-weight:800; color:var(--color-slate-blue);">View Specs →</span>
+            </div>
+          </div>
+        `).join('');
+
+        this.apply3dEffect('.product-card');
+      },
+
+      // GPU-ACCELERATED 3D PARALLAX TILT ENGINE
+      apply3dEffect(selector) {
+        document.querySelectorAll(selector).forEach(card => {
+          card.addEventListener('mousemove', (e) => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            
+            const rotateX = ((y - centerY) / centerY) * -12;
+            const rotateY = ((x - centerX) / centerX) * 12;
+
+            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+            card.style.setProperty('--mouse-x', `${(x / rect.width) * 100}%`);
+            card.style.setProperty('--mouse-y', `${(y / rect.height) * 100}%`);
+          });
+
+          card.addEventListener('mouseleave', () => {
+            card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
+          });
+        });
+      }
+    };
+
+    // Dynamic Modal Opener
+    function openProductModal(productId) {
+      const product = Catalog.products.find(p => p.id === productId);
+      if (!product) return;
+
+      const modalContent = document.getElementById('modalContent');
+      const whatsappMsg = `Hi VEXORA! I am interested in ordering: ${product.name} (₹${product.price}).`;
+
+      modalContent.innerHTML = `
+        <div class="modal-subtitle">${product.category.replace('-', ' ')}</div>
+        <h3 class="modal-title">${product.name}</h3>
+        <div style="font-size: 26px; font-weight: 900; color: var(--color-charcoal-tie); margin-bottom: 16px;">₹${product.price}</div>
+        <p style="font-size: 15px; color: var(--color-text-muted); line-height: 1.6;">${product.desc}</p>
+
+        ${product.subItems ? `
+          <div class="modal-sublist">
+            <h4>Included Items & Specifications</h4>
+            <ul>
+              ${product.subItems.map(item => `<li>✓ ${item}</li>`).join('')}
+            </ul>
+          </div>
+        ` : ''}
+
+        <div style="margin-top: 32px; display: flex; flex-direction: column; gap: 12px;">
+          <a href="https://wa.me/${Catalog.phone}?text=${encodeURIComponent(whatsappMsg)}" target="_blank" class="btn btn-whatsapp" style="width:100%;">Connect on WhatsApp to Order</a>
+          <div style="display: flex; gap: 12px;">
+            <a href="tel:+${Catalog.phone}" class="btn btn-secondary" style="flex:1;">Call Direct</a>
+            <a href="mailto:${Catalog.email}?subject=${encodeURIComponent(product.name)}" class="btn btn-secondary" style="flex:1;">Email Inquiry</a>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('productModal').classList.add('is-open');
+    }
+
+    // Interactive Hero Canvas
+    function initHeroCanvas() {
+      const canvas = document.getElementById('heroCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      
+      let width = canvas.width = canvas.offsetWidth;
+      let height = canvas.height = canvas.offsetHeight;
+
+      window.addEventListener('resize', () => {
+        width = canvas.width = canvas.offsetWidth;
+        height = canvas.height = canvas.offsetHeight;
+      });
+
+      const particles = Array.from({ length: 35 }, () => ({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        vx: (Math.random() - 0.5) * 0.8,
+        vy: (Math.random() - 0.5) * 0.8,
+        radius: Math.random() * 2.5 + 1
+      }));
+
+      function render() {
+        ctx.clearRect(0, 0, width, height);
+        ctx.fillStyle = 'rgba(56, 77, 99, 0.25)';
+        ctx.strokeStyle = 'rgba(56, 77, 99, 0.08)';
+
+        particles.forEach((p, index) => {
+          p.x += p.vx;
+          p.y += p.vy;
+
+          if (p.x < 0 || p.x > width) p.vx *= -1;
+          if (p.y < 0 || p.y > height) p.vy *= -1;
+
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+          ctx.fill();
+
+          for (let j = index + 1; j < particles.length; j++) {
+            const p2 = particles[j];
+            const dist = Math.hypot(p.x - p2.x, p.y - p2.y);
+            if (dist < 140) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(p2.x, p2.y);
+              ctx.stroke();
+            }
+          }
+        });
+
+        requestAnimationFrame(render);
+      }
+      render();
+    }
+
+    // Scroll Reveal Intersection Observer
+    function initScrollReveals() {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) entry.target.classList.add('is-visible');
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+    }
+
+    // App Initialization
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      let activeCategory = 'all';
+      Catalog.renderAisles('#categoryGrid');
+      Catalog.renderFilterPills('#categoryPills', activeCategory);
+      Catalog.renderProducts('#productsGrid', activeCategory);
+
+      initHeroCanvas();
+      initScrollReveals();
+
+      // Handle Category Pill Clicks
+      document.getElementById('categoryPills')?.addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-category]');
+        if (!btn) return;
+        activeCategory = btn.getAttribute('data-category');
+        Catalog.renderFilterPills('#categoryPills', activeCategory);
+        Catalog.renderProducts('#productsGrid', activeCategory);
+      });
+
+      // Handle Aisle Card Clicks to Filter Products and Scroll
+      document.getElementById('categoryGrid')?.addEventListener('click', (e) => {
+        const card = e.target.closest('[data-aisle-id]');
+        if (!card) return;
+        activeCategory = card.getAttribute('data-aisle-id');
+        Catalog.renderFilterPills('#categoryPills', activeCategory);
+        Catalog.renderProducts('#productsGrid', activeCategory);
+        
+        document.getElementById('featured')?.scrollIntoView({ behavior: 'smooth' });
+      });
+
+      // Search Handler
+      document.getElementById('searchInput')?.addEventListener('input', (e) => {
+        Catalog.renderProducts('#productsGrid', activeCategory, e.target.value);
+      });
+
+      // Modal Controls
+      const modal = document.getElementById('productModal');
+      document.getElementById('modalClose')?.addEventListener('click', () => modal.classList.remove('is-open'));
+      modal?.addEventListener('click', (e) => {
+        if (e.target === modal) modal.classList.remove('is-open');
+      });
+
+      // Direct Contact Handlers
+      document.addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-contact]');
+        if (!btn) return;
+        const type = btn.getAttribute('data-contact');
+        const msg = btn.getAttribute('data-message') || "Hi VEXORA! I have an inquiry.";
+
+        if (type === 'whatsapp') {
+          e.preventDefault();
+          window.open(`https://wa.me/${Catalog.phone}?text=${encodeURIComponent(msg)}`, '_blank');
+        } else if (type === 'call') {
+          e.preventDefault();
+          window.location.href = `tel:+${Catalog.phone}`;
+        } else if (type === 'email') {
+          e.preventDefault();
+          window.location.href = `mailto:${Catalog.email}?subject=VEXORA%20Inquiry`;
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

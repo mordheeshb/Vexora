@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bgsportsrecreationfitnessr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6D5DF5"/>
+      <stop offset="100%" stop-color="#4433B0"/>
+    </linearGradient>
+    <radialGradient id="glowsportsrecreationfitnessr" cx="32%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignsportsrecreationfitnessr" cx="50%" cy="50%" r="72%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.16"/>
+    </radialGradient>
+    <radialGradient id="stagesportsrecreationfitnessr" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="platsportsrecreationfitnessr" cx="42%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.09"/>
+    </radialGradient>
+    <pattern id="dotssportsrecreationfitnessr" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#ffffff" fill-opacity="0.09"/>
+    </pattern>
+    <filter id="softsportsrecreationfitnessr" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#00122e" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bgsportsrecreationfitnessr)"/>
+  <rect width="800" height="800" fill="url(#dotssportsrecreationfitnessr)"/>
+  <rect width="800" height="800" fill="url(#glowsportsrecreationfitnessr)"/>
+  <circle cx="688.0" cy="720.0" r="240.0" fill="#ffffff" fill-opacity="0.07"/>
+  <circle cx="80.0" cy="64.0" r="120.0" fill="#ffffff" fill-opacity="0.08"/>
+  <ellipse cx="400.0" cy="624.0" rx="192.0" ry="36.0" fill="url(#stagesportsrecreationfitnessr)"/>
+  <g filter="url(#softsportsrecreationfitnessr)">
+    <circle cx="400.0" cy="368.0" r="180.0" fill="url(#platsportsrecreationfitnessr)" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.5"/>
+    <g transform="translate(300.0,268.0) scale(2)">
+      <g fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><circle cx="50" cy="50" r="24"/><path d="M50 26 a24 24 0 0 1 0 48 M26 50 h48" opacity="0.55"/></g>
+    </g>
+  </g>
+  <rect width="800" height="800" fill="url(#vignsportsrecreationfitnessr)"/>
+</svg>

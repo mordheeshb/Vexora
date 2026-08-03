@@ -1,0 +1,68 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Arduino Starter Kit UNO R3",
+    "category": "electronics-diy-kits",
+    "featured": true,
+    "price": 1499,
+    "images": [
+      "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Complete Arduino starter kit with microcontroller, breadboards, jumper wires, and sensors for DIY electronics."
+  },
+  {
+    "id": "prod-002",
+    "name": "Parker Vector Stainless Steel Gel Pen",
+    "category": "stationery-writing",
+    "featured": true,
+    "price": 450,
+    "images": [
+      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Premium stainless steel fine nib gel pen designed for comfortable daily writing and corporate gifting."
+  },
+  {
+    "id": "prod-003",
+    "name": "Microscope Science Experiment Kit",
+    "category": "educational-learning",
+    "featured": true,
+    "price": 2299,
+    "images": [
+      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "High resolution educational science experiment microscope kit suitable for school projects and students."
+  },
+  {
+    "id": "prod-004",
+    "name": "Executive Leather Notebook Journal",
+    "category": "notebooks-paper-products",
+    "featured": true,
+    "price": 799,
+    "images": [
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Handcrafted premium leather diary journal featuring 120 GSM thick lined pages and bookmark strap."
+  },
+  {
+    "id": "prod-005",
+    "name": "Acrylic Color Set 12 Shades",
+    "category": "art-craft-creativity",
+    "featured": true,
+    "price": 350,
+    "images": [
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Vibrant 12-piece acrylic paint set suitable for canvas, paper, wood, and craft work."
+  },
+  {
+    "id": "prod-006",
+    "name": "USB LED Study Light",
+    "category": "gadgets-accessories",
+    "featured": true,
+    "price": 299,
+    "images": [
+      "https://images.unsplash.com/photo-1507499739999-097706ad8914?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Flexible neck USB powered LED light for late night reading, desk work, and study setups."
+  }
+]
