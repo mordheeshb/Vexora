@@ -1,7 +1,7 @@
 /* ==========================================================================
-   VEXORA — Flagship Hero 3D Interactive Model Engine
+   VEXORA — Flagship Hero 3D Interactive Model Engine (Performance Optimized)
    Handles: 3D metallic emblem floating, orbiting 3D product cards,
-   mouse tracking perspective tilt, ambient particle matrix, and specular glare.
+   mouse tracking perspective tilt, viewport visibility observer, and smooth 60fps rendering.
    ========================================================================== */
 
 (function () {
@@ -11,7 +11,6 @@
     const heroVisual = document.querySelector('.hero-visual');
     if (!heroVisual) return;
 
-    // Create or locate hero canvas
     let canvas = document.getElementById('hero3dCanvas');
     if (!canvas) {
       canvas = document.createElement('canvas');
@@ -20,76 +19,72 @@
       heroVisual.appendChild(canvas);
     }
 
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext('2d', { alpha: true });
     if (!ctx) return;
 
     let width = 0;
     let height = 0;
-    let dpr = window.devicePixelRatio || 1;
+    let dpr = 1;
+    let isVisible = false;
+    let animId = null;
 
     let mouse = { x: 0, y: 0, targetX: 0, targetY: 0, isHovered: false };
     let ripples = [];
 
-    // Ambient floating 3D particle matrix
-    const numParticles = 45;
+    // Optimized particle count
+    const numParticles = 22;
     const particles = [];
 
-    // Orbiting 3D Product Badges & Geometry Nodes
+    // Orbiting 3D Product Badges
     const orbitItems = [
-      { label: '📓 Leather Planners', radius: 140, angle: 0, speed: 0.008, color: '#ff7b38', z: 40 },
-      { label: '✒️ Luxury Pens', radius: 170, angle: Math.PI * 0.5, speed: 0.006, color: '#00a3ff', z: 60 },
-      { label: '🧰 Student Kits', radius: 150, angle: Math.PI, speed: 0.007, color: '#ffb700', z: 30 },
-      { label: '✨ Desk Tech', radius: 180, angle: Math.PI * 1.5, speed: 0.005, color: '#00e5a3', z: 50 }
-    ];
-
-    // 3D Monogram V Geometry (3D Wireframe Mesh Points)
-    const vMesh = [
-      // Left arm of V
-      { x: -50, y: -60, z: 0 }, { x: -30, y: -60, z: 20 }, { x: 0, y: 50, z: 20 }, { x: 0, y: 50, z: 0 },
-      // Right arm of V
-      { x: 50, y: -60, z: 0 }, { x: 30, y: -60, z: 20 }, { x: 0, y: 50, z: 20 }, { x: 0, y: 50, z: 0 }
+      { label: '📓 Leather Planners', radius: 130, angle: 0, speed: 0.008, color: '#ff7b38', z: 40 },
+      { label: '✒️ Luxury Pens', radius: 160, angle: Math.PI * 0.5, speed: 0.006, color: '#00a3ff', z: 50 },
+      { label: '🧰 Student Kits', radius: 140, angle: Math.PI, speed: 0.007, color: '#ffb700', z: 30 },
+      { label: '✨ Desk Tech', radius: 170, angle: Math.PI * 1.5, speed: 0.005, color: '#00e5a3', z: 45 }
     ];
 
     function resize() {
       const rect = heroVisual.getBoundingClientRect();
       width = rect.width;
       height = rect.height;
-      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      // Cap DPR to 1.25 max for ultra smooth performance without GPU lag
+      dpr = Math.min(window.devicePixelRatio || 1, 1.25);
 
-      canvas.width = width * dpr;
-      canvas.height = height * dpr;
+      canvas.width = Math.floor(width * dpr);
+      canvas.height = Math.floor(height * dpr);
       canvas.style.width = width + 'px';
       canvas.style.height = height + 'px';
-      ctx.scale(dpr, dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     }
 
-    // Initialize 3D ambient particle system
+    // Initialize 3D ambient particle matrix
     for (let i = 0; i < numParticles; i++) {
       particles.push({
         x: Math.random(),
         y: Math.random(),
-        z: Math.random() * 100 + 20,
-        radius: Math.random() * 2.2 + 0.8,
-        alpha: Math.random() * 0.7 + 0.3,
-        vx: (Math.random() - 0.5) * 0.0006,
-        vy: (Math.random() - 0.5) * 0.0006,
+        z: Math.random() * 80 + 20,
+        radius: Math.random() * 2 + 1,
+        alpha: Math.random() * 0.5 + 0.3,
+        vx: (Math.random() - 0.5) * 0.0005,
+        vy: (Math.random() - 0.5) * 0.0005,
         color: Math.random() > 0.5 ? 'rgba(255, 123, 56,' : 'rgba(0, 163, 255,'
       });
     }
 
-    // Interactive mouse listeners
+    // Mouse interaction event listeners with passive flags
     heroVisual.addEventListener('mousemove', (e) => {
       const rect = heroVisual.getBoundingClientRect();
       mouse.targetX = (e.clientX - rect.left) / rect.width - 0.5;
       mouse.targetY = (e.clientY - rect.top) / rect.height - 0.5;
       mouse.isHovered = true;
-    });
+    }, { passive: true });
 
     heroVisual.addEventListener('mouseleave', () => {
       mouse.targetX = 0;
       mouse.targetY = 0;
       mouse.isHovered = false;
-    });
+      heroVisual.style.transform = 'perspective(1200px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+    }, { passive: true });
 
     heroVisual.addEventListener('click', (e) => {
       const rect = heroVisual.getBoundingClientRect();
@@ -97,10 +92,9 @@
         x: e.clientX - rect.left,
         y: e.clientY - rect.top,
         radius: 10,
-        maxRadius: 180,
-        alpha: 0.9
+        alpha: 0.85
       });
-    });
+    }, { passive: true });
 
     // 3D Perspective Projection math
     function project3D(x, y, z, rotX, rotY) {
@@ -118,180 +112,186 @@
       return {
         px: width / 2 + x2 * scale,
         py: height / 2 + y1 * scale,
-        scale: scale,
-        z: z2
+        scale: scale
       };
     }
 
     let globalRotation = 0;
 
     function render() {
-      // Smooth interpolation for mouse tracking
-      mouse.x += (mouse.targetX - mouse.x) * 0.06;
-      mouse.y += (mouse.targetY - mouse.y) * 0.06;
+      if (!isVisible) return;
 
-      globalRotation += 0.01;
+      // Lerp mouse tracking
+      mouse.x += (mouse.targetX - mouse.x) * 0.08;
+      mouse.y += (mouse.targetY - mouse.y) * 0.08;
 
-      // 3D tactile CSS tilt on the hero visual card container
-      const tiltX = -mouse.y * 22;
-      const tiltY = mouse.x * 22;
-      heroVisual.style.transform = `perspective(1200px) rotateX(${tiltX.toFixed(2)}deg) rotateY(${tiltY.toFixed(2)}deg) scale3d(${mouse.isHovered ? 1.025 : 1}, ${mouse.isHovered ? 1.025 : 1}, 1)`;
+      globalRotation += 0.008;
+
+      // Apply subtle 3D card tilt only when hovered or moving
+      if (mouse.isHovered || Math.abs(mouse.x) > 0.01 || Math.abs(mouse.y) > 0.01) {
+        const tiltX = -mouse.y * 16;
+        const tiltY = mouse.x * 16;
+        heroVisual.style.transform = `perspective(1200px) rotateX(${tiltX.toFixed(2)}deg) rotateY(${tiltY.toFixed(2)}deg) scale3d(${mouse.isHovered ? 1.02 : 1}, ${mouse.isHovered ? 1.02 : 1}, 1)`;
+      }
 
       ctx.clearRect(0, 0, width, height);
 
-      // Render 3D ambient particle grid
+      // Render Particles
       particles.forEach(p => {
-        p.x += p.vx + mouse.x * 0.0004;
-        p.y += p.vy + mouse.y * 0.0004;
+        p.x += p.vx;
+        p.y += p.vy;
 
         if (p.x < 0) p.x = 1;
         if (p.x > 1) p.x = 0;
         if (p.y < 0) p.y = 1;
         if (p.y > 1) p.y = 0;
 
-        const posX = p.x * width + mouse.x * p.z * 0.6;
-        const posY = p.y * height + mouse.y * p.z * 0.6;
+        const posX = p.x * width + mouse.x * p.z * 0.4;
+        const posY = p.y * height + mouse.y * p.z * 0.4;
 
         ctx.beginPath();
         ctx.arc(posX, posY, p.radius, 0, Math.PI * 2);
         ctx.fillStyle = p.color + p.alpha + ')';
-        ctx.shadowBlur = 10;
-        ctx.shadowColor = p.color + '0.9)';
         ctx.fill();
       });
 
-      // Render 3D Ripples
-      ripples.forEach((r, idx) => {
-        r.radius += 4;
-        r.alpha *= 0.95;
+      // Render Ripples
+      for (let i = ripples.length - 1; i >= 0; i--) {
+        const r = ripples[i];
+        r.radius += 3.5;
+        r.alpha *= 0.94;
 
         ctx.beginPath();
         ctx.arc(r.x, r.y, r.radius, 0, Math.PI * 2);
         ctx.strokeStyle = `rgba(255, 123, 56, ${r.alpha})`;
-        ctx.lineWidth = 2.5;
-        ctx.shadowBlur = 15;
-        ctx.shadowColor = '#ff7b38';
+        ctx.lineWidth = 2;
         ctx.stroke();
 
-        if (r.alpha < 0.02) ripples.splice(idx, 1);
-      });
+        if (r.alpha < 0.03) ripples.splice(i, 1);
+      }
 
-      // Render Central 3D Floating VEXORA Monogram & Rings
-      const rotX = mouse.y * 0.4;
-      const rotY = globalRotation * 0.5 + mouse.x * 0.6;
+      const rotX = mouse.y * 0.35;
+      const rotY = globalRotation * 0.4 + mouse.x * 0.5;
 
-      // 3D Orbital Rings around VEXORA
+      // 3D Orbital Rings (Optimized 20 steps)
       for (let r = 0; r < 2; r++) {
-        const ringRadius = 110 + r * 35;
+        const ringRadius = 100 + r * 30;
         ctx.beginPath();
-        const steps = 40;
+        const steps = 22;
         for (let i = 0; i <= steps; i++) {
           const theta = (i / steps) * Math.PI * 2;
           const rx = Math.cos(theta) * ringRadius;
-          const ry = Math.sin(theta) * ringRadius * (r === 0 ? 0.35 : 0.6);
-          const rz = Math.sin(theta) * ringRadius * 0.4;
+          const ry = Math.sin(theta) * ringRadius * (r === 0 ? 0.35 : 0.55);
+          const rz = Math.sin(theta) * ringRadius * 0.35;
 
           const proj = project3D(rx, ry, rz, rotX, rotY + (r * 1.2));
           if (i === 0) ctx.moveTo(proj.px, proj.py);
           else ctx.lineTo(proj.px, proj.py);
         }
-        ctx.strokeStyle = r === 0 ? 'rgba(255, 123, 56, 0.65)' : 'rgba(0, 163, 255, 0.55)';
-        ctx.lineWidth = 2;
-        ctx.shadowBlur = 12;
-        ctx.shadowColor = r === 0 ? '#ff7b38' : '#00a3ff';
+        ctx.strokeStyle = r === 0 ? 'rgba(255, 123, 56, 0.7)' : 'rgba(0, 163, 255, 0.6)';
+        ctx.lineWidth = 1.8;
         ctx.stroke();
       }
 
-      // Render Central 3D VEXORA Emblem Emblem Nodes
-      const centerProj = project3D(0, -10, 0, rotX, rotY);
+      // Render Central VEXORA Emblem Monogram
+      const centerProj = project3D(0, -5, 0, rotX, rotY);
       ctx.save();
       ctx.translate(centerProj.px, centerProj.py);
       ctx.scale(centerProj.scale, centerProj.scale);
 
-      // Glow behind VEXORA Emblem
-      const glowGradient = ctx.createRadialGradient(0, 0, 10, 0, 0, 90);
-      glowGradient.addColorStop(0, 'rgba(255, 123, 56, 0.35)');
-      glowGradient.addColorStop(1, 'rgba(11, 42, 74, 0)');
-      ctx.fillStyle = glowGradient;
+      // Glow behind emblem
+      const glowGrad = ctx.createRadialGradient(0, 0, 5, 0, 0, 75);
+      glowGrad.addColorStop(0, 'rgba(255, 123, 56, 0.3)');
+      glowGrad.addColorStop(1, 'rgba(11, 42, 74, 0)');
+      ctx.fillStyle = glowGrad;
       ctx.beginPath();
-      ctx.arc(0, 0, 90, 0, Math.PI * 2);
+      ctx.arc(0, 0, 75, 0, Math.PI * 2);
       ctx.fill();
 
-      // Draw V Symbol
+      // V Monogram
       ctx.beginPath();
-      ctx.moveTo(-32, -35);
-      ctx.lineTo(0, 32);
-      ctx.lineTo(32, -35);
+      ctx.moveTo(-28, -30);
+      ctx.lineTo(0, 28);
+      ctx.lineTo(28, -30);
       ctx.strokeStyle = '#ff7b38';
-      ctx.lineWidth = 14;
+      ctx.lineWidth = 12;
       ctx.lineCap = 'round';
       ctx.lineJoin = 'round';
-      ctx.shadowBlur = 18;
-      ctx.shadowColor = '#ff7b38';
       ctx.stroke();
 
       ctx.beginPath();
-      ctx.arc(0, -48, 8, 0, Math.PI * 2);
+      ctx.arc(0, -42, 7, 0, Math.PI * 2);
       ctx.fillStyle = '#ffb700';
       ctx.fill();
 
-      // VEXORA 3D Typography Label
-      ctx.font = '800 18px "Outfit", sans-serif';
+      ctx.font = '800 16px "Outfit", sans-serif';
       ctx.fillStyle = '#ffffff';
       ctx.textAlign = 'center';
-      ctx.shadowBlur = 10;
-      ctx.shadowColor = 'rgba(255,255,255,0.8)';
-      ctx.fillText('VEXORA', 0, 68);
+      ctx.fillText('VEXORA', 0, 60);
 
       ctx.restore();
 
-      // Render Orbiting 3D Product Cards
+      // Render Orbiting 3D Product Badges
       orbitItems.forEach((item) => {
         item.angle += item.speed;
         const ox = Math.cos(item.angle) * item.radius;
-        const oy = Math.sin(item.angle) * (item.radius * 0.4);
-        const oz = Math.sin(item.angle) * 50;
+        const oy = Math.sin(item.angle) * (item.radius * 0.38);
+        const oz = Math.sin(item.angle) * 45;
 
-        const proj = project3D(ox + mouse.x * item.z, oy + mouse.y * item.z, item.z + oz, rotX * 0.5, rotY * 0.5);
+        const proj = project3D(ox + mouse.x * item.z, oy + mouse.y * item.z, item.z + oz, rotX * 0.4, rotY * 0.4);
 
         ctx.save();
         ctx.translate(proj.px, proj.py);
         ctx.scale(proj.scale, proj.scale);
 
-        // Glass card pill shape
-        ctx.fillStyle = 'rgba(11, 42, 74, 0.82)';
+        ctx.fillStyle = 'rgba(11, 42, 74, 0.88)';
         ctx.strokeStyle = item.color;
-        ctx.lineWidth = 1.5;
-        ctx.shadowBlur = 14;
-        ctx.shadowColor = item.color;
+        ctx.lineWidth = 1.4;
 
-        const cardWidth = 140;
-        const cardHeight = 36;
-        const radius = 18;
+        const cardWidth = 135;
+        const cardHeight = 34;
+        const radius = 17;
 
         ctx.beginPath();
         ctx.roundRect(-cardWidth / 2, -cardHeight / 2, cardWidth, cardHeight, radius);
         ctx.fill();
         ctx.stroke();
 
-        // Label text inside 3D card
         ctx.font = '700 12px "Inter", sans-serif';
         ctx.fillStyle = '#ffffff';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
-        ctx.shadowBlur = 6;
-        ctx.shadowColor = '#ffffff';
         ctx.fillText(item.label, 0, 0);
 
         ctx.restore();
       });
 
-      requestAnimationFrame(render);
+      if (isVisible) {
+        animId = requestAnimationFrame(render);
+      }
     }
+
+    // Viewport IntersectionObserver to completely freeze loop when scrolled out of view
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        isVisible = entry.isIntersecting;
+        if (isVisible) {
+          if (!animId) {
+            animId = requestAnimationFrame(render);
+          }
+        } else {
+          if (animId) {
+            cancelAnimationFrame(animId);
+            animId = null;
+          }
+        }
+      });
+    }, { threshold: 0.05 });
+
+    observer.observe(heroVisual);
 
     window.addEventListener('resize', resize, { passive: true });
     resize();
-    render();
   }
 
   if (document.readyState === 'loading') {
