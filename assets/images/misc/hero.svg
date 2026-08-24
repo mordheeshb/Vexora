@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2a4a"/>
+      <stop offset="50%" stop-color="#0e365c"/>
+      <stop offset="100%" stop-color="#144b82"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff7b38"/>
+      <stop offset="100%" stop-color="#ffb700"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0%" stop-color="#1e70bf" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0b2a4a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgGrad)"/>
+  <circle cx="400" cy="450" r="360" fill="url(#heroGlow)"/>
+  
+  <g transform="translate(400, 420)">
+    <!-- Outer 3D Hexagon / Shield Frame -->
+    <polygon points="0,-180 156,-90 156,90 0,180 -156,90 -156,-90" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.18)" stroke-width="3"/>
+    <polygon points="0,-150 130,-75 130,75 0,150 -130,75 -130,-75" fill="rgba(255,255,255,0.04)" stroke="url(#goldAccent)" stroke-width="2" stroke-dasharray="6,6"/>
+    
+    <!-- VEXORA V Emblem -->
+    <path d="M -70 -60 L 0 80 L 70 -60" stroke="url(#goldAccent)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="0" cy="-90" r="18" fill="#ff7b38"/>
+  </g>
+
+  <text x="50%" y="74%" font-family="'Outfit', 'Inter', sans-serif" font-size="52" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" font-weight="900" letter-spacing="6">VEXORA</text>
+  <text x="50%" y="81%" font-family="'Inter', sans-serif" font-size="22" fill="rgba(255,255,255,0.75)" text-anchor="middle" dominant-baseline="middle" font-weight="600" letter-spacing="3">FLAGSHIP CATALOG</text>
+</svg>

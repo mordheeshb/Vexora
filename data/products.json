@@ -1,0 +1,2469 @@
+[
+ {
+  "id": "notebook-aura-dotgrid",
+  "name": "Aura Dot-Grid Notebook",
+  "category": "notebooks-paper-products",
+  "subcategory": "notebooks",
+  "price": "₹349",
+  "badge": "Bestseller",
+  "shortDesc": "A5 dot-grid notebook with premium 120gsm paper and lay-flat spine.",
+  "description": "The Aura Dot-Grid Notebook is engineered for student note-takers. Its 120gsm ivory paper resists ink ghosting, and the dot-grid layout keeps diagrams and bullet notes aligned.",
+  "images": [
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-notebooks",
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebook-aura-dotgrid-alt"
+  ],
+  "specs": {
+   "Size": "A5",
+   "Pages": "160 pages",
+   "Paper": "120gsm ivory"
+  }
+ },
+ {
+  "id": "pen-crest-gel",
+  "name": "Crest Gel Pen Set",
+  "category": "stationery-writing",
+  "subcategory": "pens",
+  "price": "₹199",
+  "badge": "New",
+  "shortDesc": "Smooth 0.5mm gel pen set in quick-drying blue and black ink.",
+  "description": "Crest pairs a tactile textured rubber grip with Japanese quick-dry ink so lecture notes stay clean without smudging.",
+  "images": [
+   "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80&item=stationery-writing-pens",
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=pen-crest-gel-alt"
+  ],
+  "specs": {
+   "Count": "8 pens",
+   "Ink": "Quick-dry gel",
+   "Tip": "0.5mm"
+  }
+ },
+ {
+  "id": "parker-vector-stainless",
+  "name": "Parker Vector Stainless Rollerball",
+  "category": "stationery-writing",
+  "subcategory": "parker-branded-pens",
+  "price": "₹549",
+  "badge": "Popular",
+  "shortDesc": "Iconic stainless steel rollerball pen with chrome trim.",
+  "description": "The Parker Vector Rollerball delivers legendary durability with smooth refillable ink flow, ideal for exams and formal gifts.",
+  "images": [
+   "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80&item=stationery-writing-parker-branded-pens",
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=parker-vector-stainless-alt"
+  ],
+  "specs": {
+   "Body": "Stainless Steel",
+   "Refill": "Navigator Rollerball",
+   "Gift Box": "Included"
+  }
+ },
+ {
+  "id": "arduino-starter-kit-uno",
+  "name": "Arduino UNO STEM Project Kit",
+  "category": "electronics-diy-kits",
+  "subcategory": "arduino-based-kits",
+  "price": "₹1,299",
+  "badge": "Bestseller",
+  "shortDesc": "Complete microcontroller starter kit with sensors, LEDs, and breadboard.",
+  "description": "Build 15 robotics and sensor projects using the included UNO board, jumper leads, ultrasonic distance module, and step-by-step experiment booklet.",
+  "images": [
+   "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-arduino-based-kits",
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=arduino-starter-kit-uno-alt"
+  ],
+  "specs": {
+   "Controller": "ATmega328P UNO R3",
+   "Components": "45+ parts",
+   "Skill Level": "Beginner to Intermediate"
+  }
+ },
+ {
+  "id": "foam-board-pack-white",
+  "name": "High-Density Foam Board Pack (A2)",
+  "category": "project-materials",
+  "subcategory": "foam-boards",
+  "price": "₹399",
+  "badge": "",
+  "shortDesc": "Rigid 5mm foam core boards for science fair displays and architectural models.",
+  "description": "Smooth, warp-resistant foam boards designed for clean utility knife cuts, poster mounting, and 3D scale structural builds.",
+  "images": [
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-foam-boards",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=foam-board-pack-white-alt"
+  ],
+  "specs": {
+   "Thickness": "5mm",
+   "Size": "A2 (420 x 594 mm)",
+   "Pack": "5 Sheets"
+  }
+ },
+ {
+  "id": "geometry-camlin-metal",
+  "name": "Camlin Precision Geometry Box",
+  "category": "school-supplies",
+  "subcategory": "geometry-boxes",
+  "price": "₹220",
+  "badge": "",
+  "shortDesc": "Die-cast metal compass set with self-centering mechanism.",
+  "description": "Sturdy tin case containing self-centering compass, divider, protractor, set squares, ruler, pencil, and eraser for geometry class.",
+  "images": [
+   "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=800&q=80&item=school-supplies-geometry-boxes",
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=geometry-camlin-metal-alt"
+  ],
+  "specs": {
+   "Case": "Tin Alloy",
+   "Components": "9 items",
+   "Compass": "Self-centering precision"
+  }
+ },
+ {
+  "id": "acrylic-color-set-12",
+  "name": "Studio Acrylic Paint Tube Set",
+  "category": "art-craft-creativity",
+  "subcategory": "paints",
+  "price": "₹450",
+  "badge": "New",
+  "shortDesc": "12 vibrant high-pigment acrylic paint tubes (20ml each).",
+  "description": "Rich, lightfast acrylic paints suitable for canvas, paper, wood, and clay craft projects.",
+  "images": [
+   "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-paints",
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=acrylic-color-set-12-alt"
+  ],
+  "specs": {
+   "Tubes": "12 colors x 20ml",
+   "Finish": "Satin Matte",
+   "Base": "Water-soluble"
+  }
+ },
+ {
+  "id": "organizer-deskframe",
+  "name": "DeskFrame Modular Organizer",
+  "category": "office-supplies",
+  "subcategory": "desk-organizers-office",
+  "price": "₹599",
+  "badge": "",
+  "shortDesc": "Multi-compartment desk caddy for pens, note pads, clips, and phone.",
+  "description": "DeskFrame brings structured order to your study table with dedicated slots for active stationeries and accessories.",
+  "images": [
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-desk-organizers-office",
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=organizer-deskframe-alt"
+  ],
+  "specs": {
+   "Material": "Powder-coated Mesh & Wood",
+   "Slots": "5 compartments"
+  }
+ },
+ {
+  "id": "usb-led-study-light",
+  "name": "Flexi-Gooseneck USB Study Light",
+  "category": "gadgets-accessories",
+  "subcategory": "usb-accessories",
+  "price": "₹299",
+  "badge": "Popular",
+  "shortDesc": "Touch-dimmable USB LED light with 360-degree flexible neck.",
+  "description": "Plug into any laptop or power bank for glare-free, focused study lighting during late-night revision.",
+  "images": [
+   "https://images.unsplash.com/photo-1583225214464-9296029427aa?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-usb-accessories",
+   "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80&item=usb-led-study-light-alt"
+  ],
+  "specs": {
+   "Power": "USB 5V",
+   "LEDs": "14 eye-care LEDs",
+   "Brightness": "3 Touch Modes"
+  }
+ },
+ {
+  "id": "executive-leather-journal",
+  "name": "Executive Gilded Hardcover Journal",
+  "category": "premium-corporate-gifts",
+  "subcategory": "executive-notebooks",
+  "price": "₹899",
+  "badge": "Premium",
+  "shortDesc": "Faux-leather journal with gold gilded pages and ribbon bookmark.",
+  "description": "A refined hardcover journal packaged in an executive gift sleeve, designed for career milestones and formal notes.",
+  "images": [
+   "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-executive-notebooks",
+   "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80&item=executive-leather-journal-alt"
+  ],
+  "specs": {
+   "Cover": "PU Leatherette",
+   "Page Edges": "Gold Foil",
+   "Paper": "100gsm Ink-proof"
+  }
+ },
+ {
+  "id": "anime-vinyl-sticker-pack",
+  "name": "Aesthetic Anime Laptop Sticker Pack",
+  "category": "stickers-personalization",
+  "subcategory": "decorative-stickers",
+  "price": "₹149",
+  "badge": "Bestseller",
+  "shortDesc": "50 unique waterproof vinyl stickers for laptops, bottles, and journals.",
+  "description": "High-definition printed PVC vinyl stickers with matte laminate layer that resists water, sun fade, and scratches.",
+  "images": [
+   "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-decorative-stickers",
+   "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80&item=anime-vinyl-sticker-pack-alt"
+  ],
+  "specs": {
+   "Quantity": "50 non-repeating stickers",
+   "Material": "Waterproof PVC Vinyl",
+   "Size": "4-7cm"
+  }
+ },
+ {
+  "id": "microscope-science-kit",
+  "name": "Junior Biologist STEM Microscope Kit",
+  "category": "educational-learning",
+  "subcategory": "science-experiment-kits",
+  "price": "₹1,499",
+  "badge": "New",
+  "shortDesc": "1200x zoom optical microscope kit with prepared sample slides.",
+  "description": "Explore cell structures with LED illuminated magnifications (100x, 400x, 1200x), blank slides, tweezers, and specimen vials.",
+  "images": [
+   "https://images.unsplash.com/photo-1509869175650-a1d97972541a?auto=format&fit=crop&w=800&q=80&item=educational-learning-science-experiment-kits",
+   "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80&item=microscope-science-kit-alt"
+  ],
+  "specs": {
+   "Magnification": "100x - 1200x",
+   "Illumination": "Bottom LED",
+   "Slides": "6 prepared + 6 blank"
+  }
+ },
+ {
+  "id": "stationery-writing-pens",
+  "name": "Pens Signature Set",
+  "category": "stationery-writing",
+  "subcategory": "pens",
+  "price": "₹259",
+  "badge": "New",
+  "shortDesc": "Ballpoints, gel pens, and smooth-writing essentials.",
+  "description": "Ballpoints, gel pens, and smooth-writing essentials. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80&item=stationery-writing-pens",
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=stationery-writing-pens-alt"
+  ],
+  "specs": {
+   "Category": "Stationery & Writing",
+   "Type": "Pens",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stationery-writing-pencils",
+  "name": "Pencils Signature Set",
+  "category": "stationery-writing",
+  "subcategory": "pencils",
+  "price": "₹159",
+  "badge": "",
+  "shortDesc": "Graphite, mechanical, and sketching options for study.",
+  "description": "Graphite, mechanical, and sketching options for study. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?auto=format&fit=crop&w=800&q=80&item=stationery-writing-pencils",
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=stationery-writing-pencils-alt"
+  ],
+  "specs": {
+   "Category": "Stationery & Writing",
+   "Type": "Pencils",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stationery-writing-erasers",
+  "name": "Erasers Signature Set",
+  "category": "stationery-writing",
+  "subcategory": "erasers",
+  "price": "₹69",
+  "badge": "",
+  "shortDesc": "Clean, dust-free erasers for crisp corrections.",
+  "description": "Clean, dust-free erasers for crisp corrections. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80&item=stationery-writing-erasers",
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=stationery-writing-erasers-alt"
+  ],
+  "specs": {
+   "Category": "Stationery & Writing",
+   "Type": "Erasers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stationery-writing-sharpeners",
+  "name": "Sharpeners Signature Set",
+  "category": "stationery-writing",
+  "subcategory": "sharpeners",
+  "price": "₹209",
+  "badge": "",
+  "shortDesc": "Precision sharpeners with waste collection.",
+  "description": "Precision sharpeners with waste collection. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80&item=stationery-writing-sharpeners",
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=stationery-writing-sharpeners-alt"
+  ],
+  "specs": {
+   "Category": "Stationery & Writing",
+   "Type": "Sharpeners",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stationery-writing-rulers-scales",
+  "name": "Rulers & Scales Signature Set",
+  "category": "stationery-writing",
+  "subcategory": "rulers-scales",
+  "price": "₹249",
+  "badge": "",
+  "shortDesc": "Accurate steel, acrylic, and flexible measuring scales.",
+  "description": "Accurate steel, acrylic, and flexible measuring scales. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?auto=format&fit=crop&w=800&q=80&item=stationery-writing-rulers-scales",
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=stationery-writing-rulers-scales-alt"
+  ],
+  "specs": {
+   "Category": "Stationery & Writing",
+   "Type": "Rulers & Scales",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stationery-writing-highlighters",
+  "name": "Highlighters Signature Set",
+  "category": "stationery-writing",
+  "subcategory": "highlighters",
+  "price": "₹359",
+  "badge": "New",
+  "shortDesc": "Vivid pastel and neon highlighters for fast revision.",
+  "description": "Vivid pastel and neon highlighters for fast revision. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=stationery-writing-highlighters",
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=stationery-writing-highlighters-alt"
+  ],
+  "specs": {
+   "Category": "Stationery & Writing",
+   "Type": "Highlighters",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stationery-writing-markers",
+  "name": "Markers Signature Set",
+  "category": "stationery-writing",
+  "subcategory": "markers",
+  "price": "₹159",
+  "badge": "",
+  "shortDesc": "Permanent, whiteboard, and calligraphic display markers.",
+  "description": "Permanent, whiteboard, and calligraphic display markers. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80&item=stationery-writing-markers",
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=stationery-writing-markers-alt"
+  ],
+  "specs": {
+   "Category": "Stationery & Writing",
+   "Type": "Markers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stationery-writing-premium-pens",
+  "name": "Premium Pens Signature Set",
+  "category": "stationery-writing",
+  "subcategory": "premium-pens",
+  "price": "₹319",
+  "badge": "Staff Pick",
+  "shortDesc": "Refined fountain pens and metal writing instruments.",
+  "description": "Refined fountain pens and metal writing instruments. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?auto=format&fit=crop&w=800&q=80&item=stationery-writing-premium-pens",
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=stationery-writing-premium-pens-alt"
+  ],
+  "specs": {
+   "Category": "Stationery & Writing",
+   "Type": "Premium Pens",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stationery-writing-parker-branded-pens",
+  "name": "Parker & Branded Pens Signature Set",
+  "category": "stationery-writing",
+  "subcategory": "parker-branded-pens",
+  "price": "₹229",
+  "badge": "",
+  "shortDesc": "Iconic branded pens for gifting and formal signing.",
+  "description": "Iconic branded pens for gifting and formal signing. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80&item=stationery-writing-parker-branded-pens",
+   "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=stationery-writing-parker-branded-pens-alt"
+  ],
+  "specs": {
+   "Category": "Stationery & Writing",
+   "Type": "Parker & Branded Pens",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "notebooks-paper-products-notebooks",
+  "name": "Notebooks Signature Set",
+  "category": "notebooks-paper-products",
+  "subcategory": "notebooks",
+  "price": "₹129",
+  "badge": "New",
+  "shortDesc": "Ruled, grid, and dot-journal notebooks for daily study.",
+  "description": "Ruled, grid, and dot-journal notebooks for daily study. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-notebooks",
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-notebooks-alt"
+  ],
+  "specs": {
+   "Category": "Notebooks & Paper Products",
+   "Type": "Notebooks",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "notebooks-paper-products-long-notebooks",
+  "name": "Long Notebooks Signature Set",
+  "category": "notebooks-paper-products",
+  "subcategory": "long-notebooks",
+  "price": "₹359",
+  "badge": "",
+  "shortDesc": "Spacious long books for extensive lecture notes and math.",
+  "description": "Spacious long books for extensive lecture notes and math. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-long-notebooks",
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-long-notebooks-alt"
+  ],
+  "specs": {
+   "Category": "Notebooks & Paper Products",
+   "Type": "Long Notebooks",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "notebooks-paper-products-a4-a5-notebooks",
+  "name": "A4/A5 Notebooks Signature Set",
+  "category": "notebooks-paper-products",
+  "subcategory": "a4-a5-notebooks",
+  "price": "₹409",
+  "badge": "",
+  "shortDesc": "Standard sizing for binders, bags, and desk layouts.",
+  "description": "Standard sizing for binders, bags, and desk layouts. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1517842645767-c079a2e2fd6c?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-a4-a5-notebooks",
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-a4-a5-notebooks-alt"
+  ],
+  "specs": {
+   "Category": "Notebooks & Paper Products",
+   "Type": "A4/A5 Notebooks",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "notebooks-paper-products-journals",
+  "name": "Journals Signature Set",
+  "category": "notebooks-paper-products",
+  "subcategory": "journals",
+  "price": "₹549",
+  "badge": "",
+  "shortDesc": "Bound journals for thoughts, planning, and goal setting.",
+  "description": "Bound journals for thoughts, planning, and goal setting. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-journals",
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-journals-alt"
+  ],
+  "specs": {
+   "Category": "Notebooks & Paper Products",
+   "Type": "Journals",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "notebooks-paper-products-diaries",
+  "name": "Diaries Signature Set",
+  "category": "notebooks-paper-products",
+  "subcategory": "diaries",
+  "price": "₹429",
+  "badge": "",
+  "shortDesc": "Dated and undated daily planners for schedule control.",
+  "description": "Dated and undated daily planners for schedule control. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1519669556878-63bdad8a1a49?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-diaries",
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-diaries-alt"
+  ],
+  "specs": {
+   "Category": "Notebooks & Paper Products",
+   "Type": "Diaries",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "notebooks-paper-products-scrapbooks",
+  "name": "Scrapbooks Signature Set",
+  "category": "notebooks-paper-products",
+  "subcategory": "scrapbooks",
+  "price": "₹729",
+  "badge": "New",
+  "shortDesc": "Heavyweight paper albums for memory keepsakes and collage.",
+  "description": "Heavyweight paper albums for memory keepsakes and collage. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-scrapbooks",
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-scrapbooks-alt"
+  ],
+  "specs": {
+   "Category": "Notebooks & Paper Products",
+   "Type": "Scrapbooks",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "notebooks-paper-products-drawing-books",
+  "name": "Drawing Books Signature Set",
+  "category": "notebooks-paper-products",
+  "subcategory": "drawing-books",
+  "price": "₹219",
+  "badge": "",
+  "shortDesc": "High-GSM cartridge books for sketches and wet media.",
+  "description": "High-GSM cartridge books for sketches and wet media. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-drawing-books",
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-drawing-books-alt"
+  ],
+  "specs": {
+   "Category": "Notebooks & Paper Products",
+   "Type": "Drawing Books",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "notebooks-paper-products-writing-pads",
+  "name": "Writing Pads Signature Set",
+  "category": "notebooks-paper-products",
+  "subcategory": "writing-pads",
+  "price": "₹119",
+  "badge": "Staff Pick",
+  "shortDesc": "Tear-off pads for quick notes, drafts, and calculations.",
+  "description": "Tear-off pads for quick notes, drafts, and calculations. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-writing-pads",
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-writing-pads-alt"
+  ],
+  "specs": {
+   "Category": "Notebooks & Paper Products",
+   "Type": "Writing Pads",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "notebooks-paper-products-sticky-notes",
+  "name": "Sticky Notes Signature Set",
+  "category": "notebooks-paper-products",
+  "subcategory": "sticky-notes",
+  "price": "₹319",
+  "badge": "",
+  "shortDesc": "Adhesive notes and page flags for active reading.",
+  "description": "Adhesive notes and page flags for active reading. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1517842645767-c079a2e2fd6c?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-sticky-notes",
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-sticky-notes-alt"
+  ],
+  "specs": {
+   "Category": "Notebooks & Paper Products",
+   "Type": "Sticky Notes",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "notebooks-paper-products-files-folders",
+  "name": "Files & Folders Signature Set",
+  "category": "notebooks-paper-products",
+  "subcategory": "files-folders",
+  "price": "₹829",
+  "badge": "",
+  "shortDesc": "Document organizers, ring binders, and sleeve files.",
+  "description": "Document organizers, ring binders, and sleeve files. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-files-folders",
+   "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-files-folders-alt"
+  ],
+  "specs": {
+   "Category": "Notebooks & Paper Products",
+   "Type": "Files & Folders",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "school-supplies-school-kits",
+  "name": "School Kits Signature Set",
+  "category": "school-supplies",
+  "subcategory": "school-kits",
+  "price": "₹99",
+  "badge": "New",
+  "shortDesc": "All-in-one starter kits with essential study tools.",
+  "description": "All-in-one starter kits with essential study tools. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80&item=school-supplies-school-kits",
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=school-supplies-school-kits-alt"
+  ],
+  "specs": {
+   "Category": "School Supplies",
+   "Type": "School Kits",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "school-supplies-geometry-boxes",
+  "name": "Geometry Boxes Signature Set",
+  "category": "school-supplies",
+  "subcategory": "geometry-boxes",
+  "price": "₹59",
+  "badge": "",
+  "shortDesc": "Precision compasses, protractors, and math instruments.",
+  "description": "Precision compasses, protractors, and math instruments. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=800&q=80&item=school-supplies-geometry-boxes",
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=school-supplies-geometry-boxes-alt"
+  ],
+  "specs": {
+   "Category": "School Supplies",
+   "Type": "Geometry Boxes",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "school-supplies-pencil-boxes",
+  "name": "Pencil Boxes Signature Set",
+  "category": "school-supplies",
+  "subcategory": "pencil-boxes",
+  "price": "₹229",
+  "badge": "",
+  "shortDesc": "Hard-shell cases and pouch organizers for stationeries.",
+  "description": "Hard-shell cases and pouch organizers for stationeries. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=800&q=80&item=school-supplies-pencil-boxes",
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=school-supplies-pencil-boxes-alt"
+  ],
+  "specs": {
+   "Category": "School Supplies",
+   "Type": "Pencil Boxes",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "school-supplies-water-bottles",
+  "name": "Water Bottles Signature Set",
+  "category": "school-supplies",
+  "subcategory": "water-bottles",
+  "price": "₹89",
+  "badge": "",
+  "shortDesc": "Insulated stainless steel and durable hydration bottles.",
+  "description": "Insulated stainless steel and durable hydration bottles. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=800&q=80&item=school-supplies-water-bottles",
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=school-supplies-water-bottles-alt"
+  ],
+  "specs": {
+   "Category": "School Supplies",
+   "Type": "Water Bottles",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "school-supplies-school-accessories",
+  "name": "School Accessories Signature Set",
+  "category": "school-supplies",
+  "subcategory": "school-accessories",
+  "price": "₹309",
+  "badge": "",
+  "shortDesc": "Keychains, bag clips, and handy backpack utility tools.",
+  "description": "Keychains, bag clips, and handy backpack utility tools. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=school-supplies-school-accessories",
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=school-supplies-school-accessories-alt"
+  ],
+  "specs": {
+   "Category": "School Supplies",
+   "Type": "School Accessories",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "school-supplies-name-labels",
+  "name": "Name Labels Signature Set",
+  "category": "school-supplies",
+  "subcategory": "name-labels",
+  "price": "₹219",
+  "badge": "New",
+  "shortDesc": "Self-adhesive identity tags for books and personal items.",
+  "description": "Self-adhesive identity tags for books and personal items. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80&item=school-supplies-name-labels",
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=school-supplies-name-labels-alt"
+  ],
+  "specs": {
+   "Category": "School Supplies",
+   "Type": "Name Labels",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "school-supplies-educational-supplies",
+  "name": "Educational Supplies Signature Set",
+  "category": "school-supplies",
+  "subcategory": "educational-supplies",
+  "price": "₹309",
+  "badge": "",
+  "shortDesc": "Classroom aids, wall charts, and daily learning helpers.",
+  "description": "Classroom aids, wall charts, and daily learning helpers. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=800&q=80&item=school-supplies-educational-supplies",
+   "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=school-supplies-educational-supplies-alt"
+  ],
+  "specs": {
+   "Category": "School Supplies",
+   "Type": "Educational Supplies",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "art-craft-creativity-colour-pencils",
+  "name": "Colour Pencils Signature Set",
+  "category": "art-craft-creativity",
+  "subcategory": "colour-pencils",
+  "price": "₹329",
+  "badge": "New",
+  "shortDesc": "Soft-core and watercolor pencil sets for expressive art.",
+  "description": "Soft-core and watercolor pencil sets for expressive art. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-colour-pencils",
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-colour-pencils-alt"
+  ],
+  "specs": {
+   "Category": "Art, Craft & Creativity",
+   "Type": "Colour Pencils",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "art-craft-creativity-sketch-pens",
+  "name": "Sketch Pens Signature Set",
+  "category": "art-craft-creativity",
+  "subcategory": "sketch-pens",
+  "price": "₹689",
+  "badge": "",
+  "shortDesc": "Fine-tip line art pens and vibrant fiber-tip markers.",
+  "description": "Fine-tip line art pens and vibrant fiber-tip markers. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-sketch-pens",
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-sketch-pens-alt"
+  ],
+  "specs": {
+   "Category": "Art, Craft & Creativity",
+   "Type": "Sketch Pens",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "art-craft-creativity-crayons",
+  "name": "Crayons Signature Set",
+  "category": "art-craft-creativity",
+  "subcategory": "crayons",
+  "price": "₹609",
+  "badge": "",
+  "shortDesc": "Non-toxic oil pastels and wax crayons for smooth coloring.",
+  "description": "Non-toxic oil pastels and wax crayons for smooth coloring. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-crayons",
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-crayons-alt"
+  ],
+  "specs": {
+   "Category": "Art, Craft & Creativity",
+   "Type": "Crayons",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "art-craft-creativity-paints",
+  "name": "Paints Signature Set",
+  "category": "art-craft-creativity",
+  "subcategory": "paints",
+  "price": "₹219",
+  "badge": "",
+  "shortDesc": "Acrylics, gouache, watercolors, and poster paint sets.",
+  "description": "Acrylics, gouache, watercolors, and poster paint sets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-paints",
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-paints-alt"
+  ],
+  "specs": {
+   "Category": "Art, Craft & Creativity",
+   "Type": "Paints",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "art-craft-creativity-brushes",
+  "name": "Brushes Signature Set",
+  "category": "art-craft-creativity",
+  "subcategory": "brushes",
+  "price": "₹619",
+  "badge": "",
+  "shortDesc": "Synthetic and natural hair detail and wash brushes.",
+  "description": "Synthetic and natural hair detail and wash brushes. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-brushes",
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-brushes-alt"
+  ],
+  "specs": {
+   "Category": "Art, Craft & Creativity",
+   "Type": "Brushes",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "art-craft-creativity-craft-paper",
+  "name": "Craft Paper Signature Set",
+  "category": "art-craft-creativity",
+  "subcategory": "craft-paper",
+  "price": "₹689",
+  "badge": "New",
+  "shortDesc": "Origami, glitter, quilling, and textured craft sheets.",
+  "description": "Origami, glitter, quilling, and textured craft sheets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-craft-paper",
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-craft-paper-alt"
+  ],
+  "specs": {
+   "Category": "Art, Craft & Creativity",
+   "Type": "Craft Paper",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "art-craft-creativity-glue",
+  "name": "Glue Signature Set",
+  "category": "art-craft-creativity",
+  "subcategory": "glue",
+  "price": "₹249",
+  "badge": "",
+  "shortDesc": "Craft PVA glue, liquid adhesive, and glue tape sticks.",
+  "description": "Craft PVA glue, liquid adhesive, and glue tape sticks. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-glue",
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-glue-alt"
+  ],
+  "specs": {
+   "Category": "Art, Craft & Creativity",
+   "Type": "Glue",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "art-craft-creativity-scissors",
+  "name": "Scissors Signature Set",
+  "category": "art-craft-creativity",
+  "subcategory": "scissors",
+  "price": "₹639",
+  "badge": "Staff Pick",
+  "shortDesc": "Safety craft scissors and precision utility craft knives.",
+  "description": "Safety craft scissors and precision utility craft knives. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-scissors",
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-scissors-alt"
+  ],
+  "specs": {
+   "Category": "Art, Craft & Creativity",
+   "Type": "Scissors",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "art-craft-creativity-stickers",
+  "name": "Stickers Signature Set",
+  "category": "art-craft-creativity",
+  "subcategory": "stickers",
+  "price": "₹729",
+  "badge": "",
+  "shortDesc": "Decorative theme stickers and aesthetic collage sheets.",
+  "description": "Decorative theme stickers and aesthetic collage sheets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-stickers",
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-stickers-alt"
+  ],
+  "specs": {
+   "Category": "Art, Craft & Creativity",
+   "Type": "Stickers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "art-craft-creativity-diy-craft-materials",
+  "name": "DIY Craft Materials Signature Set",
+  "category": "art-craft-creativity",
+  "subcategory": "diy-craft-materials",
+  "price": "₹279",
+  "badge": "",
+  "shortDesc": "Pompoms, pipe cleaners, sequins, and craft embellishments.",
+  "description": "Pompoms, pipe cleaners, sequins, and craft embellishments. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-diy-craft-materials",
+   "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-diy-craft-materials-alt"
+  ],
+  "specs": {
+   "Category": "Art, Craft & Creativity",
+   "Type": "DIY Craft Materials",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "project-materials-foam-boards",
+  "name": "Foam Boards Signature Set",
+  "category": "project-materials",
+  "subcategory": "foam-boards",
+  "price": "₹1,419",
+  "badge": "New",
+  "shortDesc": "Lightweight foam core boards for structural model bases.",
+  "description": "Lightweight foam core boards for structural model bases. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-foam-boards",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-foam-boards-alt"
+  ],
+  "specs": {
+   "Category": "Project Materials",
+   "Type": "Foam Boards",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "project-materials-cardboards",
+  "name": "Cardboards Signature Set",
+  "category": "project-materials",
+  "subcategory": "cardboards",
+  "price": "₹1,009",
+  "badge": "",
+  "shortDesc": "Corrugated and greyboard sheets for architectural crafting.",
+  "description": "Corrugated and greyboard sheets for architectural crafting. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=project-materials-cardboards",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-cardboards-alt"
+  ],
+  "specs": {
+   "Category": "Project Materials",
+   "Type": "Cardboards",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "project-materials-thermocol",
+  "name": "Thermocol Signature Set",
+  "category": "project-materials",
+  "subcategory": "thermocol",
+  "price": "₹289",
+  "badge": "",
+  "shortDesc": "Density-carvably thermocol sheets and cut blocks.",
+  "description": "Density-carvably thermocol sheets and cut blocks. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?auto=format&fit=crop&w=800&q=80&item=project-materials-thermocol",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-thermocol-alt"
+  ],
+  "specs": {
+   "Category": "Project Materials",
+   "Type": "Thermocol",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "project-materials-chart-papers",
+  "name": "Chart Papers Signature Set",
+  "category": "project-materials",
+  "subcategory": "chart-papers",
+  "price": "₹1,389",
+  "badge": "",
+  "shortDesc": "Thick poster charts in full color spectrum.",
+  "description": "Thick poster charts in full color spectrum. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-chart-papers",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-chart-papers-alt"
+  ],
+  "specs": {
+   "Category": "Project Materials",
+   "Type": "Chart Papers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "project-materials-wires",
+  "name": "Wires Signature Set",
+  "category": "project-materials",
+  "subcategory": "wires",
+  "price": "₹1,139",
+  "badge": "",
+  "shortDesc": "Single-strand and multi-core copper project wiring.",
+  "description": "Single-strand and multi-core copper project wiring. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-wires",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-wires-alt"
+  ],
+  "specs": {
+   "Category": "Project Materials",
+   "Type": "Wires",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "project-materials-leds",
+  "name": "LEDs Signature Set",
+  "category": "project-materials",
+  "subcategory": "leds",
+  "price": "₹1,129",
+  "badge": "New",
+  "shortDesc": "Diffused LEDs, RGB strips, and miniature light bulbs.",
+  "description": "Diffused LEDs, RGB strips, and miniature light bulbs. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=project-materials-leds",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-leds-alt"
+  ],
+  "specs": {
+   "Category": "Project Materials",
+   "Type": "LEDs",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "project-materials-motors",
+  "name": "Motors Signature Set",
+  "category": "project-materials",
+  "subcategory": "motors",
+  "price": "₹439",
+  "badge": "",
+  "shortDesc": "Toy DC motors, servo motors, and gear motor units.",
+  "description": "Toy DC motors, servo motors, and gear motor units. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?auto=format&fit=crop&w=800&q=80&item=project-materials-motors",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-motors-alt"
+  ],
+  "specs": {
+   "Category": "Project Materials",
+   "Type": "Motors",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "project-materials-switches",
+  "name": "Switches Signature Set",
+  "category": "project-materials",
+  "subcategory": "switches",
+  "price": "₹349",
+  "badge": "Staff Pick",
+  "shortDesc": "Toggle switches, push buttons, and rocker switches.",
+  "description": "Toggle switches, push buttons, and rocker switches. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-switches",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-switches-alt"
+  ],
+  "specs": {
+   "Category": "Project Materials",
+   "Type": "Switches",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "project-materials-batteries",
+  "name": "Batteries Signature Set",
+  "category": "project-materials",
+  "subcategory": "batteries",
+  "price": "₹779",
+  "badge": "",
+  "shortDesc": "9V battery snaps, AA/AAA holders, and power cells.",
+  "description": "9V battery snaps, AA/AAA holders, and power cells. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-batteries",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-batteries-alt"
+  ],
+  "specs": {
+   "Category": "Project Materials",
+   "Type": "Batteries",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "project-materials-connectors",
+  "name": "Connectors Signature Set",
+  "category": "project-materials",
+  "subcategory": "connectors",
+  "price": "₹1,379",
+  "badge": "",
+  "shortDesc": "Alligator clips, terminal strips, and wire joiners.",
+  "description": "Alligator clips, terminal strips, and wire joiners. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=project-materials-connectors",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-connectors-alt"
+  ],
+  "specs": {
+   "Category": "Project Materials",
+   "Type": "Connectors",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "project-materials-general-project-making-materials",
+  "name": "General Project-Making Materials Signature Set",
+  "category": "project-materials",
+  "subcategory": "general-project-making-materials",
+  "price": "₹739",
+  "badge": "New",
+  "shortDesc": "Pulleys, wheels, popsicles, and model hardware.",
+  "description": "Pulleys, wheels, popsicles, and model hardware. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?auto=format&fit=crop&w=800&q=80&item=project-materials-general-project-making-materials",
+   "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-general-project-making-materials-alt"
+  ],
+  "specs": {
+   "Category": "Project Materials",
+   "Type": "General Project-Making Materials",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "electronics-diy-kits-arduino-based-kits",
+  "name": "Arduino-based Kits Signature Set",
+  "category": "electronics-diy-kits",
+  "subcategory": "arduino-based-kits",
+  "price": "₹339",
+  "badge": "New",
+  "shortDesc": "UNO/Nano microcontroller learning and project starter bundles.",
+  "description": "UNO/Nano microcontroller learning and project starter bundles. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-arduino-based-kits",
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-arduino-based-kits-alt"
+  ],
+  "specs": {
+   "Category": "Electronics & DIY Kits",
+   "Type": "Arduino-based Kits",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "electronics-diy-kits-sensors",
+  "name": "Sensors Signature Set",
+  "category": "electronics-diy-kits",
+  "subcategory": "sensors",
+  "price": "₹1,169",
+  "badge": "",
+  "shortDesc": "Ultrasonic, IR, motion, moisture, and temperature modules.",
+  "description": "Ultrasonic, IR, motion, moisture, and temperature modules. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-sensors",
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-sensors-alt"
+  ],
+  "specs": {
+   "Category": "Electronics & DIY Kits",
+   "Type": "Sensors",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "electronics-diy-kits-breadboards",
+  "name": "Breadboards Signature Set",
+  "category": "electronics-diy-kits",
+  "subcategory": "breadboards",
+  "price": "₹1,929",
+  "badge": "",
+  "shortDesc": "Solderless prototyping boards for electronic circuits.",
+  "description": "Solderless prototyping boards for electronic circuits. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-breadboards",
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-breadboards-alt"
+  ],
+  "specs": {
+   "Category": "Electronics & DIY Kits",
+   "Type": "Breadboards",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "electronics-diy-kits-jumper-wires",
+  "name": "Jumper Wires Signature Set",
+  "category": "electronics-diy-kits",
+  "subcategory": "jumper-wires",
+  "price": "₹729",
+  "badge": "",
+  "shortDesc": "Male-to-Male, Male-to-Female, and Female-to-Female leads.",
+  "description": "Male-to-Male, Male-to-Female, and Female-to-Female leads. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-jumper-wires",
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-jumper-wires-alt"
+  ],
+  "specs": {
+   "Category": "Electronics & DIY Kits",
+   "Type": "Jumper Wires",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "electronics-diy-kits-electronic-components",
+  "name": "Electronic Components Signature Set",
+  "category": "electronics-diy-kits",
+  "subcategory": "electronic-components",
+  "price": "₹1,899",
+  "badge": "",
+  "shortDesc": "Resistors, capacitors, transistors, and IC sockets.",
+  "description": "Resistors, capacitors, transistors, and IC sockets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-electronic-components",
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-electronic-components-alt"
+  ],
+  "specs": {
+   "Category": "Electronics & DIY Kits",
+   "Type": "Electronic Components",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "electronics-diy-kits-robotics-kits",
+  "name": "Robotics Kits Signature Set",
+  "category": "electronics-diy-kits",
+  "subcategory": "robotics-kits",
+  "price": "₹2,189",
+  "badge": "New",
+  "shortDesc": "Obstacle avoiding and Bluetooth RC robot build kits.",
+  "description": "Obstacle avoiding and Bluetooth RC robot build kits. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-robotics-kits",
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-robotics-kits-alt"
+  ],
+  "specs": {
+   "Category": "Electronics & DIY Kits",
+   "Type": "Robotics Kits",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "electronics-diy-kits-stem-kits",
+  "name": "STEM Kits Signature Set",
+  "category": "electronics-diy-kits",
+  "subcategory": "stem-kits",
+  "price": "₹2,309",
+  "badge": "",
+  "shortDesc": "Interdisciplinary kits combining physics and mechanics.",
+  "description": "Interdisciplinary kits combining physics and mechanics. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-stem-kits",
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-stem-kits-alt"
+  ],
+  "specs": {
+   "Category": "Electronics & DIY Kits",
+   "Type": "STEM Kits",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "electronics-diy-kits-diy-experiment-kits",
+  "name": "DIY Experiment Kits Signature Set",
+  "category": "electronics-diy-kits",
+  "subcategory": "diy-experiment-kits",
+  "price": "₹379",
+  "badge": "Staff Pick",
+  "shortDesc": "Solar power, hydraulic, and wind energy test sets.",
+  "description": "Solar power, hydraulic, and wind energy test sets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-diy-experiment-kits",
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-diy-experiment-kits-alt"
+  ],
+  "specs": {
+   "Category": "Electronics & DIY Kits",
+   "Type": "DIY Experiment Kits",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "electronics-diy-kits-school-exhibition-kits",
+  "name": "School Exhibition Kits Signature Set",
+  "category": "electronics-diy-kits",
+  "subcategory": "school-exhibition-kits",
+  "price": "₹779",
+  "badge": "",
+  "shortDesc": "Turnkey science fair demonstration model assemblies.",
+  "description": "Turnkey science fair demonstration model assemblies. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-school-exhibition-kits",
+   "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-school-exhibition-kits-alt"
+  ],
+  "specs": {
+   "Category": "Electronics & DIY Kits",
+   "Type": "School Exhibition Kits",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "toys-kids-educational-toys",
+  "name": "Educational Toys Signature Set",
+  "category": "toys-kids",
+  "subcategory": "educational-toys",
+  "price": "₹919",
+  "badge": "New",
+  "shortDesc": "Montessori wood blocks, alphabet sorters, and counting toys.",
+  "description": "Montessori wood blocks, alphabet sorters, and counting toys. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?auto=format&fit=crop&w=800&q=80&item=toys-kids-educational-toys",
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-educational-toys-alt"
+  ],
+  "specs": {
+   "Category": "Toys & Kids",
+   "Type": "Educational Toys",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "toys-kids-building-blocks",
+  "name": "Building Blocks Signature Set",
+  "category": "toys-kids",
+  "subcategory": "building-blocks",
+  "price": "₹1,239",
+  "badge": "",
+  "shortDesc": "Interlocking bricks and magnetic construction tiles.",
+  "description": "Interlocking bricks and magnetic construction tiles. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80&item=toys-kids-building-blocks",
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-building-blocks-alt"
+  ],
+  "specs": {
+   "Category": "Toys & Kids",
+   "Type": "Building Blocks",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "toys-kids-toy-sets",
+  "name": "Toy Sets Signature Set",
+  "category": "toys-kids",
+  "subcategory": "toy-sets",
+  "price": "₹909",
+  "badge": "",
+  "shortDesc": "Role-play doctor, kitchen, and workshop pretend play sets.",
+  "description": "Role-play doctor, kitchen, and workshop pretend play sets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1503457574465-4b16bcf826c5?auto=format&fit=crop&w=800&q=80&item=toys-kids-toy-sets",
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-toy-sets-alt"
+  ],
+  "specs": {
+   "Category": "Toys & Kids",
+   "Type": "Toy Sets",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "toys-kids-cars",
+  "name": "Cars Signature Set",
+  "category": "toys-kids",
+  "subcategory": "cars",
+  "price": "₹909",
+  "badge": "",
+  "shortDesc": "Die-cast scale models, friction cars, and remote vehicles.",
+  "description": "Die-cast scale models, friction cars, and remote vehicles. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-cars",
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-cars-alt"
+  ],
+  "specs": {
+   "Category": "Toys & Kids",
+   "Type": "Cars",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "toys-kids-dolls",
+  "name": "Dolls Signature Set",
+  "category": "toys-kids",
+  "subcategory": "dolls",
+  "price": "₹229",
+  "badge": "",
+  "shortDesc": "Action figures, soft dolls, and storytelling figurines.",
+  "description": "Action figures, soft dolls, and storytelling figurines. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?auto=format&fit=crop&w=800&q=80&item=toys-kids-dolls",
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-dolls-alt"
+  ],
+  "specs": {
+   "Category": "Toys & Kids",
+   "Type": "Dolls",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "toys-kids-puzzles",
+  "name": "Puzzles Signature Set",
+  "category": "toys-kids",
+  "subcategory": "puzzles",
+  "price": "₹359",
+  "badge": "New",
+  "shortDesc": "Jigsaw puzzles, Rubik's cubes, and brain teaser games.",
+  "description": "Jigsaw puzzles, Rubik's cubes, and brain teaser games. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80&item=toys-kids-puzzles",
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-puzzles-alt"
+  ],
+  "specs": {
+   "Category": "Toys & Kids",
+   "Type": "Puzzles",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "toys-kids-activity-sets",
+  "name": "Activity Sets Signature Set",
+  "category": "toys-kids",
+  "subcategory": "activity-sets",
+  "price": "₹1,259",
+  "badge": "",
+  "shortDesc": "Clay modeling, bead craft, and stamping toy sets.",
+  "description": "Clay modeling, bead craft, and stamping toy sets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1503457574465-4b16bcf826c5?auto=format&fit=crop&w=800&q=80&item=toys-kids-activity-sets",
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-activity-sets-alt"
+  ],
+  "specs": {
+   "Category": "Toys & Kids",
+   "Type": "Activity Sets",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "toys-kids-indoor-games",
+  "name": "Indoor Games Signature Set",
+  "category": "toys-kids",
+  "subcategory": "indoor-games",
+  "price": "₹479",
+  "badge": "Staff Pick",
+  "shortDesc": "Classic board games, Ludo, Chess, and card decks.",
+  "description": "Classic board games, Ludo, Chess, and card decks. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-indoor-games",
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-indoor-games-alt"
+  ],
+  "specs": {
+   "Category": "Toys & Kids",
+   "Type": "Indoor Games",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "toys-kids-outdoor-toys",
+  "name": "Outdoor Toys Signature Set",
+  "category": "toys-kids",
+  "subcategory": "outdoor-toys",
+  "price": "₹839",
+  "badge": "",
+  "shortDesc": "Kites, bubbles, frisbees, and active garden toys.",
+  "description": "Kites, bubbles, frisbees, and active garden toys. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?auto=format&fit=crop&w=800&q=80&item=toys-kids-outdoor-toys",
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-outdoor-toys-alt"
+  ],
+  "specs": {
+   "Category": "Toys & Kids",
+   "Type": "Outdoor Toys",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "toys-kids-balls-sports-toys",
+  "name": "Balls & Sports Toys Signature Set",
+  "category": "toys-kids",
+  "subcategory": "balls-sports-toys",
+  "price": "₹389",
+  "badge": "",
+  "shortDesc": "Lightweight foam balls, plastic bats, and bowling sets.",
+  "description": "Lightweight foam balls, plastic bats, and bowling sets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80&item=toys-kids-balls-sports-toys",
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-balls-sports-toys-alt"
+  ],
+  "specs": {
+   "Category": "Toys & Kids",
+   "Type": "Balls & Sports Toys",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "educational-learning-learning-kits",
+  "name": "Learning Kits Signature Set",
+  "category": "educational-learning",
+  "subcategory": "learning-kits",
+  "price": "₹309",
+  "badge": "New",
+  "shortDesc": "Phonics, vocabulary, and early reading learning sets.",
+  "description": "Phonics, vocabulary, and early reading learning sets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80&item=educational-learning-learning-kits",
+   "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80&item=educational-learning-learning-kits-alt"
+  ],
+  "specs": {
+   "Category": "Educational & Learning",
+   "Type": "Learning Kits",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "educational-learning-science-experiment-kits",
+  "name": "Science Experiment Kits Signature Set",
+  "category": "educational-learning",
+  "subcategory": "science-experiment-kits",
+  "price": "₹529",
+  "badge": "",
+  "shortDesc": "Microscopes, chemical test kits, and magnet sets.",
+  "description": "Microscopes, chemical test kits, and magnet sets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1509869175650-a1d97972541a?auto=format&fit=crop&w=800&q=80&item=educational-learning-science-experiment-kits",
+   "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80&item=educational-learning-science-experiment-kits-alt"
+  ],
+  "specs": {
+   "Category": "Educational & Learning",
+   "Type": "Science Experiment Kits",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "educational-learning-mathematics-learning-products",
+  "name": "Mathematics Learning Products Signature Set",
+  "category": "educational-learning",
+  "subcategory": "mathematics-learning-products",
+  "price": "₹459",
+  "badge": "",
+  "shortDesc": "Abacus, fraction kits, geometric shapes, and counting frames.",
+  "description": "Abacus, fraction kits, geometric shapes, and counting frames. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80&item=educational-learning-mathematics-learning-products",
+   "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80&item=educational-learning-mathematics-learning-products-alt"
+  ],
+  "specs": {
+   "Category": "Educational & Learning",
+   "Type": "Mathematics Learning Products",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "educational-learning-flash-cards",
+  "name": "Flash Cards Signature Set",
+  "category": "educational-learning",
+  "subcategory": "flash-cards",
+  "price": "₹689",
+  "badge": "",
+  "shortDesc": "Double-sided formula, language, and memory recall cards.",
+  "description": "Double-sided formula, language, and memory recall cards. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80&item=educational-learning-flash-cards",
+   "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80&item=educational-learning-flash-cards-alt"
+  ],
+  "specs": {
+   "Category": "Educational & Learning",
+   "Type": "Flash Cards",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "educational-learning-activity-books",
+  "name": "Activity Books Signature Set",
+  "category": "educational-learning",
+  "subcategory": "activity-books",
+  "price": "₹479",
+  "badge": "",
+  "shortDesc": "Sudoku, maze, logic puzzle, and handwriting books.",
+  "description": "Sudoku, maze, logic puzzle, and handwriting books. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80&item=educational-learning-activity-books",
+   "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80&item=educational-learning-activity-books-alt"
+  ],
+  "specs": {
+   "Category": "Educational & Learning",
+   "Type": "Activity Books",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "educational-learning-educational-games",
+  "name": "Educational Games Signature Set",
+  "category": "educational-learning",
+  "subcategory": "educational-games",
+  "price": "₹869",
+  "badge": "New",
+  "shortDesc": "Word bingo, geography trivia, and strategy math games.",
+  "description": "Word bingo, geography trivia, and strategy math games. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1509869175650-a1d97972541a?auto=format&fit=crop&w=800&q=80&item=educational-learning-educational-games",
+   "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80&item=educational-learning-educational-games-alt"
+  ],
+  "specs": {
+   "Category": "Educational & Learning",
+   "Type": "Educational Games",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gadgets-accessories-small-electronic-gadgets",
+  "name": "Small Electronic Gadgets Signature Set",
+  "category": "gadgets-accessories",
+  "subcategory": "small-electronic-gadgets",
+  "price": "₹1,479",
+  "badge": "New",
+  "shortDesc": "Digital timers, mini calculators, and keyfinder tags.",
+  "description": "Digital timers, mini calculators, and keyfinder tags. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-small-electronic-gadgets",
+   "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-small-electronic-gadgets-alt"
+  ],
+  "specs": {
+   "Category": "Gadgets & Accessories",
+   "Type": "Small Electronic Gadgets",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gadgets-accessories-mobile-accessories",
+  "name": "Mobile Accessories Signature Set",
+  "category": "gadgets-accessories",
+  "subcategory": "mobile-accessories",
+  "price": "₹649",
+  "badge": "",
+  "shortDesc": "Phone stands, screen magnifiers, and charging cables.",
+  "description": "Phone stands, screen magnifiers, and charging cables. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-mobile-accessories",
+   "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-mobile-accessories-alt"
+  ],
+  "specs": {
+   "Category": "Gadgets & Accessories",
+   "Type": "Mobile Accessories",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gadgets-accessories-usb-accessories",
+  "name": "USB Accessories Signature Set",
+  "category": "gadgets-accessories",
+  "subcategory": "usb-accessories",
+  "price": "₹549",
+  "badge": "",
+  "shortDesc": "USB LED study lights, desk fans, and flash drives.",
+  "description": "USB LED study lights, desk fans, and flash drives. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1583225214464-9296029427aa?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-usb-accessories",
+   "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-usb-accessories-alt"
+  ],
+  "specs": {
+   "Category": "Gadgets & Accessories",
+   "Type": "USB Accessories",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gadgets-accessories-desk-gadgets",
+  "name": "Desk Gadgets Signature Set",
+  "category": "gadgets-accessories",
+  "subcategory": "desk-gadgets",
+  "price": "₹419",
+  "badge": "",
+  "shortDesc": "Digital desk clocks, cable management clips, and organizers.",
+  "description": "Digital desk clocks, cable management clips, and organizers. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-desk-gadgets",
+   "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-desk-gadgets-alt"
+  ],
+  "specs": {
+   "Category": "Gadgets & Accessories",
+   "Type": "Desk Gadgets",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gadgets-accessories-study-gadgets",
+  "name": "Study Gadgets Signature Set",
+  "category": "gadgets-accessories",
+  "subcategory": "study-gadgets",
+  "price": "₹1,039",
+  "badge": "",
+  "shortDesc": "Focus noise-reduction earplugs and clip-on book lights.",
+  "description": "Focus noise-reduction earplugs and clip-on book lights. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-study-gadgets",
+   "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-study-gadgets-alt"
+  ],
+  "specs": {
+   "Category": "Gadgets & Accessories",
+   "Type": "Study Gadgets",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gadgets-accessories-massage-gadgets",
+  "name": "Massage Gadgets Signature Set",
+  "category": "gadgets-accessories",
+  "subcategory": "massage-gadgets",
+  "price": "₹729",
+  "badge": "New",
+  "shortDesc": "Handheld neck and back massagers for long study sessions.",
+  "description": "Handheld neck and back massagers for long study sessions. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-massage-gadgets",
+   "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-massage-gadgets-alt"
+  ],
+  "specs": {
+   "Category": "Gadgets & Accessories",
+   "Type": "Massage Gadgets",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gadgets-accessories-useful-everyday-gadgets",
+  "name": "Useful Everyday Gadgets Signature Set",
+  "category": "gadgets-accessories",
+  "subcategory": "useful-everyday-gadgets",
+  "price": "₹1,139",
+  "badge": "",
+  "shortDesc": "Pocket multi-tools and desk comfort novelties.",
+  "description": "Pocket multi-tools and desk comfort novelties. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1583225214464-9296029427aa?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-useful-everyday-gadgets",
+   "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-useful-everyday-gadgets-alt"
+  ],
+  "specs": {
+   "Category": "Gadgets & Accessories",
+   "Type": "Useful Everyday Gadgets",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "office-supplies-office-stationery",
+  "name": "Office Stationery Signature Set",
+  "category": "office-supplies",
+  "subcategory": "office-stationery",
+  "price": "₹389",
+  "badge": "New",
+  "shortDesc": "Correction tapes, high-yield ink pads, and rubber stamps.",
+  "description": "Correction tapes, high-yield ink pads, and rubber stamps. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80&item=office-supplies-office-stationery",
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-office-stationery-alt"
+  ],
+  "specs": {
+   "Category": "Office Supplies",
+   "Type": "Office Stationery",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "office-supplies-files",
+  "name": "Files Signature Set",
+  "category": "office-supplies",
+  "subcategory": "files",
+  "price": "₹549",
+  "badge": "",
+  "shortDesc": "Box files, lever arch files, and expanding accordion files.",
+  "description": "Box files, lever arch files, and expanding accordion files. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80&item=office-supplies-files",
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-files-alt"
+  ],
+  "specs": {
+   "Category": "Office Supplies",
+   "Type": "Files",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "office-supplies-folders",
+  "name": "Folders Signature Set",
+  "category": "office-supplies",
+  "subcategory": "folders",
+  "price": "₹689",
+  "badge": "",
+  "shortDesc": "L-shaped document folders, button folders, and clear books.",
+  "description": "L-shaped document folders, button folders, and clear books. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=800&q=80&item=office-supplies-folders",
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-folders-alt"
+  ],
+  "specs": {
+   "Category": "Office Supplies",
+   "Type": "Folders",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "office-supplies-staplers",
+  "name": "Staplers Signature Set",
+  "category": "office-supplies",
+  "subcategory": "staplers",
+  "price": "₹519",
+  "badge": "",
+  "shortDesc": "Heavy-duty paper staplers, staple removers, and pins.",
+  "description": "Heavy-duty paper staplers, staple removers, and pins. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-staplers",
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-staplers-alt"
+  ],
+  "specs": {
+   "Category": "Office Supplies",
+   "Type": "Staplers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "office-supplies-paper-clips",
+  "name": "Paper Clips Signature Set",
+  "category": "office-supplies",
+  "subcategory": "paper-clips",
+  "price": "₹809",
+  "badge": "",
+  "shortDesc": "Binder clips, push pins, and stainless steel paper clips.",
+  "description": "Binder clips, push pins, and stainless steel paper clips. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80&item=office-supplies-paper-clips",
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-paper-clips-alt"
+  ],
+  "specs": {
+   "Category": "Office Supplies",
+   "Type": "Paper Clips",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "office-supplies-registers",
+  "name": "Registers Signature Set",
+  "category": "office-supplies",
+  "subcategory": "registers",
+  "price": "₹609",
+  "badge": "New",
+  "shortDesc": "Attendance registers, ledger books, and hardbound logbooks.",
+  "description": "Attendance registers, ledger books, and hardbound logbooks. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80&item=office-supplies-registers",
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-registers-alt"
+  ],
+  "specs": {
+   "Category": "Office Supplies",
+   "Type": "Registers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "office-supplies-printer-paper",
+  "name": "Printer Paper Signature Set",
+  "category": "office-supplies",
+  "subcategory": "printer-paper",
+  "price": "₹849",
+  "badge": "",
+  "shortDesc": "75gsm/80gsm A4 printing paper reams and photo paper.",
+  "description": "75gsm/80gsm A4 printing paper reams and photo paper. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=800&q=80&item=office-supplies-printer-paper",
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-printer-paper-alt"
+  ],
+  "specs": {
+   "Category": "Office Supplies",
+   "Type": "Printer Paper",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "office-supplies-desk-organizers-office",
+  "name": "Desk Organizers Signature Set",
+  "category": "office-supplies",
+  "subcategory": "desk-organizers-office",
+  "price": "₹939",
+  "badge": "Staff Pick",
+  "shortDesc": "Mesh metal tray sets, pen stands, and document sorters.",
+  "description": "Mesh metal tray sets, pen stands, and document sorters. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-desk-organizers-office",
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-desk-organizers-office-alt"
+  ],
+  "specs": {
+   "Category": "Office Supplies",
+   "Type": "Desk Organizers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "office-supplies-packaging-supplies",
+  "name": "Packaging Supplies Signature Set",
+  "category": "office-supplies",
+  "subcategory": "packaging-supplies",
+  "price": "₹989",
+  "badge": "",
+  "shortDesc": "Brown packing tape, bubble wrap, and courier envelopes.",
+  "description": "Brown packing tape, bubble wrap, and courier envelopes. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80&item=office-supplies-packaging-supplies",
+   "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-packaging-supplies-alt"
+  ],
+  "specs": {
+   "Category": "Office Supplies",
+   "Type": "Packaging Supplies",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "premium-corporate-gifts-premium-pens",
+  "name": "Premium Pens Signature Set",
+  "category": "premium-corporate-gifts",
+  "subcategory": "premium-pens",
+  "price": "₹2,879",
+  "badge": "New",
+  "shortDesc": "Gold-accented and metal rollerball pens in presentation boxes.",
+  "description": "Gold-accented and metal rollerball pens in presentation boxes. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-premium-pens",
+   "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-premium-pens-alt"
+  ],
+  "specs": {
+   "Category": "Premium & Corporate Gifts",
+   "Type": "Premium Pens",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "premium-corporate-gifts-executive-notebooks",
+  "name": "Executive Notebooks Signature Set",
+  "category": "premium-corporate-gifts",
+  "subcategory": "executive-notebooks",
+  "price": "₹1,299",
+  "badge": "",
+  "shortDesc": "Leatherette hardcover planners with gilded edges.",
+  "description": "Leatherette hardcover planners with gilded edges. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-executive-notebooks",
+   "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-executive-notebooks-alt"
+  ],
+  "specs": {
+   "Category": "Premium & Corporate Gifts",
+   "Type": "Executive Notebooks",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "premium-corporate-gifts-gift-sets",
+  "name": "Gift Sets Signature Set",
+  "category": "premium-corporate-gifts",
+  "subcategory": "gift-sets",
+  "price": "₹1,319",
+  "badge": "",
+  "shortDesc": "Matching pen, keychain, and diary corporate gift sets.",
+  "description": "Matching pen, keychain, and diary corporate gift sets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-gift-sets",
+   "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-gift-sets-alt"
+  ],
+  "specs": {
+   "Category": "Premium & Corporate Gifts",
+   "Type": "Gift Sets",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "premium-corporate-gifts-desk-accessories-gifts",
+  "name": "Desk Accessories Signature Set",
+  "category": "premium-corporate-gifts",
+  "subcategory": "desk-accessories-gifts",
+  "price": "₹1,229",
+  "badge": "",
+  "shortDesc": "Brass paperweights, perpetual clocks, and leather desk mats.",
+  "description": "Brass paperweights, perpetual clocks, and leather desk mats. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-desk-accessories-gifts",
+   "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-desk-accessories-gifts-alt"
+  ],
+  "specs": {
+   "Category": "Premium & Corporate Gifts",
+   "Type": "Desk Accessories",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "premium-corporate-gifts-corporate-stationery",
+  "name": "Corporate Stationery Signature Set",
+  "category": "premium-corporate-gifts",
+  "subcategory": "corporate-stationery",
+  "price": "₹2,199",
+  "badge": "",
+  "shortDesc": "Custom embossed letterheads, cardholders, and folders.",
+  "description": "Custom embossed letterheads, cardholders, and folders. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-corporate-stationery",
+   "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-corporate-stationery-alt"
+  ],
+  "specs": {
+   "Category": "Premium & Corporate Gifts",
+   "Type": "Corporate Stationery",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "premium-corporate-gifts-customized-gift-kits",
+  "name": "Customized Gift Kits Signature Set",
+  "category": "premium-corporate-gifts",
+  "subcategory": "customized-gift-kits",
+  "price": "₹1,879",
+  "badge": "New",
+  "shortDesc": "Bespoke gift boxes configured for events and achievements.",
+  "description": "Bespoke gift boxes configured for events and achievements. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-customized-gift-kits",
+   "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-customized-gift-kits-alt"
+  ],
+  "specs": {
+   "Category": "Premium & Corporate Gifts",
+   "Type": "Customized Gift Kits",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "sports-recreation-balls",
+  "name": "Balls Signature Set",
+  "category": "sports-recreation",
+  "subcategory": "balls",
+  "price": "₹1,289",
+  "badge": "New",
+  "shortDesc": "Football, basketball, cricket tennis balls, and volleyballs.",
+  "description": "Football, basketball, cricket tennis balls, and volleyballs. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=80&item=sports-recreation-balls",
+   "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?auto=format&fit=crop&w=800&q=80&item=sports-recreation-balls-alt"
+  ],
+  "specs": {
+   "Category": "Sports & Recreation",
+   "Type": "Balls",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "sports-recreation-skipping-ropes",
+  "name": "Skipping Ropes Signature Set",
+  "category": "sports-recreation",
+  "subcategory": "skipping-ropes",
+  "price": "₹1,119",
+  "badge": "",
+  "shortDesc": "Speed skipping ropes and weighted fitness ropes.",
+  "description": "Speed skipping ropes and weighted fitness ropes. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80&item=sports-recreation-skipping-ropes",
+   "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?auto=format&fit=crop&w=800&q=80&item=sports-recreation-skipping-ropes-alt"
+  ],
+  "specs": {
+   "Category": "Sports & Recreation",
+   "Type": "Skipping Ropes",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "sports-recreation-basic-sports-equipment",
+  "name": "Basic Sports Equipment Signature Set",
+  "category": "sports-recreation",
+  "subcategory": "basic-sports-equipment",
+  "price": "₹819",
+  "badge": "",
+  "shortDesc": "Badminton rackets, shuttlecocks, and table tennis sets.",
+  "description": "Badminton rackets, shuttlecocks, and table tennis sets. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80&item=sports-recreation-basic-sports-equipment",
+   "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?auto=format&fit=crop&w=800&q=80&item=sports-recreation-basic-sports-equipment-alt"
+  ],
+  "specs": {
+   "Category": "Sports & Recreation",
+   "Type": "Basic Sports Equipment",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "sports-recreation-indoor-games",
+  "name": "Indoor Games Signature Set",
+  "category": "sports-recreation",
+  "subcategory": "indoor-games",
+  "price": "₹1,299",
+  "badge": "",
+  "shortDesc": "Carrom boards, magnetic dart boards, and Dominoes.",
+  "description": "Carrom boards, magnetic dart boards, and Dominoes. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?auto=format&fit=crop&w=800&q=80&item=sports-recreation-indoor-games",
+   "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?auto=format&fit=crop&w=800&q=80&item=sports-recreation-indoor-games-alt"
+  ],
+  "specs": {
+   "Category": "Sports & Recreation",
+   "Type": "Indoor Games",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "sports-recreation-outdoor-games",
+  "name": "Outdoor Games Signature Set",
+  "category": "sports-recreation",
+  "subcategory": "outdoor-games",
+  "price": "₹839",
+  "badge": "",
+  "shortDesc": "Ring toss, plastic cricket sets, and lawn games.",
+  "description": "Ring toss, plastic cricket sets, and lawn games. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=80&item=sports-recreation-outdoor-games",
+   "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?auto=format&fit=crop&w=800&q=80&item=sports-recreation-outdoor-games-alt"
+  ],
+  "specs": {
+   "Category": "Sports & Recreation",
+   "Type": "Outdoor Games",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "sports-recreation-fitness-recreation-accessories",
+  "name": "Fitness/Recreation Accessories Signature Set",
+  "category": "sports-recreation",
+  "subcategory": "fitness-recreation-accessories",
+  "price": "₹1,329",
+  "badge": "New",
+  "shortDesc": "Grip strengtheners, sweatbands, and exercise mats.",
+  "description": "Grip strengtheners, sweatbands, and exercise mats. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80&item=sports-recreation-fitness-recreation-accessories",
+   "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?auto=format&fit=crop&w=800&q=80&item=sports-recreation-fitness-recreation-accessories-alt"
+  ],
+  "specs": {
+   "Category": "Sports & Recreation",
+   "Type": "Fitness/Recreation Accessories",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stickers-personalization-decorative-stickers",
+  "name": "Decorative Stickers Signature Set",
+  "category": "stickers-personalization",
+  "subcategory": "decorative-stickers",
+  "price": "₹149",
+  "badge": "New",
+  "shortDesc": "Anime, motivational, aesthetic vinyl laptop & notebook stickers.",
+  "description": "Anime, motivational, aesthetic vinyl laptop & notebook stickers. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-decorative-stickers",
+   "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-decorative-stickers-alt"
+  ],
+  "specs": {
+   "Category": "Stickers & Personalization",
+   "Type": "Decorative Stickers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stickers-personalization-educational-stickers",
+  "name": "Educational Stickers Signature Set",
+  "category": "stickers-personalization",
+  "subcategory": "educational-stickers",
+  "price": "₹229",
+  "badge": "",
+  "shortDesc": "Anatomy, map, periodic table, and reward chart stickers.",
+  "description": "Anatomy, map, periodic table, and reward chart stickers. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1618172193763-c511deb635ca?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-educational-stickers",
+   "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-educational-stickers-alt"
+  ],
+  "specs": {
+   "Category": "Stickers & Personalization",
+   "Type": "Educational Stickers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stickers-personalization-school-labels",
+  "name": "School Labels Signature Set",
+  "category": "stickers-personalization",
+  "subcategory": "school-labels",
+  "price": "₹49",
+  "badge": "",
+  "shortDesc": "Name, subject, class, and roll number subject book labels.",
+  "description": "Name, subject, class, and roll number subject book labels. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-school-labels",
+   "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-school-labels-alt"
+  ],
+  "specs": {
+   "Category": "Stickers & Personalization",
+   "Type": "School Labels",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stickers-personalization-name-stickers",
+  "name": "Name Stickers Signature Set",
+  "category": "stickers-personalization",
+  "subcategory": "name-stickers",
+  "price": "₹109",
+  "badge": "",
+  "shortDesc": "Waterproof iron-on and stick-on labels for water bottles.",
+  "description": "Waterproof iron-on and stick-on labels for water bottles. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-name-stickers",
+   "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-name-stickers-alt"
+  ],
+  "specs": {
+   "Category": "Stickers & Personalization",
+   "Type": "Name Stickers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stickers-personalization-custom-stickers",
+  "name": "Custom Stickers Signature Set",
+  "category": "stickers-personalization",
+  "subcategory": "custom-stickers",
+  "price": "₹59",
+  "badge": "",
+  "shortDesc": "Custom die-cut stickers for project logos and clubs.",
+  "description": "Custom die-cut stickers for project logos and clubs. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-custom-stickers",
+   "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-custom-stickers-alt"
+  ],
+  "specs": {
+   "Category": "Stickers & Personalization",
+   "Type": "Custom Stickers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "stickers-personalization-promotional-stickers",
+  "name": "Promotional Stickers Signature Set",
+  "category": "stickers-personalization",
+  "subcategory": "promotional-stickers",
+  "price": "₹249",
+  "badge": "New",
+  "shortDesc": "Bulk branding stickers for school events and fairs.",
+  "description": "Bulk branding stickers for school events and fairs. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1618172193763-c511deb635ca?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-promotional-stickers",
+   "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-promotional-stickers-alt"
+  ],
+  "specs": {
+   "Category": "Stickers & Personalization",
+   "Type": "Promotional Stickers",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gift-party-supplies-gift-items",
+  "name": "Gift Items Signature Set",
+  "category": "gift-party-supplies",
+  "subcategory": "gift-items",
+  "price": "₹249",
+  "badge": "New",
+  "shortDesc": "Novelty mugs, desk globes, and decorative figurines.",
+  "description": "Novelty mugs, desk globes, and decorative figurines. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-gift-items",
+   "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-gift-items-alt"
+  ],
+  "specs": {
+   "Category": "Gift & Party Supplies",
+   "Type": "Gift Items",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gift-party-supplies-gift-wrapping",
+  "name": "Gift Wrapping Signature Set",
+  "category": "gift-party-supplies",
+  "subcategory": "gift-wrapping",
+  "price": "₹429",
+  "badge": "",
+  "shortDesc": "Glossy wrapping paper rolls, gift bags, and satin ribbons.",
+  "description": "Glossy wrapping paper rolls, gift bags, and satin ribbons. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-gift-wrapping",
+   "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-gift-wrapping-alt"
+  ],
+  "specs": {
+   "Category": "Gift & Party Supplies",
+   "Type": "Gift Wrapping",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gift-party-supplies-greeting-cards",
+  "name": "Greeting Cards Signature Set",
+  "category": "gift-party-supplies",
+  "subcategory": "greeting-cards",
+  "price": "₹579",
+  "badge": "",
+  "shortDesc": "Birthday, thank you, congratulatory, and festive pop-up cards.",
+  "description": "Birthday, thank you, congratulatory, and festive pop-up cards. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-greeting-cards",
+   "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-greeting-cards-alt"
+  ],
+  "specs": {
+   "Category": "Gift & Party Supplies",
+   "Type": "Greeting Cards",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gift-party-supplies-party-accessories",
+  "name": "Party Accessories Signature Set",
+  "category": "gift-party-supplies",
+  "subcategory": "party-accessories",
+  "price": "₹179",
+  "badge": "",
+  "shortDesc": "Banners, party hats, photo booth props, and paper streamers.",
+  "description": "Banners, party hats, photo booth props, and paper streamers. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-party-accessories",
+   "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-party-accessories-alt"
+  ],
+  "specs": {
+   "Category": "Gift & Party Supplies",
+   "Type": "Party Accessories",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gift-party-supplies-return-gifts",
+  "name": "Return Gifts Signature Set",
+  "category": "gift-party-supplies",
+  "subcategory": "return-gifts",
+  "price": "₹569",
+  "badge": "",
+  "shortDesc": "Curated budget return gift packs for kids and school parties.",
+  "description": "Curated budget return gift packs for kids and school parties. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-return-gifts",
+   "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-return-gifts-alt"
+  ],
+  "specs": {
+   "Category": "Gift & Party Supplies",
+   "Type": "Return Gifts",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ },
+ {
+  "id": "gift-party-supplies-childrens-gift-sets",
+  "name": "Children's Gift Sets Signature Set",
+  "category": "gift-party-supplies",
+  "subcategory": "childrens-gift-sets",
+  "price": "₹139",
+  "badge": "New",
+  "shortDesc": "Themed stationery and art gift boxes for children.",
+  "description": "Themed stationery and art gift boxes for children. Curated by VEXORA for durability, tactile quality, and everyday student use — hand-inspected before every dispatch.",
+  "images": [
+   "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-childrens-gift-sets",
+   "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-childrens-gift-sets-alt"
+  ],
+  "specs": {
+   "Category": "Gift & Party Supplies",
+   "Type": "Children's Gift Sets",
+   "Material": "Premium-grade blended materials",
+   "Ideal For": "Students, creators & daily desk use"
+  }
+ }
+]

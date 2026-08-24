@@ -1,0 +1,490 @@
+=====================================================================
+  GEMINI IMAGE GENERATION PROMPTS FOR VEXORA STATIONERY STORE
+=====================================================================
+
+INSTRUCTIONS:
+- Copy each prompt below into Gemini (gemini.google.com)
+- Generate the image, then download it
+- After downloading all images, share the image links/files with me
+  and I will integrate them into the website
+- Each prompt generates a UNIQUE, product-specific image
+
+FORMAT: [ITEM SLUG] → Gemini Prompt
+=====================================================================
+
+
+===================== FEATURED PRODUCTS (12) ========================
+
+[feat-1] Aura Dot-Grid Notebook
+→ Product photography of a premium dot-grid notebook lying open on a clean white desk, showing the dot-grid pages inside, with a pen resting beside it. Soft natural lighting, minimalist aesthetic, white background, top-down flat-lay angle, 4:3 aspect ratio, high resolution product shot.
+
+[feat-2] Crest Gel Pen Set
+→ Product photography of a set of 6 colorful gel pens arranged in a fan pattern on a white surface. Each pen has a different vibrant color (blue, red, green, purple, orange, black). Clean studio lighting, sharp focus on pen tips, minimalist white background, 4:3 aspect ratio, high resolution product shot.
+
+[feat-3] Parker Vector Stainless Rollerball
+→ Product photography of a single premium stainless steel Parker Vector rollerball pen lying diagonally on a dark leather surface. Metallic shine and reflections visible, elegant and sophisticated mood, close-up detail shot, 4:3 aspect ratio, high resolution product shot.
+
+[feat-4] Arduino UNO STEM Project Kit
+→ Product photography of an Arduino UNO microcontroller board with electronic components spread around it (LEDs, wires, resistors, breadboard, sensors) on a dark workspace. Tech lab atmosphere, overhead flat-lay, 4:3 aspect ratio, high resolution product shot.
+
+[feat-5] High-Density Foam Board Pack (A2)
+→ Product photography of a stack of white foam boards (A2 size) leaning against a wall, with one board lying flat showing its thickness. Clean white studio background, minimal props, craft/DIY aesthetic, 4:3 aspect ratio, high resolution product shot.
+
+[feat-6] Camlin Precision Geometry Box
+→ Product photography of an open metal geometry box showing compass, protractor, divider, set squares, and ruler neatly arranged inside. Shot from above, clean white background, sharp detail on metal instruments, 4:3 aspect ratio, high resolution product shot.
+
+[feat-7] Studio Acrylic Paint Tube Set (12 Colors)
+→ Product photography of 12 acrylic paint tubes in various colors laid out in a row or circle on a painter's palette. Some paint squeezed out showing vibrant colors, art studio atmosphere, 4:3 aspect ratio, high resolution product shot.
+
+[feat-8] DeskFrame Modular Organizer
+→ Product photography of a wooden/bamboo modular desk organizer holding pens, scissors, tape, and sticky notes on a clean office desk. Warm lighting, organized and productive workspace aesthetic, 4:3 aspect ratio, high resolution product shot.
+
+[feat-9] Flexi-Gooseneck USB Study Light
+→ Product photography of a flexible gooseneck USB LED study light plugged into a laptop, illuminating an open notebook on a desk. Warm evening study atmosphere, cozy lighting, 4:3 aspect ratio, high resolution product shot.
+
+[feat-10] Executive Gilded Hardcover Journal
+→ Product photography of a premium hardcover journal with gold-gilded page edges, lying closed on a dark walnut desk. A fountain pen placed beside it, luxurious and elegant aesthetic, soft warm lighting, 4:3 aspect ratio, high resolution product shot.
+
+[feat-11] Aesthetic Anime Laptop Sticker Pack
+→ Product photography of colorful anime-style vinyl stickers spread out on a white surface, with some stickers applied on a laptop lid. Fun, youthful, colorful aesthetic, flat-lay top-down angle, 4:3 aspect ratio, high resolution product shot.
+
+[feat-12] Junior Biologist STEM Microscope Kit
+→ Product photography of a children's microscope kit with the microscope, prepared slides, tweezers, and specimen containers arranged neatly on a desk. Educational science lab aesthetic, bright clean lighting, 4:3 aspect ratio, high resolution product shot.
+
+
+================== CATEGORY COVERS (14) ============================
+
+[cat-1] Stationery & Writing
+→ Flat-lay photography of assorted stationery items: pens, pencils, erasers, rulers, highlighters arranged neatly on a pastel-colored desk. Organized, colorful, school/office aesthetic, top-down view, 4:3 aspect ratio, high resolution.
+
+[cat-2] Notebooks & Paper Products
+→ Stack of various notebooks, journals, and notepads arranged aesthetically on a wooden desk. Different sizes and colors, some open showing lined/grid pages, warm natural lighting, 4:3 aspect ratio, high resolution.
+
+[cat-3] School Supplies
+→ Colorful school supplies laid out: pencil box, geometry box, water bottle, name labels, school bag partially visible, colorful and cheerful back-to-school aesthetic, top-down flat-lay, 4:3 aspect ratio, high resolution.
+
+[cat-4] Art, Craft & Creativity
+→ Art supplies arranged creatively: paint tubes, brushes, colored pencils, craft paper, scissors, and a partially completed watercolor painting. Vibrant creative studio atmosphere, 4:3 aspect ratio, high resolution.
+
+[cat-5] Project Materials
+→ DIY project materials spread on a workbench: foam boards, cardboard sheets, wires, LEDs, glue gun, and chart paper rolls. Maker/workshop aesthetic, 4:3 aspect ratio, high resolution.
+
+[cat-6] Electronics & DIY Kits
+→ Electronics workspace with Arduino boards, sensor modules, breadboards, jumper wires, and a partially assembled robot. Tech lab atmosphere, overhead view, 4:3 aspect ratio, high resolution.
+
+[cat-7] Toys & Kids
+→ Colorful children's toys arranged playfully: building blocks, toy cars, puzzles, dolls, and board games on a bright playroom floor. Fun, cheerful, vibrant colors, 4:3 aspect ratio, high resolution.
+
+[cat-8] Educational & Learning
+→ Educational learning materials on a desk: flashcards, an abacus, a microscope, activity books, and geometric shapes. Classroom/study aesthetic, bright and encouraging, 4:3 aspect ratio, high resolution.
+
+[cat-9] Gadgets & Accessories
+→ Tech gadgets arranged on a modern desk: phone stand, USB LED light, desk clock, cable clips, mini calculator, and earbuds. Modern, minimal, tech-forward aesthetic, 4:3 aspect ratio, high resolution.
+
+[cat-10] Office Supplies
+→ Professional office supplies on a clean desk: stapler, paper clips, binder clips, correction tape, file folders, and a mesh organizer. Corporate, clean, organized workspace aesthetic, 4:3 aspect ratio, high resolution.
+
+[cat-11] Premium & Corporate Gifts
+→ Luxury corporate gift set arranged on a dark surface: premium pen in a gift box, leather journal, brass paperweight, and a gift card. Elegant, sophisticated, premium aesthetic, 4:3 aspect ratio, high resolution.
+
+[cat-12] Sports & Recreation
+→ Sports equipment arranged on grass/gym floor: football, badminton racket, skipping rope, cricket bat, and a yoga mat. Active, energetic, outdoor aesthetic, 4:3 aspect ratio, high resolution.
+
+[cat-13] Stickers & Personalization
+→ Collection of colorful stickers and labels spread on a white desk: decorative stickers, name labels, custom die-cut stickers, and educational chart stickers. Fun, colorful, personalization aesthetic, 4:3 aspect ratio, high resolution.
+
+[cat-14] Gift & Party Supplies
+→ Party supplies arranged festively: colorful gift wrapping paper, ribbons, greeting cards, party hats, banners, and small gift boxes. Celebratory, joyful, colorful aesthetic, 4:3 aspect ratio, high resolution.
+
+
+============ SUBCATEGORY IMAGES (100+ ITEMS) ========================
+
+--- STATIONERY & WRITING ---
+
+[pens]
+→ Close-up product photography of 5 different types of pens (ballpoint, gel, rollerball, felt-tip, fountain) arranged on a white surface. Crisp detail on pen tips, clean studio lighting, 4:3 aspect ratio.
+
+[pencils]
+→ Product photography of graphite pencils, mechanical pencils, and sketching pencils arranged in a row on a white desk. Sharp tips visible, minimal aesthetic, 4:3 aspect ratio.
+
+[erasers]
+→ Product photography of various erasers: white vinyl eraser, colored art erasers, and a dust-free eraser on a clean surface next to pencil shavings. Bright clean lighting, 4:3 aspect ratio.
+
+[sharpeners]
+→ Product photography of metal and plastic pencil sharpeners, one with a waste container, pencil shavings curled beside them. Macro close-up, white background, 4:3 aspect ratio.
+
+[rulers-scales]
+→ Product photography of a steel ruler, transparent acrylic scale, and a flexible measuring tape laid flat on a white surface with grid paper underneath. Clean geometric aesthetic, 4:3 aspect ratio.
+
+[highlighters]
+→ Product photography of 6 pastel and neon highlighter pens with their caps off, color swatches drawn beside each one on white paper. Vibrant colorful aesthetic, 4:3 aspect ratio.
+
+[markers]
+→ Product photography of permanent markers, whiteboard markers, and calligraphy markers in a cup holder on a desk. Colorful tips visible, organized aesthetic, 4:3 aspect ratio.
+
+[premium-pens]
+→ Product photography of a luxury fountain pen with gold nib, lying on a leather writing pad with an ink bottle nearby. Elegant, sophisticated close-up, 4:3 aspect ratio.
+
+[parker-branded-pens]
+→ Product photography of a Parker pen in its original presentation gift box, lid open showing the pen on satin fabric. Premium packaging shot, 4:3 aspect ratio.
+
+
+--- NOTEBOOKS & PAPER PRODUCTS ---
+
+[notebooks]
+→ Stack of ruled school notebooks in different colors (red, blue, green, yellow covers) on a wooden desk, one open showing lined pages. School aesthetic, 4:3 aspect ratio.
+
+[long-notebooks]
+→ Product photography of long/legal-size notebooks stacked on a desk, one open showing narrow-ruled pages. Office/study aesthetic, 4:3 aspect ratio.
+
+[a4-a5-notebooks]
+→ Product photography comparing A4 and A5 notebooks side by side on a desk, showing size difference. Clean minimal aesthetic, 4:3 aspect ratio.
+
+[journals]
+→ Product photography of a leather-bound journal with ribbon bookmark, lying open on a coffee table with a cup of coffee beside it. Warm cozy aesthetic, 4:3 aspect ratio.
+
+[diaries]
+→ Product photography of a dated diary/planner open to a page with handwritten schedule, pen resting on it. Organized productivity aesthetic, 4:3 aspect ratio.
+
+[scrapbooks]
+→ Product photography of a colorful scrapbook open showing decorated pages with photos, stickers, and washi tape. Creative crafting aesthetic, 4:3 aspect ratio.
+
+[drawing-books]
+→ Product photography of a sketch/drawing book open showing pencil sketches, with colored pencils scattered around. Art studio aesthetic, 4:3 aspect ratio.
+
+[writing-pads]
+→ Product photography of lined writing pads (legal pads) stacked, top one with a pen and some handwriting visible. Office writing aesthetic, 4:3 aspect ratio.
+
+[sticky-notes]
+→ Product photography of colorful sticky note pads (pink, yellow, green, blue) arranged in a grid pattern, some stuck to a desk. Bright organizational aesthetic, 4:3 aspect ratio.
+
+[files-folders]
+→ Product photography of assorted file folders: L-shaped folders, expanding files, and document holders in different colors standing upright. Office organization aesthetic, 4:3 aspect ratio.
+
+
+--- SCHOOL SUPPLIES ---
+
+[school-kits]
+→ Product photography of a complete school kit: pencil box, geometry box, eraser, sharpener, ruler, and school bag arranged neatly. Back-to-school aesthetic, 4:3 aspect ratio.
+
+[geometry-boxes]
+→ Product photography of an open metal geometry box showing compass, protractor, dividers, and set squares arranged inside. Detail-focused shot, 4:3 aspect ratio.
+
+[pencil-boxes]
+→ Product photography of colorful pencil boxes/cases (fabric and plastic types) with some open showing pens and pencils inside. Student aesthetic, 4:3 aspect ratio.
+
+[water-bottles]
+→ Product photography of children's water bottles in bright colors with cartoon designs, standing on a school desk. Cheerful school aesthetic, 4:3 aspect ratio.
+
+[school-accessories]
+→ Product photography of school accessories: badge pin, ID card holder, lanyard, and key chain arranged on a desk. Student essentials aesthetic, 4:3 aspect ratio.
+
+[name-labels]
+→ Product photography of colorful printed name labels and roll number stickers being applied to notebooks. Personalization aesthetic, 4:3 aspect ratio.
+
+[educational-supplies]
+→ Product photography of educational supplies: globe, mini whiteboard, alphabet chart, and counting blocks on a classroom desk. Learning aesthetic, 4:3 aspect ratio.
+
+
+--- ART, CRAFT & CREATIVITY ---
+
+[colour-pencils]
+→ Product photography of 24 colored pencils arranged in a rainbow gradient fan pattern on white paper. Vibrant artistic aesthetic, overhead shot, 4:3 aspect ratio.
+
+[sketch-pens]
+→ Product photography of felt-tip sketch pens in a clear case, showing all colors, with a half-completed sketch nearby. Art aesthetic, 4:3 aspect ratio.
+
+[crayons]
+→ Product photography of a box of wax crayons with some taken out and color swatches drawn on paper. Children's art aesthetic, bright colors, 4:3 aspect ratio.
+
+[paints]
+→ Product photography of watercolor paint tubes and a palette with mixed colors, a brush loaded with blue paint. Artistic studio aesthetic, 4:3 aspect ratio.
+
+[brushes]
+→ Product photography of artist paintbrushes of different sizes standing in a jar, with paint-stained tips visible. Art studio aesthetic, 4:3 aspect ratio.
+
+[craft-paper]
+→ Product photography of colorful craft paper sheets fanned out showing different colors and textures. Craft supplies aesthetic, 4:3 aspect ratio.
+
+[glue]
+→ Product photography of different adhesives: PVA white glue bottle, glue stick, and tape runner on a craft desk with paper scraps. Crafting aesthetic, 4:3 aspect ratio.
+
+[scissors]
+→ Product photography of safety craft scissors and precision craft knives arranged on a cutting mat with paper shapes. Craft workspace aesthetic, 4:3 aspect ratio.
+
+[stickers]
+→ Product photography of decorative sticker sheets with floral, animal, and emoji designs spread on a desk, some being peeled off. Fun aesthetic, 4:3 aspect ratio.
+
+[diy-craft-materials]
+→ Product photography of DIY craft materials: pompoms, pipe cleaners, sequins, googly eyes, and glitter arranged in compartments. Colorful craft supply aesthetic, 4:3 aspect ratio.
+
+
+--- PROJECT MATERIALS ---
+
+[foam-boards]
+→ Product photography of white foam core boards in different sizes stacked and leaning against a wall, one cut with a craft knife visible. Maker aesthetic, 4:3 aspect ratio.
+
+[cardboards]
+→ Product photography of corrugated cardboard sheets and greyboard pieces on a workbench with a ruler and cutter. Workshop aesthetic, 4:3 aspect ratio.
+
+[thermocol]
+→ Product photography of white thermocol/styrofoam sheets and blocks of different thicknesses on a craft table. Clean white aesthetic, 4:3 aspect ratio.
+
+[chart-papers]
+→ Product photography of rolled and flat chart papers in multiple colors (red, blue, green, yellow, white) on a desk. Colorful display aesthetic, 4:3 aspect ratio.
+
+[wires]
+→ Product photography of coils of different colored copper wires (red, black, yellow, green) and wire strippers on a workbench. Electronics project aesthetic, 4:3 aspect ratio.
+
+[leds]
+→ Product photography of assorted LEDs: red, green, blue, yellow LEDs, RGB LED strips, and tiny light bulbs arranged on a dark surface with some lit up. Electronics aesthetic, 4:3 aspect ratio.
+
+[motors]
+→ Product photography of small DC motors, a servo motor, and a gear motor arranged on a dark surface with connecting wires. Robotics project aesthetic, 4:3 aspect ratio.
+
+[switches]
+→ Product photography of various switches: toggle switch, push button, rocker switch, and slide switch arranged on a breadboard. Electronics component aesthetic, 4:3 aspect ratio.
+
+[batteries]
+→ Product photography of 9V batteries with snap connectors, AA batteries in a holder, and a coin cell battery on a desk. Power supply aesthetic, 4:3 aspect ratio.
+
+[connectors]
+→ Product photography of alligator clips, terminal strips, and wire connectors/joiners in different colors on a workbench. Electronics supply aesthetic, 4:3 aspect ratio.
+
+[general-project-making-materials]
+→ Product photography of general project supplies: pulleys, wheels, wooden popsicle sticks, axles, and hot glue gun on a craft table. Maker/DIY aesthetic, 4:3 aspect ratio.
+
+
+--- ELECTRONICS & DIY KITS ---
+
+[arduino-based-kits]
+→ Product photography of an Arduino UNO starter kit with the board, USB cable, breadboard, and component pack in its box. Tech education aesthetic, 4:3 aspect ratio.
+
+[sensors]
+→ Product photography of different sensor modules: ultrasonic, IR, PIR motion, DHT temperature, and soil moisture sensor arranged on a dark surface. Electronics module aesthetic, 4:3 aspect ratio.
+
+[breadboards]
+→ Product photography of solderless breadboards in different sizes (full, half, mini) with some jumper wires plugged in. Prototyping aesthetic, 4:3 aspect ratio.
+
+[jumper-wires]
+→ Product photography of bundles of colorful jumper wires (male-to-male, male-to-female) in red, blue, green, yellow, black. Colorful electronics aesthetic, 4:3 aspect ratio.
+
+[electronic-components]
+→ Product photography of assorted electronic components: resistors, capacitors, transistors, IC chips, and diodes in a sorting tray. Components close-up aesthetic, 4:3 aspect ratio.
+
+[robotics-kits]
+→ Product photography of a robot car kit with chassis, wheels, motor driver board, and ultrasonic sensor assembled. Robotics project aesthetic, 4:3 aspect ratio.
+
+[stem-kits]
+→ Product photography of a STEM learning kit box open showing physics experiment tools, mechanical parts, and instruction booklet. Educational STEM aesthetic, 4:3 aspect ratio.
+
+[diy-experiment-kits]
+→ Product photography of a solar-powered car kit and a hydraulic arm model kit side by side on a desk. Science experiment aesthetic, 4:3 aspect ratio.
+
+[school-exhibition-kits]
+→ Product photography of a completed science fair project model (solar system or volcano) with display board behind it. Science fair exhibition aesthetic, 4:3 aspect ratio.
+
+
+--- TOYS & KIDS ---
+
+[educational-toys]
+→ Product photography of wooden Montessori toys: alphabet blocks, shape sorter, and counting abacus on a bright playmat. Early learning aesthetic, 4:3 aspect ratio.
+
+[building-blocks]
+→ Product photography of colorful interlocking building bricks and magnetic tiles with a partially built structure. Construction play aesthetic, 4:3 aspect ratio.
+
+[toy-sets]
+→ Product photography of a pretend-play toy set: miniature doctor kit with stethoscope, or kitchen set with utensils. Imaginative play aesthetic, 4:3 aspect ratio.
+
+[cars]
+→ Product photography of die-cast toy cars in different colors and a remote control car on a play surface. Toy vehicle collection aesthetic, 4:3 aspect ratio.
+
+[dolls]
+→ Product photography of action figures and soft dolls arranged on a shelf, colorful and appealing to children. Toy display aesthetic, 4:3 aspect ratio.
+
+[puzzles]
+→ Product photography of a partially completed jigsaw puzzle with loose pieces nearby, and a Rubik's cube beside it. Brain teaser aesthetic, 4:3 aspect ratio.
+
+[activity-sets]
+→ Product photography of a clay modeling set with colorful clay, molds, and tools spread on a table. Creative play aesthetic, 4:3 aspect ratio.
+
+[indoor-games]
+→ Product photography of classic board games: chess set, Ludo board, and a deck of cards arranged on a table. Family game night aesthetic, 4:3 aspect ratio.
+
+[outdoor-toys]
+→ Product photography of outdoor toys: a kite, bubble wand set, frisbee, and garden toys on green grass. Active outdoor play aesthetic, 4:3 aspect ratio.
+
+[balls-sports-toys]
+→ Product photography of lightweight foam balls, a plastic cricket bat, and a bowling pin set on a playroom floor. Kids sports play aesthetic, 4:3 aspect ratio.
+
+
+--- EDUCATIONAL & LEARNING ---
+
+[learning-kits]
+→ Product photography of a phonics/vocabulary learning kit with flashcards, picture books, and letter tiles spread on a desk. Early education aesthetic, 4:3 aspect ratio.
+
+[science-experiment-kits]
+→ Product photography of a children's science kit with a microscope, test tubes, magnifying glass, and specimen slides. Young scientist aesthetic, 4:3 aspect ratio.
+
+[mathematics-learning-products]
+→ Product photography of math learning tools: wooden abacus, fraction circles, geometric shapes, and counting beads on a desk. Math education aesthetic, 4:3 aspect ratio.
+
+[flash-cards]
+→ Product photography of double-sided flashcards showing math formulas, vocabulary words, and animal pictures fanned out on a desk. Study aid aesthetic, 4:3 aspect ratio.
+
+[activity-books]
+→ Product photography of children's activity books open showing maze puzzles, sudoku, and handwriting practice pages. Interactive learning aesthetic, 4:3 aspect ratio.
+
+[educational-games]
+→ Product photography of educational board games: word bingo, geography trivia game, and math strategy game boxes stacked. Game-based learning aesthetic, 4:3 aspect ratio.
+
+
+--- GADGETS & ACCESSORIES ---
+
+[small-electronic-gadgets]
+→ Product photography of small gadgets: digital timer, mini calculator, and key finder tag arranged on a modern desk. Tech gadget aesthetic, 4:3 aspect ratio.
+
+[mobile-accessories]
+→ Product photography of phone accessories: phone stand, screen magnifier, and charging cable coiled on a desk. Mobile tech aesthetic, 4:3 aspect ratio.
+
+[usb-accessories]
+→ Product photography of USB gadgets: USB LED desk light, mini USB fan, and a flash drive on a laptop keyboard. USB accessories aesthetic, 4:3 aspect ratio.
+
+[desk-gadgets]
+→ Product photography of desk gadgets: digital desk clock, cable management clips, and a wireless charger on a clean desk. Modern workspace aesthetic, 4:3 aspect ratio.
+
+[study-gadgets]
+→ Product photography of study accessories: noise-reducing earplugs, clip-on book light, and a desk timer on books. Focused study aesthetic, 4:3 aspect ratio.
+
+[massage-gadgets]
+→ Product photography of handheld neck and back massage tools on a desk next to a laptop. Study break/wellness aesthetic, 4:3 aspect ratio.
+
+[useful-everyday-gadgets]
+→ Product photography of pocket multi-tools, desk novelties, and USB-powered desk humidifier. Everyday carry aesthetic, 4:3 aspect ratio.
+
+
+--- OFFICE SUPPLIES ---
+
+[office-stationery]
+→ Product photography of office stationery: correction tape, ink pad, rubber stamps, and paper clips on a professional desk. Corporate office aesthetic, 4:3 aspect ratio.
+
+[files]
+→ Product photography of box files, lever arch files, and expanding accordion files standing upright on a shelf. Office filing aesthetic, 4:3 aspect ratio.
+
+[folders]
+→ Product photography of L-shaped clear folders, button-snap folders, and clear display books spread on a desk. Document organization aesthetic, 4:3 aspect ratio.
+
+[staplers]
+→ Product photography of a heavy-duty stapler, staple remover, and a box of staple pins on a desk. Office tools aesthetic, 4:3 aspect ratio.
+
+[paper-clips]
+→ Product photography of colorful binder clips, push pins, and shiny paper clips arranged in a small tray. Office supplies close-up aesthetic, 4:3 aspect ratio.
+
+[registers]
+→ Product photography of attendance registers, hardbound ledger books, and logbooks stacked on a desk. Record-keeping aesthetic, 4:3 aspect ratio.
+
+[printer-paper]
+→ Product photography of a ream of white A4 printing paper (wrapped and unwrapped) next to a printer. Office printing aesthetic, 4:3 aspect ratio.
+
+[desk-organizers-office]
+→ Product photography of a mesh metal desk organizer with pen stand, document trays, and paper sorter on a clean office desk. Organized workspace aesthetic, 4:3 aspect ratio.
+
+[packaging-supplies]
+→ Product photography of packing supplies: brown tape rolls, bubble wrap, and courier envelopes on a shipping desk. E-commerce packaging aesthetic, 4:3 aspect ratio.
+
+
+--- PREMIUM & CORPORATE GIFTS ---
+
+[premium-pens-gifts]
+→ Product photography of a gold-accented metal rollerball pen in an open velvet presentation box on a mahogany desk. Luxury gifting aesthetic, 4:3 aspect ratio.
+
+[executive-notebooks]
+→ Product photography of a leatherette hardcover planner with gilded edges, a ribbon bookmark, and a monogrammed cover. Executive stationery aesthetic, 4:3 aspect ratio.
+
+[gift-sets]
+→ Product photography of a corporate gift set box containing a matching pen, keychain, and diary, opened to show contents. Premium packaging aesthetic, 4:3 aspect ratio.
+
+[desk-accessories-gifts]
+→ Product photography of luxury desk accessories: brass paperweight, perpetual desk calendar, and leather mouse pad. Corporate desk aesthetic, 4:3 aspect ratio.
+
+[corporate-stationery]
+→ Product photography of custom embossed letterheads, business card holders, and branded folders on a conference table. Professional branding aesthetic, 4:3 aspect ratio.
+
+[customized-gift-kits]
+→ Product photography of a bespoke gift box with curated items: candle, notebook, pen, and chocolates, wrapped with ribbon. Custom gifting aesthetic, 4:3 aspect ratio.
+
+
+--- SPORTS & RECREATION ---
+
+[balls]
+→ Product photography of various sports balls: football, basketball, cricket ball, tennis ball, and volleyball arranged on grass. Sports collection aesthetic, 4:3 aspect ratio.
+
+[skipping-ropes]
+→ Product photography of a speed skipping rope coiled neatly and a weighted fitness rope on a gym floor. Fitness equipment aesthetic, 4:3 aspect ratio.
+
+[basic-sports-equipment]
+→ Product photography of badminton rackets, shuttlecocks, and a table tennis paddle with ball on a sports court. Racquet sports aesthetic, 4:3 aspect ratio.
+
+[indoor-games-sports]
+→ Product photography of a carrom board, magnetic dart board, and dominoes set on a game table. Indoor recreation aesthetic, 4:3 aspect ratio.
+
+[outdoor-games]
+→ Product photography of outdoor games: ring toss set, plastic cricket set, and lawn bowling on green grass. Garden games aesthetic, 4:3 aspect ratio.
+
+[fitness-recreation-accessories]
+→ Product photography of fitness accessories: grip strengthener, sweatbands, and a rolled exercise mat on a gym floor. Workout gear aesthetic, 4:3 aspect ratio.
+
+
+--- STICKERS & PERSONALIZATION ---
+
+[decorative-stickers]
+→ Product photography of anime and motivational vinyl sticker sheets spread on a white desk, some applied on a laptop. Youth culture aesthetic, 4:3 aspect ratio.
+
+[educational-stickers]
+→ Product photography of educational sticker sheets: periodic table, anatomy diagram, world map, and gold star reward stickers. Classroom learning aesthetic, 4:3 aspect ratio.
+
+[school-labels]
+→ Product photography of printed school book labels with name, class, and subject fields, being applied to notebook covers. School personalization aesthetic, 4:3 aspect ratio.
+
+[name-stickers]
+→ Product photography of waterproof name sticker labels on a water bottle and lunchbox, showing iron-on and peel-and-stick types. Personal labeling aesthetic, 4:3 aspect ratio.
+
+[custom-stickers]
+→ Product photography of custom die-cut stickers with logos and club badges, some on a backing sheet, some applied. Custom branding aesthetic, 4:3 aspect ratio.
+
+[promotional-stickers]
+→ Product photography of bulk branding stickers for school events, showing sheets of identical event logo stickers. Event marketing aesthetic, 4:3 aspect ratio.
+
+
+--- GIFT & PARTY SUPPLIES ---
+
+[gift-items]
+→ Product photography of novelty gift items: a printed mug, mini desk globe, and decorative figurine arranged on a gift shelf. Gift shop aesthetic, 4:3 aspect ratio.
+
+[gift-wrapping]
+→ Product photography of glossy wrapping paper rolls, gift bags with tissue paper, and curled satin ribbons on a wrapping desk. Gift wrapping station aesthetic, 4:3 aspect ratio.
+
+[greeting-cards]
+→ Product photography of assorted greeting cards: birthday pop-up card, thank you card, and festive card standing open on a surface. Card display aesthetic, 4:3 aspect ratio.
+
+[party-accessories]
+→ Product photography of party supplies: colorful banners, party hats, photo booth props, and paper streamers on a table. Party planning aesthetic, 4:3 aspect ratio.
+
+[return-gifts]
+→ Product photography of small curated return gift packs: pencil set, eraser, small toy, and candy in clear bags with ribbon. Kids party return gifts aesthetic, 4:3 aspect ratio.
+
+[childrens-gift-sets]
+→ Product photography of a themed children's gift box containing crayons, sticker sheets, coloring book, and a small toy. Children's gifting aesthetic, 4:3 aspect ratio.
+
+
+=====================================================================
+  TOTAL: 12 Products + 14 Categories + 100+ Subcategories
+  
+  HOW TO USE:
+  1. Go to gemini.google.com
+  2. Copy ONE prompt at a time
+  3. Ask Gemini to generate the image
+  4. Download the generated image
+  5. Share all downloaded images with me
+  6. I will integrate them into VEXORA website
+=====================================================================

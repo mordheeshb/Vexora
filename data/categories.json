@@ -1,0 +1,800 @@
+[
+ {
+  "slug": "stationery-writing",
+  "name": "Stationery & Writing",
+  "tagline": "Pens, pencils, highlighters, and premium writing instruments.",
+  "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80&item=stationery-writing",
+  "intro": "The fundamental aisle for notes, sketching, revision, and signature writing.",
+  "subcategories": [
+   {
+    "slug": "pens",
+    "name": "Pens",
+    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80&item=stationery-writing-pens",
+    "description": "Ballpoints, gel pens, and smooth-writing essentials."
+   },
+   {
+    "slug": "pencils",
+    "name": "Pencils",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?auto=format&fit=crop&w=800&q=80&item=stationery-writing-pencils",
+    "description": "Graphite, mechanical, and sketching options for study."
+   },
+   {
+    "slug": "erasers",
+    "name": "Erasers",
+    "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80&item=stationery-writing-erasers",
+    "description": "Clean, dust-free erasers for crisp corrections."
+   },
+   {
+    "slug": "sharpeners",
+    "name": "Sharpeners",
+    "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80&item=stationery-writing-sharpeners",
+    "description": "Precision sharpeners with waste collection."
+   },
+   {
+    "slug": "rulers-scales",
+    "name": "Rulers & Scales",
+    "image": "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?auto=format&fit=crop&w=800&q=80&item=stationery-writing-rulers-scales",
+    "description": "Accurate steel, acrylic, and flexible measuring scales."
+   },
+   {
+    "slug": "highlighters",
+    "name": "Highlighters",
+    "image": "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80&item=stationery-writing-highlighters",
+    "description": "Vivid pastel and neon highlighters for fast revision."
+   },
+   {
+    "slug": "markers",
+    "name": "Markers",
+    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80&item=stationery-writing-markers",
+    "description": "Permanent, whiteboard, and calligraphic display markers."
+   },
+   {
+    "slug": "premium-pens",
+    "name": "Premium Pens",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?auto=format&fit=crop&w=800&q=80&item=stationery-writing-premium-pens",
+    "description": "Refined fountain pens and metal writing instruments."
+   },
+   {
+    "slug": "parker-branded-pens",
+    "name": "Parker & Branded Pens",
+    "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80&item=stationery-writing-parker-branded-pens",
+    "description": "Iconic branded pens for gifting and formal signing."
+   }
+  ]
+ },
+ {
+  "slug": "notebooks-paper-products",
+  "name": "Notebooks & Paper Products",
+  "tagline": "Notebooks, journals, pads, files, and paper goods for every routine.",
+  "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products",
+  "intro": "Tactile paper goods engineered for lectures, daily capture, and document filing.",
+  "subcategories": [
+   {
+    "slug": "notebooks",
+    "name": "Notebooks",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-notebooks",
+    "description": "Ruled, grid, and dot-journal notebooks for daily study."
+   },
+   {
+    "slug": "long-notebooks",
+    "name": "Long Notebooks",
+    "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-long-notebooks",
+    "description": "Spacious long books for extensive lecture notes and math."
+   },
+   {
+    "slug": "a4-a5-notebooks",
+    "name": "A4/A5 Notebooks",
+    "image": "https://images.unsplash.com/photo-1517842645767-c079a2e2fd6c?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-a4-a5-notebooks",
+    "description": "Standard sizing for binders, bags, and desk layouts."
+   },
+   {
+    "slug": "journals",
+    "name": "Journals",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-journals",
+    "description": "Bound journals for thoughts, planning, and goal setting."
+   },
+   {
+    "slug": "diaries",
+    "name": "Diaries",
+    "image": "https://images.unsplash.com/photo-1519669556878-63bdad8a1a49?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-diaries",
+    "description": "Dated and undated daily planners for schedule control."
+   },
+   {
+    "slug": "scrapbooks",
+    "name": "Scrapbooks",
+    "image": "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6b?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-scrapbooks",
+    "description": "Heavyweight paper albums for memory keepsakes and collage."
+   },
+   {
+    "slug": "drawing-books",
+    "name": "Drawing Books",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-drawing-books",
+    "description": "High-GSM cartridge books for sketches and wet media."
+   },
+   {
+    "slug": "writing-pads",
+    "name": "Writing Pads",
+    "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-writing-pads",
+    "description": "Tear-off pads for quick notes, drafts, and calculations."
+   },
+   {
+    "slug": "sticky-notes",
+    "name": "Sticky Notes",
+    "image": "https://images.unsplash.com/photo-1517842645767-c079a2e2fd6c?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-sticky-notes",
+    "description": "Adhesive notes and page flags for active reading."
+   },
+   {
+    "slug": "files-folders",
+    "name": "Files & Folders",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80&item=notebooks-paper-products-files-folders",
+    "description": "Document organizers, ring binders, and sleeve files."
+   }
+  ]
+ },
+ {
+  "slug": "school-supplies",
+  "name": "School Supplies",
+  "tagline": "Geometry boxes, school kits, water bottles, and campus carry essentials.",
+  "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80&item=school-supplies",
+  "intro": "Complete kits and reliable everyday gear designed for back-to-school readiness.",
+  "subcategories": [
+   {
+    "slug": "school-kits",
+    "name": "School Kits",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80&item=school-supplies-school-kits",
+    "description": "All-in-one starter kits with essential study tools."
+   },
+   {
+    "slug": "geometry-boxes",
+    "name": "Geometry Boxes",
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=800&q=80&item=school-supplies-geometry-boxes",
+    "description": "Precision compasses, protractors, and math instruments."
+   },
+   {
+    "slug": "pencil-boxes",
+    "name": "Pencil Boxes",
+    "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=800&q=80&item=school-supplies-pencil-boxes",
+    "description": "Hard-shell cases and pouch organizers for stationeries."
+   },
+   {
+    "slug": "water-bottles",
+    "name": "Water Bottles",
+    "image": "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=800&q=80&item=school-supplies-water-bottles",
+    "description": "Insulated stainless steel and durable hydration bottles."
+   },
+   {
+    "slug": "school-accessories",
+    "name": "School Accessories",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80&item=school-supplies-school-accessories",
+    "description": "Keychains, bag clips, and handy backpack utility tools."
+   },
+   {
+    "slug": "name-labels",
+    "name": "Name Labels",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80&item=school-supplies-name-labels",
+    "description": "Self-adhesive identity tags for books and personal items."
+   },
+   {
+    "slug": "educational-supplies",
+    "name": "Educational Supplies",
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=800&q=80&item=school-supplies-educational-supplies",
+    "description": "Classroom aids, wall charts, and daily learning helpers."
+   }
+  ]
+ },
+ {
+  "slug": "art-craft-creativity",
+  "name": "Art, Craft & Creativity",
+  "tagline": "Paints, brushes, craft papers, glues, and DIY artistic media.",
+  "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity",
+  "intro": "A rich shelf of colors, textures, and cutting tools for artists and makers.",
+  "subcategories": [
+   {
+    "slug": "colour-pencils",
+    "name": "Colour Pencils",
+    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-colour-pencils",
+    "description": "Soft-core and watercolor pencil sets for expressive art."
+   },
+   {
+    "slug": "sketch-pens",
+    "name": "Sketch Pens",
+    "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-sketch-pens",
+    "description": "Fine-tip line art pens and vibrant fiber-tip markers."
+   },
+   {
+    "slug": "crayons",
+    "name": "Crayons",
+    "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-crayons",
+    "description": "Non-toxic oil pastels and wax crayons for smooth coloring."
+   },
+   {
+    "slug": "paints",
+    "name": "Paints",
+    "image": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-paints",
+    "description": "Acrylics, gouache, watercolors, and poster paint sets."
+   },
+   {
+    "slug": "brushes",
+    "name": "Brushes",
+    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-brushes",
+    "description": "Synthetic and natural hair detail and wash brushes."
+   },
+   {
+    "slug": "craft-paper",
+    "name": "Craft Paper",
+    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-craft-paper",
+    "description": "Origami, glitter, quilling, and textured craft sheets."
+   },
+   {
+    "slug": "glue",
+    "name": "Glue",
+    "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-glue",
+    "description": "Craft PVA glue, liquid adhesive, and glue tape sticks."
+   },
+   {
+    "slug": "scissors",
+    "name": "Scissors",
+    "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-scissors",
+    "description": "Safety craft scissors and precision utility craft knives."
+   },
+   {
+    "slug": "stickers",
+    "name": "Stickers",
+    "image": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-stickers",
+    "description": "Decorative theme stickers and aesthetic collage sheets."
+   },
+   {
+    "slug": "diy-craft-materials",
+    "name": "DIY Craft Materials",
+    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80&item=art-craft-creativity-diy-craft-materials",
+    "description": "Pompoms, pipe cleaners, sequins, and craft embellishments."
+   }
+  ]
+ },
+ {
+  "slug": "project-materials",
+  "name": "Project Materials",
+  "tagline": "Foam boards, chart paper, LEDs, motors, switches, and exhibition components.",
+  "image": "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials",
+  "intro": "Physical hardware and sheet materials for building science models and presentation boards.",
+  "subcategories": [
+   {
+    "slug": "foam-boards",
+    "name": "Foam Boards",
+    "image": "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-foam-boards",
+    "description": "Lightweight foam core boards for structural model bases."
+   },
+   {
+    "slug": "cardboards",
+    "name": "Cardboards",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=project-materials-cardboards",
+    "description": "Corrugated and greyboard sheets for architectural crafting."
+   },
+   {
+    "slug": "thermocol",
+    "name": "Thermocol",
+    "image": "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?auto=format&fit=crop&w=800&q=80&item=project-materials-thermocol",
+    "description": "Density-carvably thermocol sheets and cut blocks."
+   },
+   {
+    "slug": "chart-papers",
+    "name": "Chart Papers",
+    "image": "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-chart-papers",
+    "description": "Thick poster charts in full color spectrum."
+   },
+   {
+    "slug": "wires",
+    "name": "Wires",
+    "image": "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-wires",
+    "description": "Single-strand and multi-core copper project wiring."
+   },
+   {
+    "slug": "leds",
+    "name": "LEDs",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=project-materials-leds",
+    "description": "Diffused LEDs, RGB strips, and miniature light bulbs."
+   },
+   {
+    "slug": "motors",
+    "name": "Motors",
+    "image": "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?auto=format&fit=crop&w=800&q=80&item=project-materials-motors",
+    "description": "Toy DC motors, servo motors, and gear motor units."
+   },
+   {
+    "slug": "switches",
+    "name": "Switches",
+    "image": "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-switches",
+    "description": "Toggle switches, push buttons, and rocker switches."
+   },
+   {
+    "slug": "batteries",
+    "name": "Batteries",
+    "image": "https://images.unsplash.com/photo-1581091012184-7f3f6c6f0e7c?auto=format&fit=crop&w=800&q=80&item=project-materials-batteries",
+    "description": "9V battery snaps, AA/AAA holders, and power cells."
+   },
+   {
+    "slug": "connectors",
+    "name": "Connectors",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=project-materials-connectors",
+    "description": "Alligator clips, terminal strips, and wire joiners."
+   },
+   {
+    "slug": "general-project-making-materials",
+    "name": "General Project-Making Materials",
+    "image": "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?auto=format&fit=crop&w=800&q=80&item=project-materials-general-project-making-materials",
+    "description": "Pulleys, wheels, popsicles, and model hardware."
+   }
+  ]
+ },
+ {
+  "slug": "electronics-diy-kits",
+  "name": "Electronics & DIY Kits",
+  "tagline": "Arduino kits, sensors, breadboards, jumper wires, and STEM projects.",
+  "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits",
+  "intro": "Hands-on robotics and micro-controller hardware for young engineers.",
+  "subcategories": [
+   {
+    "slug": "arduino-based-kits",
+    "name": "Arduino-based Kits",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-arduino-based-kits",
+    "description": "UNO/Nano microcontroller learning and project starter bundles."
+   },
+   {
+    "slug": "sensors",
+    "name": "Sensors",
+    "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-sensors",
+    "description": "Ultrasonic, IR, motion, moisture, and temperature modules."
+   },
+   {
+    "slug": "breadboards",
+    "name": "Breadboards",
+    "image": "https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-breadboards",
+    "description": "Solderless prototyping boards for electronic circuits."
+   },
+   {
+    "slug": "jumper-wires",
+    "name": "Jumper Wires",
+    "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-jumper-wires",
+    "description": "Male-to-Male, Male-to-Female, and Female-to-Female leads."
+   },
+   {
+    "slug": "electronic-components",
+    "name": "Electronic Components",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-electronic-components",
+    "description": "Resistors, capacitors, transistors, and IC sockets."
+   },
+   {
+    "slug": "robotics-kits",
+    "name": "Robotics Kits",
+    "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-robotics-kits",
+    "description": "Obstacle avoiding and Bluetooth RC robot build kits."
+   },
+   {
+    "slug": "stem-kits",
+    "name": "STEM Kits",
+    "image": "https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-stem-kits",
+    "description": "Interdisciplinary kits combining physics and mechanics."
+   },
+   {
+    "slug": "diy-experiment-kits",
+    "name": "DIY Experiment Kits",
+    "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-diy-experiment-kits",
+    "description": "Solar power, hydraulic, and wind energy test sets."
+   },
+   {
+    "slug": "school-exhibition-kits",
+    "name": "School Exhibition Kits",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=electronics-diy-kits-school-exhibition-kits",
+    "description": "Turnkey science fair demonstration model assemblies."
+   }
+  ]
+ },
+ {
+  "slug": "toys-kids",
+  "name": "Toys & Kids",
+  "tagline": "Building blocks, puzzles, educational toys, and outdoor play sets.",
+  "image": "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?auto=format&fit=crop&w=800&q=80&item=toys-kids",
+  "intro": "Engaging play equipment fostering spatial thinking, motor skill development, and leisure.",
+  "subcategories": [
+   {
+    "slug": "educational-toys",
+    "name": "Educational Toys",
+    "image": "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?auto=format&fit=crop&w=800&q=80&item=toys-kids-educational-toys",
+    "description": "Montessori wood blocks, alphabet sorters, and counting toys."
+   },
+   {
+    "slug": "building-blocks",
+    "name": "Building Blocks",
+    "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80&item=toys-kids-building-blocks",
+    "description": "Interlocking bricks and magnetic construction tiles."
+   },
+   {
+    "slug": "toy-sets",
+    "name": "Toy Sets",
+    "image": "https://images.unsplash.com/photo-1503457574465-4b16bcf826c5?auto=format&fit=crop&w=800&q=80&item=toys-kids-toy-sets",
+    "description": "Role-play doctor, kitchen, and workshop pretend play sets."
+   },
+   {
+    "slug": "cars",
+    "name": "Cars",
+    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-cars",
+    "description": "Die-cast scale models, friction cars, and remote vehicles."
+   },
+   {
+    "slug": "dolls",
+    "name": "Dolls",
+    "image": "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?auto=format&fit=crop&w=800&q=80&item=toys-kids-dolls",
+    "description": "Action figures, soft dolls, and storytelling figurines."
+   },
+   {
+    "slug": "puzzles",
+    "name": "Puzzles",
+    "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80&item=toys-kids-puzzles",
+    "description": "Jigsaw puzzles, Rubik's cubes, and brain teaser games."
+   },
+   {
+    "slug": "activity-sets",
+    "name": "Activity Sets",
+    "image": "https://images.unsplash.com/photo-1503457574465-4b16bcf826c5?auto=format&fit=crop&w=800&q=80&item=toys-kids-activity-sets",
+    "description": "Clay modeling, bead craft, and stamping toy sets."
+   },
+   {
+    "slug": "indoor-games",
+    "name": "Indoor Games",
+    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=toys-kids-indoor-games",
+    "description": "Classic board games, Ludo, Chess, and card decks."
+   },
+   {
+    "slug": "outdoor-toys",
+    "name": "Outdoor Toys",
+    "image": "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?auto=format&fit=crop&w=800&q=80&item=toys-kids-outdoor-toys",
+    "description": "Kites, bubbles, frisbees, and active garden toys."
+   },
+   {
+    "slug": "balls-sports-toys",
+    "name": "Balls & Sports Toys",
+    "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80&item=toys-kids-balls-sports-toys",
+    "description": "Lightweight foam balls, plastic bats, and bowling sets."
+   }
+  ]
+ },
+ {
+  "slug": "educational-learning",
+  "name": "Educational & Learning",
+  "tagline": "Science kits, math learning aids, flash cards, and activity books.",
+  "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80&item=educational-learning",
+  "intro": "Curriculum-aligned study aids that simplify complex academic concepts.",
+  "subcategories": [
+   {
+    "slug": "learning-kits",
+    "name": "Learning Kits",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80&item=educational-learning-learning-kits",
+    "description": "Phonics, vocabulary, and early reading learning sets."
+   },
+   {
+    "slug": "science-experiment-kits",
+    "name": "Science Experiment Kits",
+    "image": "https://images.unsplash.com/photo-1509869175650-a1d97972541a?auto=format&fit=crop&w=800&q=80&item=educational-learning-science-experiment-kits",
+    "description": "Microscopes, chemical test kits, and magnet sets."
+   },
+   {
+    "slug": "mathematics-learning-products",
+    "name": "Mathematics Learning Products",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80&item=educational-learning-mathematics-learning-products",
+    "description": "Abacus, fraction kits, geometric shapes, and counting frames."
+   },
+   {
+    "slug": "flash-cards",
+    "name": "Flash Cards",
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80&item=educational-learning-flash-cards",
+    "description": "Double-sided formula, language, and memory recall cards."
+   },
+   {
+    "slug": "activity-books",
+    "name": "Activity Books",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80&item=educational-learning-activity-books",
+    "description": "Sudoku, maze, logic puzzle, and handwriting books."
+   },
+   {
+    "slug": "educational-games",
+    "name": "Educational Games",
+    "image": "https://images.unsplash.com/photo-1509869175650-a1d97972541a?auto=format&fit=crop&w=800&q=80&item=educational-learning-educational-games",
+    "description": "Word bingo, geography trivia, and strategy math games."
+   }
+  ]
+ },
+ {
+  "slug": "gadgets-accessories",
+  "name": "Gadgets & Accessories",
+  "tagline": "Small electronic gadgets, USB tools, desk tech, and study aids.",
+  "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories",
+  "intro": "Useful technical tools that streamline study desks and tech setups.",
+  "subcategories": [
+   {
+    "slug": "small-electronic-gadgets",
+    "name": "Small Electronic Gadgets",
+    "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-small-electronic-gadgets",
+    "description": "Digital timers, mini calculators, and keyfinder tags."
+   },
+   {
+    "slug": "mobile-accessories",
+    "name": "Mobile Accessories",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-mobile-accessories",
+    "description": "Phone stands, screen magnifiers, and charging cables."
+   },
+   {
+    "slug": "usb-accessories",
+    "name": "USB Accessories",
+    "image": "https://images.unsplash.com/photo-1583225214464-9296029427aa?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-usb-accessories",
+    "description": "USB LED study lights, desk fans, and flash drives."
+   },
+   {
+    "slug": "desk-gadgets",
+    "name": "Desk Gadgets",
+    "image": "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-desk-gadgets",
+    "description": "Digital desk clocks, cable management clips, and organizers."
+   },
+   {
+    "slug": "study-gadgets",
+    "name": "Study Gadgets",
+    "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-study-gadgets",
+    "description": "Focus noise-reduction earplugs and clip-on book lights."
+   },
+   {
+    "slug": "massage-gadgets",
+    "name": "Massage Gadgets",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-massage-gadgets",
+    "description": "Handheld neck and back massagers for long study sessions."
+   },
+   {
+    "slug": "useful-everyday-gadgets",
+    "name": "Useful Everyday Gadgets",
+    "image": "https://images.unsplash.com/photo-1583225214464-9296029427aa?auto=format&fit=crop&w=800&q=80&item=gadgets-accessories-useful-everyday-gadgets",
+    "description": "Pocket multi-tools and desk comfort novelties."
+   }
+  ]
+ },
+ {
+  "slug": "office-supplies",
+  "name": "Office Supplies",
+  "tagline": "Staplers, registers, printer paper, organizers, and filing gear.",
+  "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80&item=office-supplies",
+  "intro": "Standard office inventory for administration, documentation, and desk management.",
+  "subcategories": [
+   {
+    "slug": "office-stationery",
+    "name": "Office Stationery",
+    "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80&item=office-supplies-office-stationery",
+    "description": "Correction tapes, high-yield ink pads, and rubber stamps."
+   },
+   {
+    "slug": "files",
+    "name": "Files",
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80&item=office-supplies-files",
+    "description": "Box files, lever arch files, and expanding accordion files."
+   },
+   {
+    "slug": "folders",
+    "name": "Folders",
+    "image": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=800&q=80&item=office-supplies-folders",
+    "description": "L-shaped document folders, button folders, and clear books."
+   },
+   {
+    "slug": "staplers",
+    "name": "Staplers",
+    "image": "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-staplers",
+    "description": "Heavy-duty paper staplers, staple removers, and pins."
+   },
+   {
+    "slug": "paper-clips",
+    "name": "Paper Clips",
+    "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80&item=office-supplies-paper-clips",
+    "description": "Binder clips, push pins, and stainless steel paper clips."
+   },
+   {
+    "slug": "registers",
+    "name": "Registers",
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80&item=office-supplies-registers",
+    "description": "Attendance registers, ledger books, and hardbound logbooks."
+   },
+   {
+    "slug": "printer-paper",
+    "name": "Printer Paper",
+    "image": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=800&q=80&item=office-supplies-printer-paper",
+    "description": "75gsm/80gsm A4 printing paper reams and photo paper."
+   },
+   {
+    "slug": "desk-organizers-office",
+    "name": "Desk Organizers",
+    "image": "https://images.unsplash.com/photo-1462826303086-329426d1aef5?auto=format&fit=crop&w=800&q=80&item=office-supplies-desk-organizers-office",
+    "description": "Mesh metal tray sets, pen stands, and document sorters."
+   },
+   {
+    "slug": "packaging-supplies",
+    "name": "Packaging Supplies",
+    "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80&item=office-supplies-packaging-supplies",
+    "description": "Brown packing tape, bubble wrap, and courier envelopes."
+   }
+  ]
+ },
+ {
+  "slug": "premium-corporate-gifts",
+  "name": "Premium & Corporate Gifts",
+  "tagline": "Executive notebooks, gift sets, custom kits, and luxury desk pieces.",
+  "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts",
+  "intro": "Distinguished presentation gifts for milestones, corporate handovers, and honors.",
+  "subcategories": [
+   {
+    "slug": "premium-pens",
+    "name": "Premium Pens",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-premium-pens",
+    "description": "Gold-accented and metal rollerball pens in presentation boxes."
+   },
+   {
+    "slug": "executive-notebooks",
+    "name": "Executive Notebooks",
+    "image": "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-executive-notebooks",
+    "description": "Leatherette hardcover planners with gilded edges."
+   },
+   {
+    "slug": "gift-sets",
+    "name": "Gift Sets",
+    "image": "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-gift-sets",
+    "description": "Matching pen, keychain, and diary corporate gift sets."
+   },
+   {
+    "slug": "desk-accessories-gifts",
+    "name": "Desk Accessories",
+    "image": "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-desk-accessories-gifts",
+    "description": "Brass paperweights, perpetual clocks, and leather desk mats."
+   },
+   {
+    "slug": "corporate-stationery",
+    "name": "Corporate Stationery",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-corporate-stationery",
+    "description": "Custom embossed letterheads, cardholders, and folders."
+   },
+   {
+    "slug": "customized-gift-kits",
+    "name": "Customized Gift Kits",
+    "image": "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80&item=premium-corporate-gifts-customized-gift-kits",
+    "description": "Bespoke gift boxes configured for events and achievements."
+   }
+  ]
+ },
+ {
+  "slug": "sports-recreation",
+  "name": "Sports & Recreation",
+  "tagline": "Balls, skipping ropes, sports equipment, and indoor/outdoor games.",
+  "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=80&item=sports-recreation",
+  "intro": "Physical activity gear promoting healthy downtime between study sessions.",
+  "subcategories": [
+   {
+    "slug": "balls",
+    "name": "Balls",
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=80&item=sports-recreation-balls",
+    "description": "Football, basketball, cricket tennis balls, and volleyballs."
+   },
+   {
+    "slug": "skipping-ropes",
+    "name": "Skipping Ropes",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80&item=sports-recreation-skipping-ropes",
+    "description": "Speed skipping ropes and weighted fitness ropes."
+   },
+   {
+    "slug": "basic-sports-equipment",
+    "name": "Basic Sports Equipment",
+    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80&item=sports-recreation-basic-sports-equipment",
+    "description": "Badminton rackets, shuttlecocks, and table tennis sets."
+   },
+   {
+    "slug": "indoor-games",
+    "name": "Indoor Games",
+    "image": "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?auto=format&fit=crop&w=800&q=80&item=sports-recreation-indoor-games",
+    "description": "Carrom boards, magnetic dart boards, and Dominoes."
+   },
+   {
+    "slug": "outdoor-games",
+    "name": "Outdoor Games",
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=80&item=sports-recreation-outdoor-games",
+    "description": "Ring toss, plastic cricket sets, and lawn games."
+   },
+   {
+    "slug": "fitness-recreation-accessories",
+    "name": "Fitness/Recreation Accessories",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80&item=sports-recreation-fitness-recreation-accessories",
+    "description": "Grip strengtheners, sweatbands, and exercise mats."
+   }
+  ]
+ },
+ {
+  "slug": "stickers-personalization",
+  "name": "Stickers & Personalization",
+  "tagline": "Decorative, name, custom, and educational label stickers.",
+  "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80&item=stickers-personalization",
+  "intro": "Custom printing and sticker labels to organize and personalize notebooks and gear.",
+  "subcategories": [
+   {
+    "slug": "decorative-stickers",
+    "name": "Decorative Stickers",
+    "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-decorative-stickers",
+    "description": "Anime, motivational, aesthetic vinyl laptop & notebook stickers."
+   },
+   {
+    "slug": "educational-stickers",
+    "name": "Educational Stickers",
+    "image": "https://images.unsplash.com/photo-1618172193763-c511deb635ca?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-educational-stickers",
+    "description": "Anatomy, map, periodic table, and reward chart stickers."
+   },
+   {
+    "slug": "school-labels",
+    "name": "School Labels",
+    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-school-labels",
+    "description": "Name, subject, class, and roll number subject book labels."
+   },
+   {
+    "slug": "name-stickers",
+    "name": "Name Stickers",
+    "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-name-stickers",
+    "description": "Waterproof iron-on and stick-on labels for water bottles."
+   },
+   {
+    "slug": "custom-stickers",
+    "name": "Custom Stickers",
+    "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-custom-stickers",
+    "description": "Custom die-cut stickers for project logos and clubs."
+   },
+   {
+    "slug": "promotional-stickers",
+    "name": "Promotional Stickers",
+    "image": "https://images.unsplash.com/photo-1618172193763-c511deb635ca?auto=format&fit=crop&w=800&q=80&item=stickers-personalization-promotional-stickers",
+    "description": "Bulk branding stickers for school events and fairs."
+   }
+  ]
+ },
+ {
+  "slug": "gift-party-supplies",
+  "name": "Gift & Party Supplies",
+  "tagline": "Gift wrapping, greeting cards, return gifts, and party items.",
+  "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies",
+  "intro": "Festive wraps, cards, and celebration accessories for student events and birthdays.",
+  "subcategories": [
+   {
+    "slug": "gift-items",
+    "name": "Gift Items",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-gift-items",
+    "description": "Novelty mugs, desk globes, and decorative figurines."
+   },
+   {
+    "slug": "gift-wrapping",
+    "name": "Gift Wrapping",
+    "image": "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-gift-wrapping",
+    "description": "Glossy wrapping paper rolls, gift bags, and satin ribbons."
+   },
+   {
+    "slug": "greeting-cards",
+    "name": "Greeting Cards",
+    "image": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-greeting-cards",
+    "description": "Birthday, thank you, congratulatory, and festive pop-up cards."
+   },
+   {
+    "slug": "party-accessories",
+    "name": "Party Accessories",
+    "image": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-party-accessories",
+    "description": "Banners, party hats, photo booth props, and paper streamers."
+   },
+   {
+    "slug": "return-gifts",
+    "name": "Return Gifts",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-return-gifts",
+    "description": "Curated budget return gift packs for kids and school parties."
+   },
+   {
+    "slug": "childrens-gift-sets",
+    "name": "Children's Gift Sets",
+    "image": "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80&item=gift-party-supplies-childrens-gift-sets",
+    "description": "Themed stationery and art gift boxes for children."
+   }
+  ]
+ }
+]

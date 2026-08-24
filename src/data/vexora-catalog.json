@@ -1,0 +1,898 @@
+{
+  "featured_products": [
+    {
+      "id": "feat-1",
+      "name": "Aura Dot-Grid Notebook",
+      "price": 349,
+      "currency": "INR",
+      "link": "/product/aura-dot-grid-notebook",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=60",
+      "alt": "Aura Dot-Grid Notebook lying open"
+    },
+    {
+      "id": "feat-2",
+      "name": "Crest Gel Pen Set",
+      "price": 199,
+      "currency": "INR",
+      "link": "/product/crest-gel-pen-set",
+      "image": "https://images.unsplash.com/photo-1585336261026-8f5786372966?auto=format&fit=crop&w=400&q=60",
+      "alt": "Crest Gel Pen Set in multiple colors"
+    },
+    {
+      "id": "feat-3",
+      "name": "Parker Vector Stainless Rollerball",
+      "price": 549,
+      "currency": "INR",
+      "link": "/product/parker-vector-stainless-rollerball",
+      "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=400&q=60",
+      "alt": "Parker Vector Rollerball pen"
+    },
+    {
+      "id": "feat-4",
+      "name": "Arduino UNO STEM Project Kit",
+      "price": 1299,
+      "currency": "INR",
+      "link": "/product/arduino-uno-stem-kit",
+      "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=400&q=60",
+      "alt": "Arduino UNO microcontroller board"
+    },
+    {
+      "id": "feat-5",
+      "name": "High-Density Foam Board Pack A2",
+      "price": 399,
+      "currency": "INR",
+      "link": "/product/high-density-foam-board-pack-a2",
+      "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=400&q=60",
+      "alt": "Pack of High-Density Foam Boards"
+    },
+    {
+      "id": "feat-6",
+      "name": "Camlin Precision Geometry Box",
+      "price": 220,
+      "currency": "INR",
+      "link": "/product/camlin-precision-geometry-box",
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=400&q=60",
+      "alt": "Open Geometry Box"
+    },
+    {
+      "id": "feat-7",
+      "name": "Studio Acrylic Paint Tube Set",
+      "price": 450,
+      "currency": "INR",
+      "link": "/product/studio-acrylic-paint-tube-set",
+      "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=400&q=60",
+      "alt": "Acrylic Paint Tube Set"
+    },
+    {
+      "id": "feat-8",
+      "name": "DeskFrame Modular Organizer",
+      "price": 599,
+      "currency": "INR",
+      "link": "/product/deskframe-modular-organizer",
+      "image": "https://images.unsplash.com/photo-1507499739999-097706ad8914?auto=format&fit=crop&w=400&q=60",
+      "alt": "Desk Organizer with compartments"
+    },
+    {
+      "id": "feat-9",
+      "name": "Flexi-Gooseneck USB Study Light",
+      "price": 299,
+      "currency": "INR",
+      "link": "/product/flexi-gooseneck-usb-study-light",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&w=400&q=60",
+      "alt": "Flexible USB study light"
+    },
+    {
+      "id": "feat-10",
+      "name": "Executive Gilded Hardcover Journal",
+      "price": 899,
+      "currency": "INR",
+      "link": "/product/executive-gilded-hardcover-journal",
+      "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=400&q=60",
+      "alt": "Premium gilded hardcover journal"
+    },
+    {
+      "id": "feat-11",
+      "name": "Aesthetic Anime Laptop Sticker Pack",
+      "price": 149,
+      "currency": "INR",
+      "link": "/product/aesthetic-anime-laptop-sticker-pack",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=60",
+      "alt": "Sticker Pack for laptops"
+    },
+    {
+      "id": "feat-12",
+      "name": "Junior Biologist STEM Microscope Kit",
+      "price": 1499,
+      "currency": "INR",
+      "link": "/product/junior-biologist-stem-microscope-kit",
+      "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=400&q=60",
+      "alt": "STEM Microscope Kit for students"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Stationery & Writing",
+      "link": "/category/stationery-and-writing",
+      "cover": "https://images.unsplash.com/photo-1585336261026-8f5786372966?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-27",
+          "name": "Pens",
+          "link": "/category/stationery-and-writing/pens",
+          "image": "https://images.unsplash.com/photo-1585336261026-8f5786372966?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-28",
+          "name": "Pencils",
+          "link": "/category/stationery-and-writing/pencils",
+          "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-29",
+          "name": "Erasers",
+          "link": "/category/stationery-and-writing/erasers",
+          "image": "https://images.unsplash.com/photo-1629982615948-41a343c0800b?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-30",
+          "name": "Sharpeners",
+          "link": "/category/stationery-and-writing/sharpeners",
+          "image": "https://images.unsplash.com/photo-1616400619175-5beda3a17896?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-31",
+          "name": "Rulers & Scales",
+          "link": "/category/stationery-and-writing/rulers-and-scales",
+          "image": "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-32",
+          "name": "Highlighters",
+          "link": "/category/stationery-and-writing/highlighters",
+          "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-33",
+          "name": "Markers",
+          "link": "/category/stationery-and-writing/markers",
+          "image": "https://images.unsplash.com/photo-1569683795645-b62e50fbf103?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-34",
+          "name": "Premium Pens",
+          "link": "/category/stationery-and-writing/premium-pens",
+          "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-35",
+          "name": "Parker & Branded Pens",
+          "link": "/category/stationery-and-writing/parker-and-branded-pens",
+          "image": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-2",
+      "name": "Notebooks & Paper Products",
+      "link": "/category/notebooks-and-paper-products",
+      "cover": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-36",
+          "name": "Notebooks",
+          "link": "/category/notebooks-and-paper-products/notebooks",
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-37",
+          "name": "Long Notebooks",
+          "link": "/category/notebooks-and-paper-products/long-notebooks",
+          "image": "https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-38",
+          "name": "A4/A5 Notebooks",
+          "link": "/category/notebooks-and-paper-products/a4-a5-notebooks",
+          "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-39",
+          "name": "Journals",
+          "link": "/category/notebooks-and-paper-products/journals",
+          "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-40",
+          "name": "Diaries",
+          "link": "/category/notebooks-and-paper-products/diaries",
+          "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-41",
+          "name": "Scrapbooks",
+          "link": "/category/notebooks-and-paper-products/scrapbooks",
+          "image": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-42",
+          "name": "Drawing Books",
+          "link": "/category/notebooks-and-paper-products/drawing-books",
+          "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-43",
+          "name": "Writing Pads",
+          "link": "/category/notebooks-and-paper-products/writing-pads",
+          "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-44",
+          "name": "Sticky Notes",
+          "link": "/category/notebooks-and-paper-products/sticky-notes",
+          "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-45",
+          "name": "Files & Folders",
+          "link": "/category/notebooks-and-paper-products/files-and-folders",
+          "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-3",
+      "name": "School Supplies",
+      "link": "/category/school-supplies",
+      "cover": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-46",
+          "name": "School Kits",
+          "link": "/category/school-supplies/school-kits",
+          "image": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-47",
+          "name": "Geometry Boxes",
+          "link": "/category/school-supplies/geometry-boxes",
+          "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-48",
+          "name": "Pencil Boxes",
+          "link": "/category/school-supplies/pencil-boxes",
+          "image": "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-49",
+          "name": "Water Bottles",
+          "link": "/category/school-supplies/water-bottles",
+          "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-50",
+          "name": "School Accessories",
+          "link": "/category/school-supplies/school-accessories",
+          "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-51",
+          "name": "Name Labels",
+          "link": "/category/school-supplies/name-labels",
+          "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-52",
+          "name": "Educational Supplies",
+          "link": "/category/school-supplies/educational-supplies",
+          "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-4",
+      "name": "Art, Craft & Creativity",
+      "link": "/category/art-craft-and-creativity",
+      "cover": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-53",
+          "name": "Colour Pencils",
+          "link": "/category/art-craft-and-creativity/colour-pencils",
+          "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-54",
+          "name": "Sketch Pens",
+          "link": "/category/art-craft-and-creativity/sketch-pens",
+          "image": "https://images.unsplash.com/photo-1569683795645-b62e50fbf103?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-55",
+          "name": "Crayons",
+          "link": "/category/art-craft-and-creativity/crayons",
+          "image": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-56",
+          "name": "Paints",
+          "link": "/category/art-craft-and-creativity/paints",
+          "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-57",
+          "name": "Brushes",
+          "link": "/category/art-craft-and-creativity/brushes",
+          "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-58",
+          "name": "Craft Paper",
+          "link": "/category/art-craft-and-creativity/craft-paper",
+          "image": "https://images.unsplash.com/photo-1562240020-ce31ceb097df?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-59",
+          "name": "Glue",
+          "link": "/category/art-craft-and-creativity/glue",
+          "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-60",
+          "name": "Scissors",
+          "link": "/category/art-craft-and-creativity/scissors",
+          "image": "https://images.unsplash.com/photo-1503792501406-2c40da09e1e2?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-61",
+          "name": "Stickers",
+          "link": "/category/art-craft-and-creativity/stickers",
+          "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-62",
+          "name": "DIY Craft Materials",
+          "link": "/category/art-craft-and-creativity/diy-craft-materials",
+          "image": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-5",
+      "name": "Project Materials",
+      "link": "/category/project-materials",
+      "cover": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-63",
+          "name": "Foam Boards",
+          "link": "/category/project-materials/foam-boards",
+          "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-64",
+          "name": "Cardboards",
+          "link": "/category/project-materials/cardboards",
+          "image": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-65",
+          "name": "Thermocol",
+          "link": "/category/project-materials/thermocol",
+          "image": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-66",
+          "name": "Chart Papers",
+          "link": "/category/project-materials/chart-papers",
+          "image": "https://images.unsplash.com/photo-1562240020-ce31ceb097df?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-67",
+          "name": "Wires",
+          "link": "/category/project-materials/wires",
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-68",
+          "name": "LEDs",
+          "link": "/category/project-materials/leds",
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-69",
+          "name": "Motors",
+          "link": "/category/project-materials/motors",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-70",
+          "name": "Switches",
+          "link": "/category/project-materials/switches",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-71",
+          "name": "Batteries",
+          "link": "/category/project-materials/batteries",
+          "image": "https://images.unsplash.com/photo-1619725002198-6a689b72f41d?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-72",
+          "name": "Connectors",
+          "link": "/category/project-materials/connectors",
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-73",
+          "name": "General Project-Making Materials",
+          "link": "/category/project-materials/general-project-making-materials",
+          "image": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-6",
+      "name": "Electronics & DIY Kits",
+      "link": "/category/electronics-and-diy-kits",
+      "cover": "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-74",
+          "name": "Arduino-based Kits",
+          "link": "/category/electronics-and-diy-kits/arduino-based-kits",
+          "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-75",
+          "name": "Sensors",
+          "link": "/category/electronics-and-diy-kits/sensors",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-76",
+          "name": "Breadboards",
+          "link": "/category/electronics-and-diy-kits/breadboards",
+          "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-77",
+          "name": "Jumper Wires",
+          "link": "/category/electronics-and-diy-kits/jumper-wires",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-78",
+          "name": "Electronic Components",
+          "link": "/category/electronics-and-diy-kits/electronic-components",
+          "image": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-79",
+          "name": "Robotics Kits",
+          "link": "/category/electronics-and-diy-kits/robotics-kits",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-80",
+          "name": "STEM Kits",
+          "link": "/category/electronics-and-diy-kits/stem-kits",
+          "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-81",
+          "name": "DIY Experiment Kits",
+          "link": "/category/electronics-and-diy-kits/diy-experiment-kits",
+          "image": "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-82",
+          "name": "School Exhibition Kits",
+          "link": "/category/electronics-and-diy-kits/school-exhibition-kits",
+          "image": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-7",
+      "name": "Toys & Kids",
+      "link": "/category/toys-and-kids",
+      "cover": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-83",
+          "name": "Educational Toys",
+          "link": "/category/toys-and-kids/educational-toys",
+          "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-84",
+          "name": "Building Blocks",
+          "link": "/category/toys-and-kids/building-blocks",
+          "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-85",
+          "name": "Toy Sets",
+          "link": "/category/toys-and-kids/toy-sets",
+          "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-86",
+          "name": "Cars",
+          "link": "/category/toys-and-kids/cars",
+          "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-87",
+          "name": "Dolls",
+          "link": "/category/toys-and-kids/dolls",
+          "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-88",
+          "name": "Puzzles",
+          "link": "/category/toys-and-kids/puzzles",
+          "image": "https://images.unsplash.com/photo-1591994843349-f415893b3a6b?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-89",
+          "name": "Activity Sets",
+          "link": "/category/toys-and-kids/activity-sets",
+          "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-90",
+          "name": "Indoor Games",
+          "link": "/category/toys-and-kids/indoor-games",
+          "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-91",
+          "name": "Outdoor Toys",
+          "link": "/category/toys-and-kids/outdoor-toys",
+          "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-92",
+          "name": "Balls & Sports Toys",
+          "link": "/category/toys-and-kids/balls-and-sports-toys",
+          "image": "https://images.unsplash.com/photo-1511886929837-354d827aae26?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-8",
+      "name": "Educational & Learning",
+      "link": "/category/educational-and-learning",
+      "cover": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-93",
+          "name": "Learning Kits",
+          "link": "/category/educational-and-learning/learning-kits",
+          "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-94",
+          "name": "Science Experiment Kits",
+          "link": "/category/educational-and-learning/science-experiment-kits",
+          "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-95",
+          "name": "Mathematics Learning Products",
+          "link": "/category/educational-and-learning/mathematics-learning-products",
+          "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-96",
+          "name": "Flash Cards",
+          "link": "/category/educational-and-learning/flash-cards",
+          "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-97",
+          "name": "Activity Books",
+          "link": "/category/educational-and-learning/activity-books",
+          "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-98",
+          "name": "Educational Games",
+          "link": "/category/educational-and-learning/educational-games",
+          "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-9",
+      "name": "Gadgets & Accessories",
+      "link": "/category/gadgets-and-accessories",
+      "cover": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-99",
+          "name": "Small Electronic Gadgets",
+          "link": "/category/gadgets-and-accessories/small-electronic-gadgets",
+          "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-100",
+          "name": "Mobile Accessories",
+          "link": "/category/gadgets-and-accessories/mobile-accessories",
+          "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-101",
+          "name": "USB Accessories",
+          "link": "/category/gadgets-and-accessories/usb-accessories",
+          "image": "https://images.unsplash.com/photo-1616410011236-7a42121dd981?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-102",
+          "name": "Desk Gadgets",
+          "link": "/category/gadgets-and-accessories/desk-gadgets",
+          "image": "https://images.unsplash.com/photo-1507499739999-097706ad8914?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-103",
+          "name": "Study Gadgets",
+          "link": "/category/gadgets-and-accessories/study-gadgets",
+          "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-104",
+          "name": "Massage Gadgets",
+          "link": "/category/gadgets-and-accessories/massage-gadgets",
+          "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-105",
+          "name": "Useful Everyday Gadgets",
+          "link": "/category/gadgets-and-accessories/useful-everyday-gadgets",
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-10",
+      "name": "Office Supplies",
+      "link": "/category/office-supplies",
+      "cover": "https://images.unsplash.com/photo-1507499739999-097706ad8914?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-106",
+          "name": "Office Stationery",
+          "link": "/category/office-supplies/office-stationery",
+          "image": "https://images.unsplash.com/photo-1507499739999-097706ad8914?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-107",
+          "name": "Files",
+          "link": "/category/office-supplies/files",
+          "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-108",
+          "name": "Folders",
+          "link": "/category/office-supplies/folders",
+          "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-109",
+          "name": "Staplers",
+          "link": "/category/office-supplies/staplers",
+          "image": "https://images.unsplash.com/photo-1616400619175-5beda3a17896?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-110",
+          "name": "Paper Clips",
+          "link": "/category/office-supplies/paper-clips",
+          "image": "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-111",
+          "name": "Registers",
+          "link": "/category/office-supplies/registers",
+          "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-112",
+          "name": "Printer Paper",
+          "link": "/category/office-supplies/printer-paper",
+          "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-113",
+          "name": "Desk Organizers",
+          "link": "/category/office-supplies/desk-organizers",
+          "image": "https://images.unsplash.com/photo-1507499739999-097706ad8914?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-114",
+          "name": "Packaging Supplies",
+          "link": "/category/office-supplies/packaging-supplies",
+          "image": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-11",
+      "name": "Premium & Corporate Gifts",
+      "link": "/category/premium-and-corporate-gifts",
+      "cover": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-115",
+          "name": "Premium Pens",
+          "link": "/category/premium-and-corporate-gifts/premium-pens",
+          "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-116",
+          "name": "Executive Notebooks",
+          "link": "/category/premium-and-corporate-gifts/executive-notebooks",
+          "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-117",
+          "name": "Gift Sets",
+          "link": "/category/premium-and-corporate-gifts/gift-sets",
+          "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-118",
+          "name": "Desk Accessories",
+          "link": "/category/premium-and-corporate-gifts/desk-accessories",
+          "image": "https://images.unsplash.com/photo-1507499739999-097706ad8914?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-119",
+          "name": "Corporate Stationery",
+          "link": "/category/premium-and-corporate-gifts/corporate-stationery",
+          "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-120",
+          "name": "Customized Gift Kits",
+          "link": "/category/premium-and-corporate-gifts/customized-gift-kits",
+          "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-12",
+      "name": "Sports & Recreation",
+      "link": "/category/sports-and-recreation",
+      "cover": "https://images.unsplash.com/photo-1511886929837-354d827aae26?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-121",
+          "name": "Balls",
+          "link": "/category/sports-and-recreation/balls",
+          "image": "https://images.unsplash.com/photo-1511886929837-354d827aae26?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-122",
+          "name": "Skipping Ropes",
+          "link": "/category/sports-and-recreation/skipping-ropes",
+          "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-123",
+          "name": "Basic Sports Equipment",
+          "link": "/category/sports-and-recreation/basic-sports-equipment",
+          "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-124",
+          "name": "Indoor Games",
+          "link": "/category/sports-and-recreation/indoor-games",
+          "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-125",
+          "name": "Outdoor Games",
+          "link": "/category/sports-and-recreation/outdoor-games",
+          "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-126",
+          "name": "Fitness/Recreation Accessories",
+          "link": "/category/sports-and-recreation/fitness-recreation-accessories",
+          "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-13",
+      "name": "Stickers & Personalization",
+      "link": "/category/stickers-and-personalization",
+      "cover": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-127",
+          "name": "Decorative Stickers",
+          "link": "/category/stickers-and-personalization/decorative-stickers",
+          "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-128",
+          "name": "Educational Stickers",
+          "link": "/category/stickers-and-personalization/educational-stickers",
+          "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-129",
+          "name": "School Labels",
+          "link": "/category/stickers-and-personalization/school-labels",
+          "image": "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-130",
+          "name": "Name Stickers",
+          "link": "/category/stickers-and-personalization/name-stickers",
+          "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-131",
+          "name": "Custom Stickers",
+          "link": "/category/stickers-and-personalization/custom-stickers",
+          "image": "https://images.unsplash.com/photo-1572375992501-4b0892d50c69?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-132",
+          "name": "Promotional Stickers",
+          "link": "/category/stickers-and-personalization/promotional-stickers",
+          "image": "https://images.unsplash.com/photo-1562240020-ce31ceb097df?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    },
+    {
+      "id": "cat-14",
+      "name": "Gift & Party Supplies",
+      "link": "/category/gift-and-party-supplies",
+      "cover": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=400&q=60",
+      "subcategories": [
+        {
+          "id": "sub-133",
+          "name": "Gift Items",
+          "link": "/category/gift-and-party-supplies/gift-items",
+          "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-134",
+          "name": "Gift Wrapping",
+          "link": "/category/gift-and-party-supplies/gift-wrapping",
+          "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-135",
+          "name": "Greeting Cards",
+          "link": "/category/gift-and-party-supplies/greeting-cards",
+          "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-136",
+          "name": "Party Accessories",
+          "link": "/category/gift-and-party-supplies/party-accessories",
+          "image": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-137",
+          "name": "Return Gifts",
+          "link": "/category/gift-and-party-supplies/return-gifts",
+          "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=400&q=60"
+        },
+        {
+          "id": "sub-138",
+          "name": "Children's Gift Sets",
+          "link": "/category/gift-and-party-supplies/childrens-gift-sets",
+          "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=400&q=60"
+        }
+      ]
+    }
+  ]
+}
