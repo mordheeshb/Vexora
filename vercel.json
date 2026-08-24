@@ -1,4 +1,6 @@
 {
+  "buildCommand": "echo 'No build required for vanilla JS site'",
+  "outputDirectory": ".",
   "cleanUrls": false,
   "trailingSlash": false
 }
