@@ -175,7 +175,7 @@ const Catalog = (() => {
   /* ---------------- Product card component ---------------- */
   function productCardHTML(p, index) {
     const waMsg = `Hi VEXORA, I'm interested in "${p.name}" (${p.price}). Is this in stock?`;
-    const waUrl = `https://wa.me/910000000000?text=${encodeURIComponent(waMsg)}`;
+    const waUrl = `https://wa.me/918428817610?text=${encodeURIComponent(waMsg)}`;
 
     return `
       <div class="product-card" data-reveal style="transition-delay:${(index % 8) * 50}ms">

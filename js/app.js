@@ -130,7 +130,7 @@ const VEXORA = (() => {
         animateCounter(entry.target);
         obs.unobserve(entry.target);
       });
-    }, { threshold: 0.6 });
+    }, { threshold: 0.1 });
     counters.forEach(c => observer.observe(c));
   }
 
