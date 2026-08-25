@@ -9,7 +9,8 @@ export default defineConfig({
         categories: resolve(__dirname, 'pages/categories.html'),
         product: resolve(__dirname, 'pages/product.html'),
         products: resolve(__dirname, 'pages/products.html'),
-        subcategories: resolve(__dirname, 'pages/subcategories.html')
+        subcategories: resolve(__dirname, 'pages/subcategories.html'),
+        events: resolve(__dirname, 'pages/events.html')
       }
     }
   }

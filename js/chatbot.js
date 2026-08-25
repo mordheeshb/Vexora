@@ -43,6 +43,15 @@ const Chatbot = (() => {
       whatsappMsg: "Hi VEXORA! We want to discuss a custom prototype or institutional project collaboration with your product team.",
       emailSubject: "Custom Prototype & Project Collaboration — VEXORA",
       emailBody: "Hi VEXORA Team,%0D%0A%0D%0AWe have a custom project prototype requirement and would like to collaborate with your team."
+    },
+    {
+      id: 'event_management',
+      label: '🎉 School, College & Corporate Event Management',
+      badge: 'Turnkey Events',
+      reply: "We plan and execute end-to-end institutional events: School Annual/Sports Days, College Cultural & Tech Fests, DJ Nights, Hackathons, Stage AV/LED setups, custom trophies & merchandise with zero stress.",
+      whatsappMsg: "Hi VEXORA! We want to organize an Event (School / College / Corporate). Please connect us with your Event Management squad for planning & quotes.",
+      emailSubject: "Event Management Planning & Quote Enquiry — VEXORA",
+      emailBody: "Hi VEXORA Events Team,%0D%0A%0D%0AWe are planning an upcoming event (School / College / Corporate) and would like to explore turnkey event management, stage/AV setup, and merchandise support."
     }
   ];
 
